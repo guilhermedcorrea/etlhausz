@@ -1,0 +1,399 @@
+[2022-11-02T05:34:49.846-0300] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-11-02T05:34:49.847-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-02T05:34:49.847-0300] {manager.py:485} INFO - Checking for new files in /home/debian/etlhausz/airflow/dags every 300 seconds
+[2022-11-02T05:34:49.847-0300] {manager.py:724} INFO - Searching for files in /home/debian/etlhausz/airflow/dags
+[2022-11-02T05:34:49.855-0300] {manager.py:727} INFO - There are 36 files in /home/debian/etlhausz/airflow/dags
+[2022-11-02T05:34:50.047-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-02T08:34:50
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+================================================================================
+[2022-11-02T05:35:20.572-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2022-11-02T08:34:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-11-02T08:34:50
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.41s           2022-11-02T08:34:51
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.20s           2022-11-02T08:34:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2022-11-02T08:34:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.21s           2022-11-02T08:34:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.20s           2022-11-02T08:34:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2022-11-02T08:35:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.41s           2022-11-02T08:35:01
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.52s           2022-11-02T08:35:03
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.52s           2022-11-02T08:35:05
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.83s           2022-11-02T08:35:06
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.32s           2022-11-02T08:35:09
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  1.32s           2022-11-02T08:35:11
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.93s           2022-11-02T08:35:13
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  1.32s           2022-11-02T08:35:16
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.93s           2022-11-02T08:35:17
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  1.75s           2022-11-02T08:35:20
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.42s           2022-11-02T08:35:07
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.30s           2022-11-02T08:34:52
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.24s           2022-11-02T08:35:00
+================================================================================
+[2022-11-02T05:35:31.871-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-02T05:41:22.452-0300] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-02T05:41:22.456-0300] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-02T05:41:22.456-0300] {manager.py:485} INFO - Checking for new files in /home/debian/etlhausz/airflow/dags every 300 seconds
+[2022-11-02T05:41:22.457-0300] {manager.py:724} INFO - Searching for files in /home/debian/etlhausz/airflow/dags
+[2022-11-02T05:41:22.474-0300] {manager.py:727} INFO - There are 36 files in /home/debian/etlhausz/airflow/dags
+[2022-11-02T05:41:22.781-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                           6694  0.09s             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                            6693  0.11s             0           0
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+================================================================================
+[2022-11-02T05:41:53.551-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.13s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                            7048  0.01s             0           0  0.22s           2022-11-02T08:41:22
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.05s           2022-11-02T08:41:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                           7051  0.00s             1           0  0.40s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.29s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.38s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.20s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.15s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.17s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.40s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.15s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.12s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.13s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.13s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.17s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.24s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.23s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.16s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.12s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.12s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.25s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.15s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.14s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.20s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.12s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.12s           2022-11-02T08:41:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.15s           2022-11-02T08:41:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.12s           2022-11-02T08:41:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.12s           2022-11-02T08:41:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.13s           2022-11-02T08:41:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.15s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.24s           2022-11-02T08:41:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.41s           2022-11-02T08:41:23
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.38s           2022-11-02T08:41:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.27s           2022-11-02T08:41:25
+================================================================================
+[2022-11-02T05:42:24.315-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.09s           2022-11-02T08:41:53
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.07s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                            7283  0.01s             0           0  0.08s           2022-11-02T08:41:53
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.04s           2022-11-02T08:41:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                           7286  0.00s             1           0  0.21s           2022-11-02T08:41:53
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.14s           2022-11-02T08:41:53
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.14s           2022-11-02T08:41:53
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.13s           2022-11-02T08:41:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.12s           2022-11-02T08:41:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.11s           2022-11-02T08:41:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.25s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.14s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.13s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.15s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.13s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.13s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.13s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.13s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.12s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.12s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.13s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.16s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.15s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.14s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.19s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.13s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.12s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.12s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2022-11-02T08:41:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.12s           2022-11-02T08:41:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.13s           2022-11-02T08:41:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.15s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.18s           2022-11-02T08:41:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.23s           2022-11-02T08:41:53
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.32s           2022-11-02T08:41:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.16s           2022-11-02T08:41:56
+================================================================================
+[2022-11-02T05:42:54.481-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.08s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.13s           2022-11-02T08:42:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                            7524  0.00s             0           0  0.07s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.05s           2022-11-02T08:42:28
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.20s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.15s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.15s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.13s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.13s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.14s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.14s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.12s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.13s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.13s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.13s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.12s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.12s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.14s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.13s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.13s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.22s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.25s           2022-11-02T08:42:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.17s           2022-11-02T08:42:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.27s           2022-11-02T08:42:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.19s           2022-11-02T08:42:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.17s           2022-11-02T08:42:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.20s           2022-11-02T08:42:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.15s           2022-11-02T08:42:28
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.16s           2022-11-02T08:42:28
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.15s           2022-11-02T08:42:28
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.13s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.29s           2022-11-02T08:42:28
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.14s           2022-11-02T08:42:24
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.20s           2022-11-02T08:42:26
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.23s           2022-11-02T08:42:26
+================================================================================
+[2022-11-02T05:43:25.251-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.06s           2022-11-02T08:42:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.05s           2022-11-02T08:42:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                            7754  0.01s             0           0  0.05s           2022-11-02T08:42:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.05s           2022-11-02T08:42:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                           7756  0.00s             1           0  0.15s           2022-11-02T08:42:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.12s           2022-11-02T08:42:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.13s           2022-11-02T08:42:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.13s           2022-11-02T08:42:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.12s           2022-11-02T08:42:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.12s           2022-11-02T08:42:55
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.12s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.12s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.12s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.12s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.12s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.13s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.14s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.13s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.13s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.12s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.11s           2022-11-02T08:42:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.15s           2022-11-02T08:42:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.12s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.12s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.14s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.12s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.12s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.13s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.14s           2022-11-02T08:42:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.17s           2022-11-02T08:42:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.13s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.17s           2022-11-02T08:42:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.13s           2022-11-02T08:42:54
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.19s           2022-11-02T08:42:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.16s           2022-11-02T08:42:57
+================================================================================
+[2022-11-02T05:43:56.155-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.06s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.07s           2022-11-02T08:43:28
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                            7990  0.01s             0           0  0.05s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.07s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                           7993  0.00s             1           0  0.14s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.15s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.17s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.16s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.12s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.12s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.13s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.12s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.13s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.13s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.13s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.12s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.13s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.15s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.15s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.13s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2022-11-02T08:43:28
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.13s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.12s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.24s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.16s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.16s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.17s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.15s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.17s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.18s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.14s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2022-11-02T08:43:29
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.15s           2022-11-02T08:43:25
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.19s           2022-11-02T08:43:27
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.19s           2022-11-02T08:43:27
+================================================================================
+[2022-11-02T05:44:26.163-0300] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.45s           2022-11-02T08:43:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.06s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.05s           2022-11-02T08:43:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.05s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.14s           2022-11-02T08:43:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  1.34s           2022-11-02T08:43:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.85s           2022-11-02T08:43:57
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.84s           2022-11-02T08:43:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.81s           2022-11-02T08:43:58
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.52s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.23s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.23s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.17s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.12s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.14s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.13s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.12s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.13s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.12s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.12s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.12s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.18s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.12s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.12s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.16s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.12s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.12s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.14s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.12s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.15s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.14s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2022-11-02T08:44:00
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  3           0  0.35s           2022-11-02T08:43:56
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.39s           2022-11-02T08:43:59
+/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_datasets.py                                                  6           0  0.16s           2022-11-02T08:44:00
+================================================================================
+[2022-11-02T05:44:51.468-0300] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

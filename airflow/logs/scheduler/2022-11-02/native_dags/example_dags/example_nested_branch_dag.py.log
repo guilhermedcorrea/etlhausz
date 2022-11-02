@@ -1,0 +1,60 @@
+[2022-11-02T05:34:59.912-0300] {processor.py:154} INFO - Started process (PID=4761) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:34:59.913-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:34:59.914-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:34:59.914-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:34:59.935-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:35:00.035-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:35:00.035-0300] {manager.py:507} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2022-11-02T05:35:00.046-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:35:00.046-0300] {manager.py:507} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2022-11-02T05:35:00.058-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:35:00.058-0300] {manager.py:507} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2022-11-02T05:35:00.058-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:35:00.058-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:35:00.068-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:35:00.068-0300] {dag.py:2606} INFO - Creating ORM DAG for example_nested_branch_dag
+[2022-11-02T05:35:00.077-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:35:00.077-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:35:00.096-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.186 seconds
+[2022-11-02T05:41:23.787-0300] {processor.py:154} INFO - Started process (PID=6740) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:41:23.789-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:41:23.789-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:41:23.789-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:41:23.811-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:41:23.855-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:41:23.855-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:41:23.878-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:41:23.878-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:41:23.897-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.112 seconds
+[2022-11-02T05:41:54.123-0300] {processor.py:154} INFO - Started process (PID=7097) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:41:54.125-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:41:54.125-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:41:54.125-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:41:54.143-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:41:54.179-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:41:54.179-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:41:54.201-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:41:54.201-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:41:54.216-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.095 seconds
+[2022-11-02T05:42:24.809-0300] {processor.py:154} INFO - Started process (PID=7329) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:42:24.810-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:42:24.811-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:42:24.811-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:42:24.831-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:42:24.887-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:42:24.887-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:42:24.907-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:42:24.907-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:42:24.927-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.121 seconds
+[2022-11-02T05:42:55.066-0300] {processor.py:154} INFO - Started process (PID=7572) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:42:55.067-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:42:55.067-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:42:55.067-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:42:55.090-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:42:55.132-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:42:55.132-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:42:55.151-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:42:55.151-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:42:55.170-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.107 seconds
+[2022-11-02T05:43:25.783-0300] {processor.py:154} INFO - Started process (PID=7799) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:43:25.784-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:43:25.784-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:43:25.784-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:43:25.805-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:43:25.841-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:43:25.841-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:43:25.863-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:43:25.863-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:43:25.888-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.108 seconds
+[2022-11-02T05:43:58.536-0300] {processor.py:154} INFO - Started process (PID=8060) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:43:58.539-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:43:58.551-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:43:58.550-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:43:58.713-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:43:58.798-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:43:58.798-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:43:58.879-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:43:58.879-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:43:58.983-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.450 seconds
+[2022-11-02T05:44:29.102-0300] {processor.py:154} INFO - Started process (PID=8433) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:44:29.103-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-11-02T05:44:29.103-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:29.103-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:44:29.140-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-11-02T05:44:29.195-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:29.194-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T05:44:29.219-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:29.219-0300] {dag.py:3336} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T05:44:29.241-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.142 seconds
