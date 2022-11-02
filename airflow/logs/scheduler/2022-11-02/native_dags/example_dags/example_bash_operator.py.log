@@ -47,3 +47,633 @@
 [2022-11-02T05:44:32.484-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:32.484-0300] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-02T05:44:32.505-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:32.505-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
 [2022-11-02T05:44:32.527-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.186 seconds
+[2022-11-02T15:55:23.348-0300] {processor.py:154} INFO - Started process (PID=12004) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:55:23.352-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:55:23.353-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:23.353-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:55:23.470-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:55:23.709-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:23.709-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:23.825-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:23.814-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:55:23.877-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.545 seconds
+[2022-11-02T15:55:54.648-0300] {processor.py:154} INFO - Started process (PID=12348) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:55:54.649-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:55:54.650-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.650-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:55:54.667-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:55:54.717-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.716-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:54.749-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.749-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:55:54.772-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.128 seconds
+[2022-11-02T15:56:25.787-0300] {processor.py:154} INFO - Started process (PID=12641) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:56:25.789-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:56:25.790-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.789-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:56:25.813-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:56:25.888-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.888-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:25.918-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.917-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:56:25.933-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.157 seconds
+[2022-11-02T15:56:57.007-0300] {processor.py:154} INFO - Started process (PID=12890) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:56:57.008-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:56:57.009-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:57.009-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:56:57.029-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:56:57.097-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:57.097-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:57.119-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:57.119-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:56:57.146-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.142 seconds
+[2022-11-02T15:57:28.115-0300] {processor.py:154} INFO - Started process (PID=13128) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:57:28.119-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:57:28.120-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:28.120-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:57:28.150-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:57:28.231-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:28.231-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:28.276-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:28.276-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:57:28.294-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.183 seconds
+[2022-11-02T15:57:59.068-0300] {processor.py:154} INFO - Started process (PID=13358) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:57:59.069-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:57:59.070-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:59.070-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:57:59.097-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:57:59.150-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:59.150-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:59.179-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:59.179-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:57:59.202-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.138 seconds
+[2022-11-02T15:58:29.341-0300] {processor.py:154} INFO - Started process (PID=13589) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:58:29.343-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:58:29.343-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.343-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:58:29.364-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:58:29.449-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.449-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:29.484-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.483-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:58:29.511-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.174 seconds
+[2022-11-02T15:58:59.722-0300] {processor.py:154} INFO - Started process (PID=13822) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:58:59.724-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:58:59.724-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.724-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:58:59.747-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:58:59.798-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.798-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:59.821-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.821-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:58:59.847-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.128 seconds
+[2022-11-02T15:59:30.585-0300] {processor.py:154} INFO - Started process (PID=14047) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:59:30.586-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T15:59:30.587-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.587-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:59:30.610-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T15:59:30.662-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.662-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:59:30.685-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.685-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T15:59:30.705-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.122 seconds
+[2022-11-02T16:00:01.560-0300] {processor.py:154} INFO - Started process (PID=14271) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:00:01.561-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:00:01.562-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.562-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:00:01.581-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:00:01.629-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.629-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:01.652-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.651-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:00:01.679-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.123 seconds
+[2022-11-02T16:00:32.342-0300] {processor.py:154} INFO - Started process (PID=14526) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:00:32.343-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:00:32.344-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.344-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:00:32.362-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:00:32.412-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.411-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:32.431-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.431-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:00:32.449-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.111 seconds
+[2022-11-02T16:01:02.640-0300] {processor.py:154} INFO - Started process (PID=14776) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:01:02.642-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:01:02.642-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.642-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:01:02.660-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:01:02.712-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.711-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:02.732-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.732-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:01:02.756-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.120 seconds
+[2022-11-02T16:01:33.993-0300] {processor.py:154} INFO - Started process (PID=15012) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:01:33.994-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:01:33.995-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:33.994-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:01:34.040-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:01:34.126-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:34.126-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:34.257-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:34.257-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:01:34.285-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.295 seconds
+[2022-11-02T16:02:05.229-0300] {processor.py:154} INFO - Started process (PID=15262) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:02:05.233-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:02:05.233-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:05.233-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:02:05.249-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:02:05.288-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:05.288-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:05.431-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:05.431-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:02:05.454-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.227 seconds
+[2022-11-02T16:02:36.177-0300] {processor.py:154} INFO - Started process (PID=15518) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:02:36.179-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:02:36.180-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:36.179-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:02:36.198-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:02:36.330-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:36.330-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:36.347-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:36.347-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:02:36.371-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.199 seconds
+[2022-11-02T16:03:08.351-0300] {processor.py:154} INFO - Started process (PID=15855) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:03:08.363-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:03:08.364-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:08.364-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:03:08.397-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:03:08.578-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:08.577-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:08.611-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:08.611-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:03:08.635-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.287 seconds
+[2022-11-02T16:03:38.723-0300] {processor.py:154} INFO - Started process (PID=16109) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:03:38.724-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:03:38.725-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.725-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:03:38.743-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:03:38.787-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.787-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:38.892-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.892-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:03:38.913-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.193 seconds
+[2022-11-02T16:04:10.386-0300] {processor.py:154} INFO - Started process (PID=16350) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:04:10.386-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:04:10.387-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:10.387-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:04:10.413-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:04:10.540-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:10.540-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:10.710-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:10.710-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:04:10.749-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.371 seconds
+[2022-11-02T16:04:41.087-0300] {processor.py:154} INFO - Started process (PID=16586) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:04:41.089-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:04:41.089-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:41.089-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:04:41.122-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:04:41.617-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:41.617-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:41.652-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:41.652-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:04:41.726-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.642 seconds
+[2022-11-02T16:05:12.102-0300] {processor.py:154} INFO - Started process (PID=16838) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:05:12.103-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:05:12.103-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:12.103-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:05:12.125-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:05:12.311-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:12.311-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:12.343-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:12.342-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:05:12.377-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.279 seconds
+[2022-11-02T16:05:43.420-0300] {processor.py:154} INFO - Started process (PID=17089) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:05:43.445-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:05:43.448-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:43.447-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:05:43.550-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:05:43.752-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:43.751-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:44.005-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:44.005-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:05:44.071-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.657 seconds
+[2022-11-02T16:06:14.363-0300] {processor.py:154} INFO - Started process (PID=17344) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:06:14.364-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:06:14.365-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:14.365-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:06:14.395-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:06:14.485-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:14.485-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:14.694-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:14.693-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:06:14.811-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.456 seconds
+[2022-11-02T16:06:44.854-0300] {processor.py:154} INFO - Started process (PID=17604) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:06:44.855-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:06:44.855-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:44.855-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:06:44.871-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:06:45.012-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:45.012-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:45.030-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:45.030-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:06:45.055-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.204 seconds
+[2022-11-02T16:07:15.672-0300] {processor.py:154} INFO - Started process (PID=17843) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:07:15.673-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:07:15.673-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:15.673-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:07:15.689-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:07:15.817-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:15.817-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:15.840-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:15.840-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:07:15.854-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.185 seconds
+[2022-11-02T16:07:46.439-0300] {processor.py:154} INFO - Started process (PID=18081) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:07:46.440-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:07:46.440-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:46.440-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:07:46.456-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:07:46.512-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:46.511-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:46.534-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:46.534-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:07:46.657-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.220 seconds
+[2022-11-02T16:08:17.048-0300] {processor.py:154} INFO - Started process (PID=18327) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:08:17.049-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:08:17.050-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:17.050-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:08:17.070-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:08:17.197-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:17.195-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:17.392-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:17.392-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:08:17.417-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.372 seconds
+[2022-11-02T16:08:47.589-0300] {processor.py:154} INFO - Started process (PID=18570) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:08:47.591-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:08:47.591-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:47.591-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:08:47.607-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:08:47.744-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:47.744-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:47.763-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:47.763-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:08:47.777-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.190 seconds
+[2022-11-02T16:09:18.472-0300] {processor.py:154} INFO - Started process (PID=18812) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:09:18.473-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:09:18.474-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:18.474-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:09:18.492-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:09:18.625-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:18.625-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:18.642-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:18.642-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:09:18.660-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.192 seconds
+[2022-11-02T16:09:48.980-0300] {processor.py:154} INFO - Started process (PID=19062) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:09:48.982-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:09:48.982-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.982-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:09:49.098-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:09:49.147-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:49.147-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:49.168-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:49.167-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:09:49.186-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.209 seconds
+[2022-11-02T16:10:19.945-0300] {processor.py:154} INFO - Started process (PID=19324) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:10:19.948-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:10:19.949-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.948-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:10:19.964-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:10:20.006-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:20.006-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:10:20.143-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:20.142-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:10:20.162-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.219 seconds
+[2022-11-02T16:11:11.519-0300] {processor.py:154} INFO - Started process (PID=19987) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:11:11.533-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:11:11.533-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:11.533-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:11:11.621-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:11:11.876-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:11.875-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:11.944-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:11.944-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:11:11.989-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.480 seconds
+[2022-11-02T16:11:42.656-0300] {processor.py:154} INFO - Started process (PID=20244) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:11:42.658-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:11:42.658-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:42.658-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:11:42.677-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:11:42.732-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:42.731-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:42.762-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:42.761-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:11:42.792-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.139 seconds
+[2022-11-02T16:12:13.033-0300] {processor.py:154} INFO - Started process (PID=20502) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:12:13.038-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:12:13.038-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:13.038-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:12:13.055-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:12:13.104-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:13.104-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:13.121-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:13.121-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:12:13.144-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.114 seconds
+[2022-11-02T16:12:43.767-0300] {processor.py:154} INFO - Started process (PID=20765) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:12:43.774-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:12:43.775-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.774-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:12:43.816-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:12:43.941-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.941-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:44.013-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:44.012-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:12:44.052-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.291 seconds
+[2022-11-02T16:13:20.847-0300] {processor.py:154} INFO - Started process (PID=21273) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:13:20.853-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:13:20.859-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.858-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:13:20.928-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:13:21.096-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:21.094-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:21.160-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:21.160-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:13:21.240-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.396 seconds
+[2022-11-02T16:13:51.957-0300] {processor.py:154} INFO - Started process (PID=21551) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:13:51.958-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:13:51.959-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:51.958-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:13:51.980-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:13:52.037-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:52.037-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:52.059-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:52.059-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:13:52.079-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.127 seconds
+[2022-11-02T16:14:22.779-0300] {processor.py:154} INFO - Started process (PID=21802) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:14:22.781-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:14:22.781-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.781-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:14:22.806-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:14:22.870-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.870-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:22.895-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.895-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:14:22.924-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.148 seconds
+[2022-11-02T16:14:53.476-0300] {processor.py:154} INFO - Started process (PID=22092) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:14:53.478-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:14:53.478-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.478-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:14:53.498-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:14:53.552-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.551-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:53.573-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.573-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:14:53.597-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.124 seconds
+[2022-11-02T16:15:24.143-0300] {processor.py:154} INFO - Started process (PID=22343) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:15:24.145-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:15:24.145-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:24.145-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:15:24.165-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:15:24.213-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:24.213-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:24.236-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:24.236-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:15:24.256-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.115 seconds
+[2022-11-02T16:15:54.724-0300] {processor.py:154} INFO - Started process (PID=22593) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:15:54.725-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:15:54.725-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.725-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:15:54.746-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:15:54.801-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.800-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:54.824-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.824-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:15:54.849-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.128 seconds
+[2022-11-02T16:16:25.461-0300] {processor.py:154} INFO - Started process (PID=22839) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:16:25.463-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:16:25.463-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.463-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:16:25.483-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:16:25.530-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.530-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:25.549-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.549-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:16:25.574-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.115 seconds
+[2022-11-02T16:16:56.378-0300] {processor.py:154} INFO - Started process (PID=23102) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:16:56.379-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:16:56.380-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.380-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:16:56.397-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:16:56.450-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.449-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:56.475-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.475-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:16:56.497-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.121 seconds
+[2022-11-02T16:17:26.652-0300] {processor.py:154} INFO - Started process (PID=23350) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:17:26.653-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:17:26.654-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.654-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:17:26.676-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:17:26.727-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.727-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:26.751-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.751-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:17:26.777-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.128 seconds
+[2022-11-02T16:17:57.904-0300] {processor.py:154} INFO - Started process (PID=23594) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:17:57.906-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:17:57.906-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.906-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:17:57.925-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:17:57.975-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.975-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:57.996-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.996-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:17:58.015-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.114 seconds
+[2022-11-02T16:18:28.445-0300] {processor.py:154} INFO - Started process (PID=23843) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:18:28.446-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:18:28.446-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:28.446-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:18:28.473-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:18:28.545-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:28.545-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:28.574-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:28.573-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:18:28.605-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.168 seconds
+[2022-11-02T16:18:59.296-0300] {processor.py:154} INFO - Started process (PID=24099) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:18:59.297-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:18:59.299-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:59.299-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:18:59.333-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:18:59.423-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:59.423-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:59.452-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:59.452-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:18:59.473-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.180 seconds
+[2022-11-02T16:19:29.624-0300] {processor.py:154} INFO - Started process (PID=24374) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:19:29.625-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:19:29.626-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.626-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:19:29.645-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:19:29.701-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.701-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:19:29.814-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.814-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:19:29.843-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.222 seconds
+[2022-11-02T16:20:00.825-0300] {processor.py:154} INFO - Started process (PID=24631) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:20:00.825-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:20:00.826-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.826-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:20:00.843-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:20:00.929-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.929-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:01.038-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:01.038-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:20:01.059-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.238 seconds
+[2022-11-02T16:20:31.534-0300] {processor.py:154} INFO - Started process (PID=24925) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:20:31.536-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:20:31.537-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.536-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:20:31.557-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:20:31.779-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.779-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:31.798-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.797-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:20:31.821-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.292 seconds
+[2022-11-02T16:21:02.902-0300] {processor.py:154} INFO - Started process (PID=25307) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:21:02.903-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:21:02.904-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.904-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:21:02.920-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:21:03.058-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:03.057-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:03.074-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:03.074-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:21:03.093-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.195 seconds
+[2022-11-02T16:21:33.560-0300] {processor.py:154} INFO - Started process (PID=25750) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:21:33.561-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:21:33.562-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.562-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:21:33.578-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:21:33.623-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.623-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:33.646-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.646-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:21:33.742-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.185 seconds
+[2022-11-02T16:22:04.647-0300] {processor.py:154} INFO - Started process (PID=26006) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:22:04.649-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:22:04.650-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.650-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:22:04.667-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:22:04.703-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.703-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:04.907-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.907-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:22:04.950-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.305 seconds
+[2022-11-02T16:22:35.130-0300] {processor.py:154} INFO - Started process (PID=26271) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:22:35.132-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:22:35.132-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:35.132-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:22:35.150-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:22:35.292-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:35.292-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:35.313-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:35.313-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:22:35.328-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.217 seconds
+[2022-11-02T16:23:05.538-0300] {processor.py:154} INFO - Started process (PID=26520) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:23:05.539-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:23:05.540-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:05.540-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:23:05.556-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:23:05.736-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:05.736-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:05.756-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:05.756-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:23:05.794-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.259 seconds
+[2022-11-02T16:23:35.928-0300] {processor.py:154} INFO - Started process (PID=26832) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:23:35.929-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:23:35.930-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.930-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:23:35.947-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:23:35.995-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.995-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:36.147-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:36.147-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:23:36.165-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.240 seconds
+[2022-11-02T16:24:06.740-0300] {processor.py:154} INFO - Started process (PID=27173) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:24:06.742-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:24:06.742-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.742-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:24:06.760-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:24:06.832-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.832-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:06.991-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.991-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:24:07.022-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.285 seconds
+[2022-11-02T16:24:37.325-0300] {processor.py:154} INFO - Started process (PID=27431) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:24:37.326-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:24:37.326-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:37.326-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:24:37.345-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:24:37.486-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:37.486-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:37.505-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:37.505-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:24:37.525-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.204 seconds
+[2022-11-02T16:25:08.513-0300] {processor.py:154} INFO - Started process (PID=27680) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:25:08.523-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:25:08.524-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:08.523-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:25:08.573-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:25:08.901-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:08.901-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:08.924-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:08.924-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:25:08.971-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.486 seconds
+[2022-11-02T16:25:39.324-0300] {processor.py:154} INFO - Started process (PID=27942) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:25:39.327-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:25:39.328-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:39.328-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:25:39.347-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:25:39.411-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:39.411-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:39.473-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:39.473-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:25:39.634-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.313 seconds
+[2022-11-02T16:26:10.335-0300] {processor.py:154} INFO - Started process (PID=28211) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:26:10.336-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:26:10.337-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:10.336-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:26:10.354-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:26:10.409-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:10.409-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:10.524-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:10.524-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:26:10.571-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.239 seconds
+[2022-11-02T16:26:40.827-0300] {processor.py:154} INFO - Started process (PID=28462) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:26:40.828-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:26:40.828-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.828-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:26:40.850-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:26:41.053-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:41.052-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:41.075-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:41.075-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:26:41.094-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.270 seconds
+[2022-11-02T16:27:12.090-0300] {processor.py:154} INFO - Started process (PID=28835) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:27:12.091-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:27:12.091-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:12.091-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:27:12.109-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:27:12.281-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:12.281-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:12.319-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:12.318-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:27:12.347-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.262 seconds
+[2022-11-02T16:27:43.097-0300] {processor.py:154} INFO - Started process (PID=29207) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:27:43.098-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:27:43.099-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:43.099-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:27:43.288-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:27:43.335-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:43.335-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:43.355-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:43.355-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:27:43.379-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.286 seconds
+[2022-11-02T16:28:13.778-0300] {processor.py:154} INFO - Started process (PID=29635) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:28:13.780-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:28:13.780-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.780-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:28:13.797-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:28:13.858-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.858-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:14.003-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:14.002-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:28:14.025-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.251 seconds
+[2022-11-02T16:28:44.406-0300] {processor.py:154} INFO - Started process (PID=30012) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:28:44.412-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:28:44.412-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.412-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:28:44.435-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:28:44.636-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.636-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:44.667-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.667-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:28:44.692-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.290 seconds
+[2022-11-02T16:29:16.304-0300] {processor.py:154} INFO - Started process (PID=30389) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:29:16.312-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:29:16.323-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:16.323-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:29:16.366-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:29:16.759-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:16.759-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:16.794-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:16.794-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:29:16.832-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.550 seconds
+[2022-11-02T16:29:49.475-0300] {processor.py:154} INFO - Started process (PID=30740) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:29:49.477-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:29:49.478-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:49.478-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:29:49.634-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:29:49.696-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:49.695-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:49.757-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:49.756-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:29:49.793-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.327 seconds
+[2022-11-02T16:30:20.206-0300] {processor.py:154} INFO - Started process (PID=31065) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:30:20.207-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:30:20.208-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:20.208-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:30:20.227-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:30:20.325-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:20.325-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:20.491-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:20.491-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:30:20.533-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.330 seconds
+[2022-11-02T16:30:51.116-0300] {processor.py:154} INFO - Started process (PID=31461) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:30:51.120-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:30:51.121-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:51.121-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:30:51.153-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:30:51.396-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:51.396-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:51.427-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:51.427-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:30:51.462-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.349 seconds
+[2022-11-02T16:31:22.399-0300] {processor.py:154} INFO - Started process (PID=31807) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:31:22.402-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:31:22.403-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:22.403-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:31:22.431-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:31:22.571-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:22.571-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:22.592-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:22.592-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:31:22.613-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.217 seconds
+[2022-11-02T16:31:52.776-0300] {processor.py:154} INFO - Started process (PID=32140) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:31:52.778-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:31:52.778-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.778-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:31:52.898-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:31:52.938-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.938-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:52.954-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.953-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:31:52.973-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.200 seconds
+[2022-11-02T16:32:23.839-0300] {processor.py:154} INFO - Started process (PID=32473) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:32:23.841-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:32:23.843-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.842-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:32:23.877-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:32:23.931-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.930-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:24.065-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:24.065-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:32:24.086-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.253 seconds
+[2022-11-02T16:32:54.240-0300] {processor.py:154} INFO - Started process (PID=32813) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:32:54.242-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:32:54.242-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:54.242-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:32:54.285-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:32:54.581-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:54.580-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:54.610-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:54.610-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:32:54.641-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.405 seconds
+[2022-11-02T16:33:25.855-0300] {processor.py:154} INFO - Started process (PID=33170) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:33:25.858-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:33:25.859-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.859-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:33:25.882-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:33:26.080-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:26.080-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:26.095-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:26.095-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:33:26.115-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.267 seconds
+[2022-11-02T16:33:56.310-0300] {processor.py:154} INFO - Started process (PID=33508) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:33:56.311-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:33:56.313-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.312-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:33:56.448-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:33:56.514-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.513-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:56.559-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.559-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:33:56.573-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.267 seconds
+[2022-11-02T16:34:26.961-0300] {processor.py:154} INFO - Started process (PID=33856) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:34:26.962-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:34:26.965-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.965-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:34:27.023-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:34:27.146-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:27.145-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:34:27.187-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:27.187-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:34:27.239-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.286 seconds
+[2022-11-02T16:35:03.804-0300] {processor.py:154} INFO - Started process (PID=34459) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:35:03.805-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:35:03.811-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.806-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:35:03.844-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:35:03.956-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.956-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:03.980-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.980-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:35:03.996-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.195 seconds
+[2022-11-02T16:35:38.926-0300] {processor.py:154} INFO - Started process (PID=34791) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:35:38.927-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:35:38.928-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:38.928-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:35:38.971-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:35:39.041-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:39.041-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:39.081-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:39.080-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:35:39.113-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.194 seconds
+[2022-11-02T16:36:09.421-0300] {processor.py:154} INFO - Started process (PID=35211) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:36:09.422-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:36:09.423-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.422-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:36:09.444-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:36:09.493-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.493-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:09.516-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.516-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:36:09.535-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.118 seconds
+[2022-11-02T16:36:39.646-0300] {processor.py:154} INFO - Started process (PID=35532) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:36:39.647-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:36:39.647-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.647-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:36:39.664-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:36:39.718-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.718-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:39.743-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.743-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:36:39.768-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.133 seconds
+[2022-11-02T16:37:10.189-0300] {processor.py:154} INFO - Started process (PID=35863) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:37:10.191-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:37:10.192-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:10.192-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:37:10.212-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:37:10.266-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:10.266-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:10.293-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:10.293-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:37:10.319-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.134 seconds
+[2022-11-02T16:37:40.694-0300] {processor.py:154} INFO - Started process (PID=36281) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:37:40.695-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:37:40.696-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:40.696-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:37:40.791-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:37:40.921-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:40.921-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:41.008-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:41.008-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:37:41.180-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.490 seconds
+[2022-11-02T16:38:12.173-0300] {processor.py:154} INFO - Started process (PID=36705) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:38:12.174-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:38:12.175-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:12.175-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:38:12.208-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:38:12.265-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:12.264-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:12.299-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:12.299-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:38:12.332-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.173 seconds
+[2022-11-02T16:38:42.455-0300] {processor.py:154} INFO - Started process (PID=37113) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:38:42.456-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:38:42.457-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.457-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:38:42.511-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:38:42.597-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.597-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:42.683-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.683-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:38:42.718-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.269 seconds
+[2022-11-02T16:39:13.590-0300] {processor.py:154} INFO - Started process (PID=37562) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:39:13.592-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:39:13.592-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.592-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:39:13.612-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:39:13.665-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.665-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:13.695-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.695-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:39:13.712-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.127 seconds
+[2022-11-02T16:39:44.546-0300] {processor.py:154} INFO - Started process (PID=37920) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:39:44.562-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:39:44.563-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.562-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:39:44.673-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:39:44.805-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.804-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:44.844-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.844-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:39:44.935-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.402 seconds
+[2022-11-02T16:40:16.657-0300] {processor.py:154} INFO - Started process (PID=38275) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:40:16.659-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:40:16.661-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:16.661-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:40:16.695-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:40:16.768-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:16.768-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:16.855-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:16.855-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:40:16.890-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.249 seconds
+[2022-11-02T16:40:47.622-0300] {processor.py:154} INFO - Started process (PID=38627) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:40:47.634-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:40:47.647-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:47.647-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:40:47.716-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:40:47.861-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:47.861-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:48.000-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:48.000-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:40:48.198-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.583 seconds
+[2022-11-02T16:41:18.547-0300] {processor.py:154} INFO - Started process (PID=38985) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:41:18.549-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:41:18.549-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:18.549-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:41:18.567-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:41:18.627-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:18.627-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:18.654-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:18.654-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:41:18.809-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.265 seconds
+[2022-11-02T16:41:50.486-0300] {processor.py:154} INFO - Started process (PID=39341) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:41:50.487-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-11-02T16:41:50.487-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:50.487-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:41:50.521-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-11-02T16:41:50.571-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:50.571-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:50.693-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:50.693-0300] {dag.py:3336} INFO - Setting next_dagrun for example_bash_operator to 2022-11-01T00:00:00+00:00, run_after=2022-11-02T00:00:00+00:00
+[2022-11-02T16:41:50.715-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.232 seconds

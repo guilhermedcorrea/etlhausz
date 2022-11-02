@@ -47,3 +47,633 @@
 [2022-11-02T05:44:32.063-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:32.063-0300] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-02T05:44:32.123-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:32.122-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T04:44:32.122744+00:00, run_after=2022-11-02T08:44:32.122744+00:00
 [2022-11-02T05:44:32.224-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.394 seconds
+[2022-11-02T15:55:23.005-0300] {processor.py:154} INFO - Started process (PID=11989) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:55:23.009-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:55:23.010-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:23.010-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:55:23.026-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:55:23.079-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:23.078-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:23.115-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:23.115-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:55:23.114740+00:00, run_after=2022-11-02T18:55:23.114740+00:00
+[2022-11-02T15:55:23.166-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.163 seconds
+[2022-11-02T15:55:54.528-0300] {processor.py:154} INFO - Started process (PID=12335) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:55:54.531-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:55:54.531-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.531-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:55:54.542-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:55:54.578-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.578-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:54.601-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.600-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:55:54.600758+00:00, run_after=2022-11-02T18:55:54.600758+00:00
+[2022-11-02T15:55:54.622-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.119 seconds
+[2022-11-02T15:56:25.565-0300] {processor.py:154} INFO - Started process (PID=12630) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:56:25.567-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:56:25.570-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.569-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:56:25.586-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:56:25.641-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.641-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:25.675-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.675-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:56:25.675325+00:00, run_after=2022-11-02T18:56:25.675325+00:00
+[2022-11-02T15:56:25.702-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.140 seconds
+[2022-11-02T15:56:56.710-0300] {processor.py:154} INFO - Started process (PID=12876) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:56:56.711-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:56:56.712-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.712-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:56:56.731-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:56:56.813-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.809-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:56.857-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.857-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:56:56.857177+00:00, run_after=2022-11-02T18:56:56.857177+00:00
+[2022-11-02T15:56:56.933-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.226 seconds
+[2022-11-02T15:57:27.921-0300] {processor.py:154} INFO - Started process (PID=13116) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:57:27.922-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:57:27.923-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.922-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:57:27.945-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:57:27.995-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.994-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:28.014-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:28.014-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:57:28.014082+00:00, run_after=2022-11-02T18:57:28.014082+00:00
+[2022-11-02T15:57:28.054-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.136 seconds
+[2022-11-02T15:57:58.886-0300] {processor.py:154} INFO - Started process (PID=13346) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:57:58.887-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:57:58.887-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.887-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:57:58.900-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:57:58.951-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.951-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:58.982-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.982-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:57:58.982039+00:00, run_after=2022-11-02T18:57:58.982039+00:00
+[2022-11-02T15:57:59.020-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.137 seconds
+[2022-11-02T15:58:29.162-0300] {processor.py:154} INFO - Started process (PID=13577) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:58:29.163-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:58:29.164-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.163-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:58:29.178-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:58:29.237-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.237-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:29.271-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.270-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:58:29.270551+00:00, run_after=2022-11-02T18:58:29.270551+00:00
+[2022-11-02T15:58:29.294-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.135 seconds
+[2022-11-02T15:58:59.500-0300] {processor.py:154} INFO - Started process (PID=13804) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:58:59.505-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:58:59.506-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.505-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:58:59.519-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:58:59.571-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.571-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:59.596-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.596-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:58:59.595856+00:00, run_after=2022-11-02T18:58:59.595856+00:00
+[2022-11-02T15:58:59.623-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.126 seconds
+[2022-11-02T15:59:30.448-0300] {processor.py:154} INFO - Started process (PID=14034) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:59:30.449-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T15:59:30.450-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.450-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:59:30.463-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T15:59:30.510-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.510-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:59:30.531-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.531-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T14:59:30.531329+00:00, run_after=2022-11-02T18:59:30.531329+00:00
+[2022-11-02T15:59:30.557-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2022-11-02T16:00:01.413-0300] {processor.py:154} INFO - Started process (PID=14262) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:00:01.414-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:00:01.415-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.414-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:00:01.428-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:00:01.473-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.473-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:01.500-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.500-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:00:01.499630+00:00, run_after=2022-11-02T19:00:01.499630+00:00
+[2022-11-02T16:00:01.526-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2022-11-02T16:00:32.216-0300] {processor.py:154} INFO - Started process (PID=14514) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:00:32.217-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:00:32.217-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.217-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:00:32.227-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:00:32.272-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.272-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:32.293-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.293-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:00:32.293517+00:00, run_after=2022-11-02T19:00:32.293517+00:00
+[2022-11-02T16:00:32.316-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.103 seconds
+[2022-11-02T16:01:02.462-0300] {processor.py:154} INFO - Started process (PID=14757) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:01:02.463-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:01:02.464-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.464-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:01:02.473-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:01:02.517-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.517-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:02.540-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.540-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:01:02.540369+00:00, run_after=2022-11-02T19:01:02.540369+00:00
+[2022-11-02T16:01:02.557-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2022-11-02T16:01:33.691-0300] {processor.py:154} INFO - Started process (PID=14999) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:01:33.692-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:01:33.694-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:33.693-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:01:33.719-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:01:33.789-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:33.789-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:33.825-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:33.825-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:01:33.825512+00:00, run_after=2022-11-02T19:01:33.825512+00:00
+[2022-11-02T16:01:33.959-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.271 seconds
+[2022-11-02T16:02:04.925-0300] {processor.py:154} INFO - Started process (PID=15248) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:02:04.933-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:02:04.933-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:04.933-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:02:04.954-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:02:05.032-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:05.032-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:05.181-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:05.181-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:02:05.180963+00:00, run_after=2022-11-02T19:02:05.180963+00:00
+[2022-11-02T16:02:05.203-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.289 seconds
+[2022-11-02T16:02:35.734-0300] {processor.py:154} INFO - Started process (PID=15502) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:02:35.736-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:02:35.736-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.736-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:02:35.748-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:02:35.892-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.892-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:35.915-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.915-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:02:35.914822+00:00, run_after=2022-11-02T19:02:35.914822+00:00
+[2022-11-02T16:02:35.943-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.211 seconds
+[2022-11-02T16:03:07.929-0300] {processor.py:154} INFO - Started process (PID=15837) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:03:07.931-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:03:07.932-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:07.932-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:03:07.950-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:03:08.112-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:08.112-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:08.139-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:08.139-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:03:08.138840+00:00, run_after=2022-11-02T19:03:08.138840+00:00
+[2022-11-02T16:03:08.173-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.257 seconds
+[2022-11-02T16:03:38.433-0300] {processor.py:154} INFO - Started process (PID=16091) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:03:38.435-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:03:38.436-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.435-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:03:38.448-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:03:38.499-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.499-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:38.521-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.521-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:03:38.521055+00:00, run_after=2022-11-02T19:03:38.521055+00:00
+[2022-11-02T16:03:38.640-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.209 seconds
+[2022-11-02T16:04:09.921-0300] {processor.py:154} INFO - Started process (PID=16332) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:04:09.922-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:04:09.924-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:09.924-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:04:09.953-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:04:10.042-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:10.041-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:10.219-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:10.219-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:04:10.218809+00:00, run_after=2022-11-02T19:04:10.218809+00:00
+[2022-11-02T16:04:10.260-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.346 seconds
+[2022-11-02T16:04:40.590-0300] {processor.py:154} INFO - Started process (PID=16574) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:04:40.591-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:04:40.592-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.592-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:04:40.611-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:04:40.699-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.698-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:40.926-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.926-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:04:40.926050+00:00, run_after=2022-11-02T19:04:40.926050+00:00
+[2022-11-02T16:04:41.002-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.415 seconds
+[2022-11-02T16:05:11.760-0300] {processor.py:154} INFO - Started process (PID=16825) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:05:11.761-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:05:11.762-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:11.761-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:05:11.774-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:05:12.027-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:12.027-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:12.051-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:12.051-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:05:12.051506+00:00, run_after=2022-11-02T19:05:12.051506+00:00
+[2022-11-02T16:05:12.067-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.310 seconds
+[2022-11-02T16:05:42.860-0300] {processor.py:154} INFO - Started process (PID=17077) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:05:42.863-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:05:42.863-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.863-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:05:42.874-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:05:42.929-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.929-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:42.959-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.959-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:05:42.958860+00:00, run_after=2022-11-02T19:05:42.958860+00:00
+[2022-11-02T16:05:43.265-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.423 seconds
+[2022-11-02T16:06:13.681-0300] {processor.py:154} INFO - Started process (PID=17326) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:06:13.681-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:06:13.682-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:13.682-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:06:13.695-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:06:13.763-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:13.763-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:13.971-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:13.970-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:06:13.958652+00:00, run_after=2022-11-02T19:06:13.958652+00:00
+[2022-11-02T16:06:14.078-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.402 seconds
+[2022-11-02T16:06:44.462-0300] {processor.py:154} INFO - Started process (PID=17584) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:06:44.464-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:06:44.464-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:44.464-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:06:44.480-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:06:44.540-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:44.540-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:44.722-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:44.721-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:06:44.719465+00:00, run_after=2022-11-02T19:06:44.719465+00:00
+[2022-11-02T16:06:44.759-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.301 seconds
+[2022-11-02T16:07:15.225-0300] {processor.py:154} INFO - Started process (PID=17831) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:07:15.226-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:07:15.228-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:15.226-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:07:15.248-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:07:15.551-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:15.551-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:15.572-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:15.572-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:07:15.572594+00:00, run_after=2022-11-02T19:07:15.572594+00:00
+[2022-11-02T16:07:15.593-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.374 seconds
+[2022-11-02T16:07:46.048-0300] {processor.py:154} INFO - Started process (PID=18068) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:07:46.049-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:07:46.050-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:46.050-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:07:46.064-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:07:46.151-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:46.151-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:46.183-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:46.182-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:07:46.181859+00:00, run_after=2022-11-02T19:07:46.181859+00:00
+[2022-11-02T16:07:46.222-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.185 seconds
+[2022-11-02T16:08:16.370-0300] {processor.py:154} INFO - Started process (PID=18309) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:08:16.371-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:08:16.372-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:16.372-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:08:16.391-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:08:16.480-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:16.480-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:16.707-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:16.707-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:08:16.707193+00:00, run_after=2022-11-02T19:08:16.707193+00:00
+[2022-11-02T16:08:16.753-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.386 seconds
+[2022-11-02T16:08:47.265-0300] {processor.py:154} INFO - Started process (PID=18551) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:08:47.267-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:08:47.267-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:47.267-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:08:47.277-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:08:47.322-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:47.321-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:47.425-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:47.425-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:08:47.425397+00:00, run_after=2022-11-02T19:08:47.425397+00:00
+[2022-11-02T16:08:47.452-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.190 seconds
+[2022-11-02T16:09:18.269-0300] {processor.py:154} INFO - Started process (PID=18802) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:09:18.270-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:09:18.271-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:18.271-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:09:18.283-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:09:18.404-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:18.404-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:18.426-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:18.426-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:09:18.426144+00:00, run_after=2022-11-02T19:09:18.426144+00:00
+[2022-11-02T16:09:18.441-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.175 seconds
+[2022-11-02T16:09:48.678-0300] {processor.py:154} INFO - Started process (PID=19043) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:09:48.680-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:09:48.680-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.680-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:09:48.691-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:09:48.833-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.833-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:48.861-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.851-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:09:48.851509+00:00, run_after=2022-11-02T19:09:48.851509+00:00
+[2022-11-02T16:09:48.899-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.225 seconds
+[2022-11-02T16:10:19.167-0300] {processor.py:154} INFO - Started process (PID=19299) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:10:19.168-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:10:19.168-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.168-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:10:19.179-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:10:19.227-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.227-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:10:19.520-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.520-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:10:19.261965+00:00, run_after=2022-11-02T19:10:19.261965+00:00
+[2022-11-02T16:10:19.544-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.380 seconds
+[2022-11-02T16:11:10.936-0300] {processor.py:154} INFO - Started process (PID=19980) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:11:10.953-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:11:10.953-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:10.953-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:11:11.020-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:11:11.193-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:11.192-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:11.246-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:11.246-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:11:11.244191+00:00, run_after=2022-11-02T19:11:11.244191+00:00
+[2022-11-02T16:11:11.339-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.412 seconds
+[2022-11-02T16:11:41.558-0300] {processor.py:154} INFO - Started process (PID=20232) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:11:41.560-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:11:41.560-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.560-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:11:41.572-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:11:41.615-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.615-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:41.636-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.636-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:11:41.636088+00:00, run_after=2022-11-02T19:11:41.636088+00:00
+[2022-11-02T16:11:41.654-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2022-11-02T16:12:12.589-0300] {processor.py:154} INFO - Started process (PID=20487) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:12:12.599-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:12:12.599-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.599-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:12:12.610-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:12:12.727-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.727-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:12.758-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.757-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:12:12.757676+00:00, run_after=2022-11-02T19:12:12.757676+00:00
+[2022-11-02T16:12:12.786-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.200 seconds
+[2022-11-02T16:12:43.612-0300] {processor.py:154} INFO - Started process (PID=20753) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:12:43.615-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:12:43.615-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.615-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:12:43.631-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:12:43.679-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.679-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:43.697-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.696-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:12:43.696790+00:00, run_after=2022-11-02T19:12:43.696790+00:00
+[2022-11-02T16:12:43.720-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.111 seconds
+[2022-11-02T16:13:20.575-0300] {processor.py:154} INFO - Started process (PID=21262) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:13:20.585-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:13:20.587-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.587-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:13:20.601-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:13:20.648-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.648-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:20.672-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.672-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:13:20.672471+00:00, run_after=2022-11-02T19:13:20.672471+00:00
+[2022-11-02T16:13:20.712-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.139 seconds
+[2022-11-02T16:13:50.895-0300] {processor.py:154} INFO - Started process (PID=21539) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:13:50.896-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:13:50.897-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.897-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:13:50.908-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:13:50.950-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.949-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:50.969-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.969-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:13:50.969285+00:00, run_after=2022-11-02T19:13:50.969285+00:00
+[2022-11-02T16:13:50.989-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2022-11-02T16:14:22.573-0300] {processor.py:154} INFO - Started process (PID=21788) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:14:22.577-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:14:22.579-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.579-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:14:22.606-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:14:22.672-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.672-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:22.706-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.706-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:14:22.705368+00:00, run_after=2022-11-02T19:14:22.705368+00:00
+[2022-11-02T16:14:22.745-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.181 seconds
+[2022-11-02T16:14:53.340-0300] {processor.py:154} INFO - Started process (PID=22080) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:14:53.341-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:14:53.342-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.341-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:14:53.352-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:14:53.403-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.402-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:53.425-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.425-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:14:53.425202+00:00, run_after=2022-11-02T19:14:53.425202+00:00
+[2022-11-02T16:14:53.445-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2022-11-02T16:15:24.005-0300] {processor.py:154} INFO - Started process (PID=22329) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:15:24.007-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:15:24.008-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:24.008-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:15:24.021-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:15:24.063-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:24.063-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:24.088-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:24.088-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:15:24.088270+00:00, run_after=2022-11-02T19:15:24.088270+00:00
+[2022-11-02T16:15:24.118-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2022-11-02T16:15:54.594-0300] {processor.py:154} INFO - Started process (PID=22581) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:15:54.594-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:15:54.596-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.595-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:15:54.608-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:15:54.655-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.655-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:54.676-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.676-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:15:54.675945+00:00, run_after=2022-11-02T19:15:54.675945+00:00
+[2022-11-02T16:15:54.697-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2022-11-02T16:16:25.320-0300] {processor.py:154} INFO - Started process (PID=22827) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:16:25.321-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:16:25.322-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.322-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:16:25.335-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:16:25.379-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.379-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:25.410-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.410-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:16:25.409852+00:00, run_after=2022-11-02T19:16:25.409852+00:00
+[2022-11-02T16:16:25.432-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.115 seconds
+[2022-11-02T16:16:56.146-0300] {processor.py:154} INFO - Started process (PID=23082) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:16:56.152-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:16:56.153-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.153-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:16:56.166-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:16:56.219-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.219-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:56.240-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.240-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:16:56.239906+00:00, run_after=2022-11-02T19:16:56.239906+00:00
+[2022-11-02T16:16:56.270-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.128 seconds
+[2022-11-02T16:17:26.466-0300] {processor.py:154} INFO - Started process (PID=23331) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:17:26.468-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:17:26.468-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.468-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:17:26.483-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:17:26.529-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.529-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:26.552-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.552-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:17:26.551983+00:00, run_after=2022-11-02T19:17:26.551983+00:00
+[2022-11-02T16:17:26.580-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.117 seconds
+[2022-11-02T16:17:57.690-0300] {processor.py:154} INFO - Started process (PID=23574) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:17:57.692-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:17:57.692-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.692-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:17:57.703-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:17:57.751-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.750-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:57.775-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.775-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:17:57.774904+00:00, run_after=2022-11-02T19:17:57.774904+00:00
+[2022-11-02T16:17:57.798-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2022-11-02T16:18:27.989-0300] {processor.py:154} INFO - Started process (PID=23822) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:18:27.991-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:18:27.992-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:27.992-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:18:28.005-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:18:28.066-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:28.066-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:28.087-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:28.087-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:18:28.087346+00:00, run_after=2022-11-02T19:18:28.087346+00:00
+[2022-11-02T16:18:28.110-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.125 seconds
+[2022-11-02T16:18:59.040-0300] {processor.py:154} INFO - Started process (PID=24085) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:18:59.040-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:18:59.041-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:59.041-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:18:59.077-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:18:59.196-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:59.195-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:59.235-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:59.235-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:18:59.235270+00:00, run_after=2022-11-02T19:18:59.235270+00:00
+[2022-11-02T16:18:59.289-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.255 seconds
+[2022-11-02T16:19:29.439-0300] {processor.py:154} INFO - Started process (PID=24362) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:19:29.441-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:19:29.441-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.441-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:19:29.454-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:19:29.517-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.514-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:19:29.541-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.541-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:19:29.541230+00:00, run_after=2022-11-02T19:19:29.541230+00:00
+[2022-11-02T16:19:29.658-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.223 seconds
+[2022-11-02T16:20:00.511-0300] {processor.py:154} INFO - Started process (PID=24613) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:20:00.512-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:20:00.513-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.513-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:20:00.529-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:20:00.575-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.575-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:00.712-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.712-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:20:00.712410+00:00, run_after=2022-11-02T19:20:00.712410+00:00
+[2022-11-02T16:20:00.734-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.226 seconds
+[2022-11-02T16:20:31.177-0300] {processor.py:154} INFO - Started process (PID=24907) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:20:31.180-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:20:31.180-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.180-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:20:31.201-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:20:31.365-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.365-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:31.388-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.388-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:20:31.388239+00:00, run_after=2022-11-02T19:20:31.388239+00:00
+[2022-11-02T16:20:31.457-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.290 seconds
+[2022-11-02T16:21:02.663-0300] {processor.py:154} INFO - Started process (PID=25295) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:21:02.664-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:21:02.664-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.664-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:21:02.680-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:21:02.833-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.832-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:02.854-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.854-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:21:02.854072+00:00, run_after=2022-11-02T19:21:02.854072+00:00
+[2022-11-02T16:21:02.875-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.217 seconds
+[2022-11-02T16:21:33.346-0300] {processor.py:154} INFO - Started process (PID=25738) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:21:33.348-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:21:33.349-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.349-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:21:33.360-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:21:33.403-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.403-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:33.424-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.423-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:21:33.423698+00:00, run_after=2022-11-02T19:21:33.423698+00:00
+[2022-11-02T16:21:33.532-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.189 seconds
+[2022-11-02T16:22:04.292-0300] {processor.py:154} INFO - Started process (PID=25996) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:22:04.294-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:22:04.295-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.295-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:22:04.319-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:22:04.397-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.397-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:04.556-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.556-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:22:04.555896+00:00, run_after=2022-11-02T19:22:04.555896+00:00
+[2022-11-02T16:22:04.592-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.312 seconds
+[2022-11-02T16:22:34.842-0300] {processor.py:154} INFO - Started process (PID=26261) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:22:34.842-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:22:34.843-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:34.843-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:22:34.877-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:22:35.016-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:35.016-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:35.046-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:35.046-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:22:35.046329+00:00, run_after=2022-11-02T19:22:35.046329+00:00
+[2022-11-02T16:22:35.067-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.229 seconds
+[2022-11-02T16:23:05.317-0300] {processor.py:154} INFO - Started process (PID=26511) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:23:05.318-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:23:05.318-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:05.318-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:23:05.332-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:23:05.461-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:05.461-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:05.477-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:05.477-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:23:05.477474+00:00, run_after=2022-11-02T19:23:05.477474+00:00
+[2022-11-02T16:23:05.500-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.187 seconds
+[2022-11-02T16:23:35.567-0300] {processor.py:154} INFO - Started process (PID=26812) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:23:35.569-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:23:35.569-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.569-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:23:35.581-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:23:35.664-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.663-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:35.692-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.692-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:23:35.692194+00:00, run_after=2022-11-02T19:23:35.692194+00:00
+[2022-11-02T16:23:35.808-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.243 seconds
+[2022-11-02T16:24:06.440-0300] {processor.py:154} INFO - Started process (PID=27155) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:24:06.442-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:24:06.443-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.443-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:24:06.467-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:24:06.523-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.523-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:06.632-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.632-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:24:06.632150+00:00, run_after=2022-11-02T19:24:06.632150+00:00
+[2022-11-02T16:24:06.648-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.216 seconds
+[2022-11-02T16:24:36.817-0300] {processor.py:154} INFO - Started process (PID=27410) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:24:36.819-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:24:36.820-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.819-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:24:36.830-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:24:36.960-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.960-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:36.977-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.977-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:24:36.976949+00:00, run_after=2022-11-02T19:24:36.976949+00:00
+[2022-11-02T16:24:37.003-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.190 seconds
+[2022-11-02T16:25:08.076-0300] {processor.py:154} INFO - Started process (PID=27664) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:25:08.078-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:25:08.079-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:08.079-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:25:08.090-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:25:08.368-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:08.368-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:08.388-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:08.388-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:25:08.388447+00:00, run_after=2022-11-02T19:25:08.388447+00:00
+[2022-11-02T16:25:08.408-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.335 seconds
+[2022-11-02T16:25:38.934-0300] {processor.py:154} INFO - Started process (PID=27930) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:25:38.938-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:25:38.941-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:38.940-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:25:38.960-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:25:39.034-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:39.034-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:39.071-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:39.071-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:25:39.071150+00:00, run_after=2022-11-02T19:25:39.071150+00:00
+[2022-11-02T16:25:39.278-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.362 seconds
+[2022-11-02T16:26:09.967-0300] {processor.py:154} INFO - Started process (PID=28191) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:26:09.974-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:26:09.975-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:09.974-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:26:09.998-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:26:10.074-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:10.074-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:10.194-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:10.194-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:26:10.193846+00:00, run_after=2022-11-02T19:26:10.193846+00:00
+[2022-11-02T16:26:10.237-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.279 seconds
+[2022-11-02T16:26:40.476-0300] {processor.py:154} INFO - Started process (PID=28444) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:26:40.479-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:26:40.480-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.480-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:26:40.496-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:26:40.579-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.579-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:40.704-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.704-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:26:40.704281+00:00, run_after=2022-11-02T19:26:40.704281+00:00
+[2022-11-02T16:26:40.731-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.258 seconds
+[2022-11-02T16:27:11.815-0300] {processor.py:154} INFO - Started process (PID=28822) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:27:11.822-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:27:11.822-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:11.822-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:27:11.854-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:27:12.015-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:12.015-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:12.039-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:12.038-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:27:12.038259+00:00, run_after=2022-11-02T19:27:12.038259+00:00
+[2022-11-02T16:27:12.060-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.271 seconds
+[2022-11-02T16:27:42.825-0300] {processor.py:154} INFO - Started process (PID=29196) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:27:42.827-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:27:42.827-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:42.827-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:27:42.952-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:27:43.008-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:43.008-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:43.031-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:43.028-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:27:43.028485+00:00, run_after=2022-11-02T19:27:43.028485+00:00
+[2022-11-02T16:27:43.055-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.233 seconds
+[2022-11-02T16:28:13.501-0300] {processor.py:154} INFO - Started process (PID=29623) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:28:13.503-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:28:13.503-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.503-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:28:13.516-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:28:13.567-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.567-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:13.708-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.708-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:28:13.708030+00:00, run_after=2022-11-02T19:28:13.708030+00:00
+[2022-11-02T16:28:13.736-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.238 seconds
+[2022-11-02T16:28:44.100-0300] {processor.py:154} INFO - Started process (PID=30000) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:28:44.101-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:28:44.101-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.101-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:28:44.125-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:28:44.196-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.196-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:44.337-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.337-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:28:44.337477+00:00, run_after=2022-11-02T19:28:44.337477+00:00
+[2022-11-02T16:28:44.372-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.275 seconds
+[2022-11-02T16:29:15.381-0300] {processor.py:154} INFO - Started process (PID=30363) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:29:15.385-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:29:15.387-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:15.387-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:29:15.412-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:29:15.720-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:15.720-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:15.936-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:15.936-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:29:15.936119+00:00, run_after=2022-11-02T19:29:15.936119+00:00
+[2022-11-02T16:29:16.099-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.723 seconds
+[2022-11-02T16:29:48.664-0300] {processor.py:154} INFO - Started process (PID=30719) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:29:48.668-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:29:48.668-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:48.668-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:29:48.716-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:29:48.986-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:48.986-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:49.062-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:49.062-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:29:49.061728+00:00, run_after=2022-11-02T19:29:49.061728+00:00
+[2022-11-02T16:29:49.113-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.461 seconds
+[2022-11-02T16:30:19.198-0300] {processor.py:154} INFO - Started process (PID=31043) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:30:19.199-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:30:19.200-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:19.200-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:30:19.213-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:30:19.351-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:19.351-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:19.645-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:19.645-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:30:19.645099+00:00, run_after=2022-11-02T19:30:19.645099+00:00
+[2022-11-02T16:30:19.678-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.483 seconds
+[2022-11-02T16:30:50.721-0300] {processor.py:154} INFO - Started process (PID=31444) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:30:50.724-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:30:50.725-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:50.725-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:30:50.739-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:30:50.825-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:50.825-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:51.012-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:51.012-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:30:51.011853+00:00, run_after=2022-11-02T19:30:51.011853+00:00
+[2022-11-02T16:30:51.059-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.345 seconds
+[2022-11-02T16:31:21.888-0300] {processor.py:154} INFO - Started process (PID=31792) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:31:21.889-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:31:21.893-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:21.893-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:31:21.903-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:31:22.064-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:22.064-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:22.093-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:22.093-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:31:22.093188+00:00, run_after=2022-11-02T19:31:22.093188+00:00
+[2022-11-02T16:31:22.116-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.232 seconds
+[2022-11-02T16:31:52.280-0300] {processor.py:154} INFO - Started process (PID=32119) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:31:52.283-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:31:52.285-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.284-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:31:52.297-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:31:52.450-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.449-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:52.472-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.472-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:31:52.471802+00:00, run_after=2022-11-02T19:31:52.471802+00:00
+[2022-11-02T16:31:52.491-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.214 seconds
+[2022-11-02T16:32:23.113-0300] {processor.py:154} INFO - Started process (PID=32456) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:32:23.120-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:32:23.121-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.120-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:32:23.141-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:32:23.193-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.192-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:23.234-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.234-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:32:23.233971+00:00, run_after=2022-11-02T19:32:23.233971+00:00
+[2022-11-02T16:32:23.397-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.288 seconds
+[2022-11-02T16:32:53.903-0300] {processor.py:154} INFO - Started process (PID=32795) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:32:53.905-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:32:53.905-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:53.905-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:32:53.923-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:32:53.984-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:53.984-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:54.103-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:54.103-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:32:54.103177+00:00, run_after=2022-11-02T19:32:54.103177+00:00
+[2022-11-02T16:32:54.133-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.233 seconds
+[2022-11-02T16:33:25.304-0300] {processor.py:154} INFO - Started process (PID=33152) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:33:25.305-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:33:25.306-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.306-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:33:25.325-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:33:25.580-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.580-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:25.656-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.656-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:33:25.655746+00:00, run_after=2022-11-02T19:33:25.655746+00:00
+[2022-11-02T16:33:25.701-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.400 seconds
+[2022-11-02T16:33:56.051-0300] {processor.py:154} INFO - Started process (PID=33490) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:33:56.053-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:33:56.054-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.054-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:33:56.065-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:33:56.205-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.205-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:56.223-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.223-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:33:56.222920+00:00, run_after=2022-11-02T19:33:56.222920+00:00
+[2022-11-02T16:33:56.244-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.196 seconds
+[2022-11-02T16:34:26.614-0300] {processor.py:154} INFO - Started process (PID=33838) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:34:26.615-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:34:26.616-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.615-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:34:26.649-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:34:26.724-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.723-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:34:26.760-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.759-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:34:26.758516+00:00, run_after=2022-11-02T19:34:26.758516+00:00
+[2022-11-02T16:34:26.790-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.180 seconds
+[2022-11-02T16:35:03.245-0300] {processor.py:154} INFO - Started process (PID=34448) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:35:03.247-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:35:03.248-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.247-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:35:03.263-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:35:03.359-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.358-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:03.430-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.430-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:35:03.429539+00:00, run_after=2022-11-02T19:35:03.429539+00:00
+[2022-11-02T16:35:03.484-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.244 seconds
+[2022-11-02T16:35:38.395-0300] {processor.py:154} INFO - Started process (PID=34778) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:35:38.397-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:35:38.398-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:38.398-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:35:38.447-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:35:38.741-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:38.741-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:38.813-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:38.813-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:35:38.812978+00:00, run_after=2022-11-02T19:35:38.812978+00:00
+[2022-11-02T16:35:38.867-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.481 seconds
+[2022-11-02T16:36:09.280-0300] {processor.py:154} INFO - Started process (PID=35199) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:36:09.281-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:36:09.282-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.281-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:36:09.296-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:36:09.344-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.343-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:09.367-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.367-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:36:09.366695+00:00, run_after=2022-11-02T19:36:09.366695+00:00
+[2022-11-02T16:36:09.390-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.113 seconds
+[2022-11-02T16:36:39.433-0300] {processor.py:154} INFO - Started process (PID=35520) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:36:39.434-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:36:39.435-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.435-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:36:39.447-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:36:39.501-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.501-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:39.525-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.525-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:36:39.525531+00:00, run_after=2022-11-02T19:36:39.525531+00:00
+[2022-11-02T16:36:39.541-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.111 seconds
+[2022-11-02T16:37:10.024-0300] {processor.py:154} INFO - Started process (PID=35854) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:37:10.028-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:37:10.029-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:10.029-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:37:10.049-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:37:10.092-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:10.092-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:10.115-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:10.115-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:37:10.115093+00:00, run_after=2022-11-02T19:37:10.115093+00:00
+[2022-11-02T16:37:10.154-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.141 seconds
+[2022-11-02T16:37:40.385-0300] {processor.py:154} INFO - Started process (PID=36270) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:37:40.387-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:37:40.388-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:40.388-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:37:40.406-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:37:40.463-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:40.463-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:40.487-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:40.487-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:37:40.487322+00:00, run_after=2022-11-02T19:37:40.487322+00:00
+[2022-11-02T16:37:40.519-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.137 seconds
+[2022-11-02T16:38:11.881-0300] {processor.py:154} INFO - Started process (PID=36693) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:38:11.882-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:38:11.882-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:11.882-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:38:11.933-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:38:12.017-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:12.017-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:12.058-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:12.058-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:38:12.058158+00:00, run_after=2022-11-02T19:38:12.058158+00:00
+[2022-11-02T16:38:12.089-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.216 seconds
+[2022-11-02T16:38:42.142-0300] {processor.py:154} INFO - Started process (PID=37103) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:38:42.153-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:38:42.156-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.156-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:38:42.183-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:38:42.296-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.296-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:42.347-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.347-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:38:42.347299+00:00, run_after=2022-11-02T19:38:42.347299+00:00
+[2022-11-02T16:38:42.398-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.264 seconds
+[2022-11-02T16:39:13.434-0300] {processor.py:154} INFO - Started process (PID=37550) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:39:13.435-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:39:13.436-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.436-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:39:13.449-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:39:13.509-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.508-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:13.531-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.530-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:39:13.530782+00:00, run_after=2022-11-02T19:39:13.530782+00:00
+[2022-11-02T16:39:13.560-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.130 seconds
+[2022-11-02T16:39:44.224-0300] {processor.py:154} INFO - Started process (PID=37909) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:39:44.225-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:39:44.226-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.226-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:39:44.237-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:39:44.304-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.303-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:44.335-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.335-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:39:44.335220+00:00, run_after=2022-11-02T19:39:44.335220+00:00
+[2022-11-02T16:39:44.378-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.157 seconds
+[2022-11-02T16:40:15.816-0300] {processor.py:154} INFO - Started process (PID=38196) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:40:15.818-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:40:15.818-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:15.818-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:40:15.951-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:40:16.087-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:16.086-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:16.177-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:16.177-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:40:16.175908+00:00, run_after=2022-11-02T19:40:16.175908+00:00
+[2022-11-02T16:40:16.265-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.474 seconds
+[2022-11-02T16:40:46.708-0300] {processor.py:154} INFO - Started process (PID=38607) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:40:46.710-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:40:46.710-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:46.710-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:40:46.752-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:40:47.107-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:47.107-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:47.188-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:47.188-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:40:47.187725+00:00, run_after=2022-11-02T19:40:47.187725+00:00
+[2022-11-02T16:40:47.206-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.514 seconds
+[2022-11-02T16:41:17.952-0300] {processor.py:154} INFO - Started process (PID=38973) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:41:17.953-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:41:17.954-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:17.954-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:41:17.965-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:41:18.034-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:18.034-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:18.061-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:18.061-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:41:18.061083+00:00, run_after=2022-11-02T19:41:18.061083+00:00
+[2022-11-02T16:41:18.190-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.243 seconds
+[2022-11-02T16:41:50.014-0300] {processor.py:154} INFO - Started process (PID=39327) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:41:50.016-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-11-02T16:41:50.017-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:50.017-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:41:50.060-0300] {processor.py:766} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2022-11-02T16:41:50.192-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:50.191-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:50.431-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:50.431-0300] {dag.py:3336} INFO - Setting next_dagrun for latest_only to 2022-11-02T15:41:50.430869+00:00, run_after=2022-11-02T19:41:50.430869+00:00
+[2022-11-02T16:41:50.457-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.487 seconds

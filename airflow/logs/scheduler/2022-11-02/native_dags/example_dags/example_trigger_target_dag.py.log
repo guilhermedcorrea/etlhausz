@@ -47,3 +47,633 @@
 [2022-11-02T05:44:31.714-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:31.714-0300] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-02T05:44:31.754-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:31.754-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2022-11-02T05:44:31.789-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.258 seconds
+[2022-11-02T15:55:22.829-0300] {processor.py:154} INFO - Started process (PID=11981) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:55:22.832-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:55:22.832-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:22.832-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:55:22.864-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:55:22.911-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:22.910-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:22.930-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:22.930-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:55:22.963-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.138 seconds
+[2022-11-02T15:55:54.413-0300] {processor.py:154} INFO - Started process (PID=12329) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:55:54.420-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:55:54.421-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.420-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:55:54.492-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:55:54.540-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.540-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:54.557-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.557-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:55:54.574-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.187 seconds
+[2022-11-02T15:56:25.452-0300] {processor.py:154} INFO - Started process (PID=12624) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:56:25.456-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:56:25.457-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.457-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:56:25.488-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:56:25.558-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.558-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:25.590-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.589-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:56:25.631-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.181 seconds
+[2022-11-02T15:56:56.592-0300] {processor.py:154} INFO - Started process (PID=12870) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:56:56.595-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:56:56.596-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.595-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:56:56.627-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:56:56.683-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.682-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:56.707-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.707-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:56:56.728-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.139 seconds
+[2022-11-02T15:57:27.834-0300] {processor.py:154} INFO - Started process (PID=13109) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:57:27.836-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:57:27.836-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.836-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:57:27.860-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:57:27.904-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.904-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:27.931-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.931-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:57:27.960-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.131 seconds
+[2022-11-02T15:57:58.881-0300] {processor.py:154} INFO - Started process (PID=13343) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:57:58.883-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:57:58.883-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.883-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:57:58.902-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:57:58.957-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.957-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:58.987-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.986-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:57:59.013-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.135 seconds
+[2022-11-02T15:58:29.060-0300] {processor.py:154} INFO - Started process (PID=13571) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:58:29.061-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:58:29.062-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.061-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:58:29.091-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:58:29.151-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.151-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:29.178-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:29.177-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:58:29.207-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.151 seconds
+[2022-11-02T15:58:59.441-0300] {processor.py:154} INFO - Started process (PID=13798) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:58:59.442-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:58:59.442-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.442-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:58:59.465-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:58:59.521-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.521-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:59.548-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.548-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:58:59.576-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.138 seconds
+[2022-11-02T15:59:30.292-0300] {processor.py:154} INFO - Started process (PID=14027) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:59:30.293-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T15:59:30.294-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.294-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:59:30.317-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T15:59:30.364-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.363-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:59:30.387-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.387-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T15:59:30.414-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.125 seconds
+[2022-11-02T16:00:01.245-0300] {processor.py:154} INFO - Started process (PID=14254) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:00:01.246-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:00:01.247-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.247-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:00:01.269-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:00:01.315-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.315-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:01.340-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.340-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:00:01.379-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.138 seconds
+[2022-11-02T16:00:32.072-0300] {processor.py:154} INFO - Started process (PID=14508) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:00:32.074-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:00:32.075-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.074-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:00:32.091-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:00:32.162-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.162-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:32.183-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:32.183-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:00:32.205-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.137 seconds
+[2022-11-02T16:01:02.341-0300] {processor.py:154} INFO - Started process (PID=14751) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:01:02.343-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:01:02.343-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.343-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:01:02.360-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:01:02.400-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.400-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:02.419-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.419-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:01:02.440-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.103 seconds
+[2022-11-02T16:01:33.391-0300] {processor.py:154} INFO - Started process (PID=14992) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:01:33.393-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:01:33.393-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:33.393-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:01:33.410-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:01:33.470-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:33.470-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:33.619-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:33.619-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:01:33.637-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.250 seconds
+[2022-11-02T16:02:04.913-0300] {processor.py:154} INFO - Started process (PID=15246) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:02:04.915-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:02:04.915-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:04.915-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:02:04.936-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:02:04.981-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:04.981-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:05.106-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:05.106-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:02:05.137-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.231 seconds
+[2022-11-02T16:02:35.729-0300] {processor.py:154} INFO - Started process (PID=15499) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:02:35.730-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:02:35.731-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.731-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:02:35.749-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:02:35.895-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.895-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:35.917-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.917-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:02:35.946-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.221 seconds
+[2022-11-02T16:03:07.477-0300] {processor.py:154} INFO - Started process (PID=15830) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:03:07.480-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:03:07.480-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:07.480-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:03:07.498-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:03:07.743-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:07.742-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:07.779-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:07.779-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:03:07.859-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.385 seconds
+[2022-11-02T16:03:38.302-0300] {processor.py:154} INFO - Started process (PID=16084) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:03:38.304-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:03:38.305-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.305-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:03:38.321-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:03:38.360-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.360-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:38.481-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.480-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:03:38.503-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.204 seconds
+[2022-11-02T16:04:09.791-0300] {processor.py:154} INFO - Started process (PID=16325) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:04:09.792-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:04:09.793-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:09.793-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:04:09.839-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:04:09.940-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:09.940-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:10.120-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:10.120-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:04:10.152-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.367 seconds
+[2022-11-02T16:04:40.463-0300] {processor.py:154} INFO - Started process (PID=16568) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:04:40.465-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:04:40.465-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.465-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:04:40.482-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:04:40.653-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.653-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:40.707-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.707-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:04:40.773-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.313 seconds
+[2022-11-02T16:05:11.491-0300] {processor.py:154} INFO - Started process (PID=16818) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:05:11.493-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:05:11.494-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:11.494-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:05:11.548-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:05:11.758-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:11.758-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:11.775-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:11.775-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:05:11.795-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.312 seconds
+[2022-11-02T16:05:42.693-0300] {processor.py:154} INFO - Started process (PID=17071) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:05:42.695-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:05:42.698-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.698-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:05:42.746-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:05:42.865-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.865-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:42.998-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.998-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:05:43.027-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.337 seconds
+[2022-11-02T16:06:13.298-0300] {processor.py:154} INFO - Started process (PID=17319) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:06:13.320-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:06:13.329-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:13.328-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:06:13.386-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:06:13.458-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:13.458-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:13.617-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:13.616-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:06:13.634-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.354 seconds
+[2022-11-02T16:06:43.937-0300] {processor.py:154} INFO - Started process (PID=17575) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:06:43.939-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:06:43.939-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:43.939-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:06:43.980-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:06:44.369-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:44.368-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:44.388-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:44.388-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:06:44.424-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.490 seconds
+[2022-11-02T16:07:14.506-0300] {processor.py:154} INFO - Started process (PID=17812) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:07:14.507-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:07:14.508-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:14.508-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:07:14.527-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:07:14.678-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:14.677-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:14.702-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:14.701-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:07:14.722-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.219 seconds
+[2022-11-02T16:07:44.766-0300] {processor.py:154} INFO - Started process (PID=18054) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:07:44.769-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:07:44.770-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:44.770-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:07:44.793-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:07:44.849-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:44.849-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:44.901-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:44.901-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:07:45.034-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.271 seconds
+[2022-11-02T16:08:15.372-0300] {processor.py:154} INFO - Started process (PID=18302) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:08:15.373-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:08:15.374-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:15.374-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:08:15.392-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:08:15.467-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:15.467-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:15.651-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:15.651-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:08:15.672-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.304 seconds
+[2022-11-02T16:08:46.042-0300] {processor.py:154} INFO - Started process (PID=18539) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:08:46.044-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:08:46.044-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:46.044-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:08:46.063-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:08:46.202-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:46.202-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:46.227-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:46.227-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:08:46.242-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.203 seconds
+[2022-11-02T16:09:17.488-0300] {processor.py:154} INFO - Started process (PID=18785) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:09:17.489-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:09:17.490-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:17.490-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:09:17.511-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:09:17.725-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:17.725-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:17.756-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:17.756-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:09:17.783-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.298 seconds
+[2022-11-02T16:09:48.578-0300] {processor.py:154} INFO - Started process (PID=19038) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:09:48.579-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:09:48.580-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.580-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:09:48.691-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:09:48.731-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.730-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:48.750-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.750-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:09:48.772-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.197 seconds
+[2022-11-02T16:10:19.143-0300] {processor.py:154} INFO - Started process (PID=19294) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:10:19.144-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:10:19.145-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.144-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:10:19.164-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:10:19.210-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.210-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:10:19.447-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.447-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:10:19.475-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.335 seconds
+[2022-11-02T16:11:10.640-0300] {processor.py:154} INFO - Started process (PID=19972) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:11:10.658-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:11:10.659-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:10.659-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:11:10.708-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:11:10.775-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:10.775-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:10.822-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:10.822-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:11:10.853-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.217 seconds
+[2022-11-02T16:11:41.505-0300] {processor.py:154} INFO - Started process (PID=20226) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:11:41.507-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:11:41.508-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.507-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:11:41.527-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:11:41.571-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.571-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:41.593-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.592-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:11:41.619-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.117 seconds
+[2022-11-02T16:12:12.531-0300] {processor.py:154} INFO - Started process (PID=20482) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:12:12.537-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:12:12.538-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.538-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:12:12.580-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:12:12.647-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.643-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:12.681-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.681-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:12:12.717-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.191 seconds
+[2022-11-02T16:12:43.511-0300] {processor.py:154} INFO - Started process (PID=20747) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:12:43.512-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:12:43.512-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.512-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:12:43.541-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:12:43.589-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.588-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:43.616-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.616-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:12:43.644-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.136 seconds
+[2022-11-02T16:13:20.452-0300] {processor.py:154} INFO - Started process (PID=21256) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:13:20.454-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:13:20.455-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.454-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:13:20.477-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:13:20.589-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.589-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:20.613-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.613-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:13:20.668-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.221 seconds
+[2022-11-02T16:13:50.764-0300] {processor.py:154} INFO - Started process (PID=21533) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:13:50.765-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:13:50.765-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.765-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:13:50.781-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:13:50.838-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.838-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:50.870-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.870-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:13:50.891-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.130 seconds
+[2022-11-02T16:14:22.432-0300] {processor.py:154} INFO - Started process (PID=21782) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:14:22.437-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:14:22.437-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.437-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:14:22.465-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:14:22.540-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.540-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:22.570-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.570-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:14:22.597-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.171 seconds
+[2022-11-02T16:14:53.091-0300] {processor.py:154} INFO - Started process (PID=22067) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:14:53.092-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:14:53.093-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.092-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:14:53.126-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:14:53.186-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.186-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:53.224-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:53.224-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:14:53.256-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.173 seconds
+[2022-11-02T16:15:23.885-0300] {processor.py:154} INFO - Started process (PID=22323) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:15:23.887-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:15:23.887-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:23.887-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:15:23.904-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:15:23.952-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:23.952-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:23.972-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:23.972-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:15:23.990-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.108 seconds
+[2022-11-02T16:15:54.507-0300] {processor.py:154} INFO - Started process (PID=22575) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:15:54.507-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:15:54.508-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.508-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:15:54.526-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:15:54.580-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.580-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:54.607-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.607-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:15:54.629-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.125 seconds
+[2022-11-02T16:16:25.214-0300] {processor.py:154} INFO - Started process (PID=22821) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:16:25.215-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:16:25.216-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.215-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:16:25.237-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:16:25.280-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.280-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:25.302-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.302-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:16:25.320-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.109 seconds
+[2022-11-02T16:16:55.968-0300] {processor.py:154} INFO - Started process (PID=23076) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:16:55.969-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:16:55.969-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:55.969-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:16:56.019-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:16:56.115-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.115-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:56.154-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:56.153-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:16:56.173-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.212 seconds
+[2022-11-02T16:17:26.316-0300] {processor.py:154} INFO - Started process (PID=23324) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:17:26.317-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:17:26.318-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.318-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:17:26.346-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:17:26.391-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.391-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:26.415-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.415-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:17:26.436-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.124 seconds
+[2022-11-02T16:17:57.685-0300] {processor.py:154} INFO - Started process (PID=23571) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:17:57.687-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:17:57.687-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.687-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:17:57.706-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:17:57.757-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.757-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:57.781-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.781-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:17:57.802-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.120 seconds
+[2022-11-02T16:18:27.984-0300] {processor.py:154} INFO - Started process (PID=23819) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:18:27.985-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:18:27.985-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:27.985-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:18:28.005-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:18:28.052-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:28.052-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:28.076-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:28.076-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:18:28.103-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.123 seconds
+[2022-11-02T16:18:58.779-0300] {processor.py:154} INFO - Started process (PID=24078) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:18:58.780-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:18:58.781-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:58.781-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:18:58.800-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:18:58.879-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:58.879-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:58.924-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:58.924-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:18:58.961-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.195 seconds
+[2022-11-02T16:19:29.076-0300] {processor.py:154} INFO - Started process (PID=24344) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:19:29.077-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:19:29.078-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.078-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:19:29.099-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:19:29.144-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.144-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:19:29.248-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:29.247-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:19:29.268-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.195 seconds
+[2022-11-02T16:20:00.395-0300] {processor.py:154} INFO - Started process (PID=24607) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:20:00.397-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:20:00.397-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.397-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:20:00.416-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:20:00.494-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.494-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:00.612-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.612-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:20:00.655-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.263 seconds
+[2022-11-02T16:20:30.923-0300] {processor.py:154} INFO - Started process (PID=24901) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:20:30.930-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:20:30.931-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:30.931-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:20:30.966-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:20:31.202-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.202-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:31.220-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:31.220-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:20:31.243-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.325 seconds
+[2022-11-02T16:21:02.345-0300] {processor.py:154} INFO - Started process (PID=25286) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:21:02.346-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:21:02.346-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.346-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:21:02.363-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:21:02.563-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.563-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:02.582-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.582-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:21:02.604-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.262 seconds
+[2022-11-02T16:21:33.119-0300] {processor.py:154} INFO - Started process (PID=25726) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:21:33.121-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:21:33.122-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.122-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:21:33.138-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:21:33.189-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.188-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:33.297-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.297-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:21:33.318-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.201 seconds
+[2022-11-02T16:22:03.966-0300] {processor.py:154} INFO - Started process (PID=25987) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:22:03.975-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:22:03.975-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:03.975-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:22:03.993-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:22:04.036-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.036-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:04.157-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:04.157-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:22:04.207-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.250 seconds
+[2022-11-02T16:22:34.517-0300] {processor.py:154} INFO - Started process (PID=26254) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:22:34.519-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:22:34.520-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:34.520-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:22:34.535-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:22:34.726-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:34.726-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:34.746-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:34.746-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:22:34.801-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.287 seconds
+[2022-11-02T16:23:04.829-0300] {processor.py:154} INFO - Started process (PID=26499) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:23:04.831-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:23:04.831-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:04.831-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:23:04.848-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:23:04.984-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:04.984-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:05.001-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:05.001-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:23:05.019-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.193 seconds
+[2022-11-02T16:23:35.320-0300] {processor.py:154} INFO - Started process (PID=26800) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:23:35.321-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:23:35.322-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.322-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:23:35.341-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:23:35.387-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.387-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:35.511-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.511-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:23:35.537-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.220 seconds
+[2022-11-02T16:24:06.064-0300] {processor.py:154} INFO - Started process (PID=27143) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:24:06.075-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:24:06.077-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.077-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:24:06.105-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:24:06.217-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.216-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:06.369-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.369-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:24:06.398-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.338 seconds
+[2022-11-02T16:24:36.579-0300] {processor.py:154} INFO - Started process (PID=27401) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:24:36.581-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:24:36.581-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.581-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:24:36.601-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:24:36.740-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.739-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:36.758-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.758-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:24:36.785-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.209 seconds
+[2022-11-02T16:25:07.771-0300] {processor.py:154} INFO - Started process (PID=27651) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:25:07.772-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:25:07.773-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:07.773-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:25:07.803-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:25:07.988-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:07.988-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:08.017-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:08.017-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:25:08.049-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.281 seconds
+[2022-11-02T16:25:38.662-0300] {processor.py:154} INFO - Started process (PID=27919) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:25:38.664-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:25:38.665-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:38.664-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:25:38.686-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:25:38.741-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:38.740-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:38.970-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:38.970-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:25:39.009-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.350 seconds
+[2022-11-02T16:26:09.662-0300] {processor.py:154} INFO - Started process (PID=28183) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:26:09.673-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:26:09.678-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:09.677-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:26:09.709-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:26:09.780-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:09.779-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:09.986-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:09.985-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:26:10.015-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.357 seconds
+[2022-11-02T16:26:40.347-0300] {processor.py:154} INFO - Started process (PID=28438) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:26:40.349-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:26:40.349-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.349-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:26:40.368-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:26:40.542-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.542-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:40.567-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.567-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:26:40.591-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.248 seconds
+[2022-11-02T16:27:11.587-0300] {processor.py:154} INFO - Started process (PID=28817) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:27:11.591-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:27:11.591-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:11.591-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:27:11.645-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:27:11.914-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:11.914-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:11.932-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:11.931-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:27:11.954-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.370 seconds
+[2022-11-02T16:27:42.577-0300] {processor.py:154} INFO - Started process (PID=29190) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:27:42.578-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:27:42.580-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:42.579-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:27:42.773-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:27:42.829-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:42.829-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:42.850-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:42.850-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:27:42.891-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.318 seconds
+[2022-11-02T16:28:13.394-0300] {processor.py:154} INFO - Started process (PID=29617) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:28:13.396-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:28:13.397-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.397-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:28:13.431-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:28:13.499-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.499-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:13.646-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.645-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:28:13.674-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.284 seconds
+[2022-11-02T16:28:43.991-0300] {processor.py:154} INFO - Started process (PID=29994) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:28:43.992-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:28:43.993-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:43.993-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:28:44.014-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:28:44.195-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.195-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:44.238-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:44.238-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:28:44.269-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.283 seconds
+[2022-11-02T16:29:14.968-0300] {processor.py:154} INFO - Started process (PID=30356) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:29:14.970-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:29:14.970-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:14.970-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:29:14.994-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:29:15.339-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:15.339-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:15.410-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:15.410-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:29:15.472-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.518 seconds
+[2022-11-02T16:29:48.179-0300] {processor.py:154} INFO - Started process (PID=30714) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:29:48.182-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:29:48.184-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:48.184-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:29:48.669-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:29:48.761-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:48.761-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:48.787-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:48.786-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:29:48.843-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.670 seconds
+[2022-11-02T16:30:19.194-0300] {processor.py:154} INFO - Started process (PID=31040) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:30:19.195-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:30:19.196-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:19.195-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:30:19.215-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:30:19.360-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:19.360-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:19.668-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:19.668-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:30:19.714-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.525 seconds
+[2022-11-02T16:30:50.664-0300] {processor.py:154} INFO - Started process (PID=31441) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:30:50.670-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:30:50.673-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:50.673-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:30:50.728-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:30:50.944-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:50.943-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:50.966-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:50.966-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:30:50.997-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.338 seconds
+[2022-11-02T16:31:21.881-0300] {processor.py:154} INFO - Started process (PID=31789) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:31:21.883-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:31:21.885-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:21.885-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:31:21.908-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:31:22.061-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:22.061-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:22.088-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:22.088-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:31:22.116-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.242 seconds
+[2022-11-02T16:31:52.260-0300] {processor.py:154} INFO - Started process (PID=32116) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:31:52.262-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:31:52.262-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.262-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:31:52.394-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:31:52.441-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.441-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:52.462-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:52.462-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:31:52.502-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.248 seconds
+[2022-11-02T16:32:23.094-0300] {processor.py:154} INFO - Started process (PID=32454) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:32:23.095-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:32:23.099-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.098-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:32:23.140-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:32:23.217-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.217-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:23.357-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:23.357-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:32:23.397-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.309 seconds
+[2022-11-02T16:32:53.823-0300] {processor.py:154} INFO - Started process (PID=32788) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:32:53.831-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:32:53.832-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:53.831-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:32:53.860-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:32:54.009-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:54.009-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:54.027-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:54.027-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:32:54.048-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.229 seconds
+[2022-11-02T16:33:25.218-0300] {processor.py:154} INFO - Started process (PID=33146) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:33:25.223-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:33:25.225-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.225-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:33:25.266-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:33:25.541-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.540-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:25.619-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.619-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:33:25.682-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.468 seconds
+[2022-11-02T16:33:55.997-0300] {processor.py:154} INFO - Started process (PID=33485) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:33:56.001-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:33:56.002-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.001-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:33:56.105-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:33:56.153-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.153-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:56.174-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:56.174-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:33:56.191-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.197 seconds
+[2022-11-02T16:34:26.503-0300] {processor.py:154} INFO - Started process (PID=33833) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:34:26.507-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:34:26.510-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.507-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:34:26.559-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:34:26.653-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.652-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:34:26.702-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.702-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:34:26.729-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.229 seconds
+[2022-11-02T16:35:02.794-0300] {processor.py:154} INFO - Started process (PID=34438) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:35:02.798-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:35:02.799-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:02.799-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:35:02.933-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:35:03.036-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.035-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:03.125-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:03.125-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:35:03.155-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.368 seconds
+[2022-11-02T16:35:37.905-0300] {processor.py:154} INFO - Started process (PID=34771) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:35:37.907-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:35:37.934-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:37.934-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:35:38.012-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:35:38.218-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:38.218-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:38.292-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:38.292-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:35:38.390-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.500 seconds
+[2022-11-02T16:36:08.952-0300] {processor.py:154} INFO - Started process (PID=35190) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:36:08.953-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:36:08.953-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:08.953-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:36:08.975-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:36:09.030-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.030-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:09.047-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:09.047-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:36:09.092-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.143 seconds
+[2022-11-02T16:36:39.219-0300] {processor.py:154} INFO - Started process (PID=35511) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:36:39.222-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:36:39.223-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.223-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:36:39.247-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:36:39.340-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.339-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:39.364-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:39.364-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:36:39.395-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.180 seconds
+[2022-11-02T16:37:09.549-0300] {processor.py:154} INFO - Started process (PID=35841) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:37:09.551-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:37:09.552-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:09.551-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:37:09.575-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:37:09.623-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:09.623-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:09.650-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:09.649-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:37:09.677-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.132 seconds
+[2022-11-02T16:37:39.794-0300] {processor.py:154} INFO - Started process (PID=36256) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:37:39.797-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:37:39.801-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:39.801-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:37:39.834-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:37:39.913-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:39.913-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:39.952-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:39.951-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:37:40.003-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.212 seconds
+[2022-11-02T16:38:11.725-0300] {processor.py:154} INFO - Started process (PID=36687) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:38:11.728-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:38:11.738-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:11.737-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:38:11.798-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:38:11.912-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:11.912-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:11.952-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:11.952-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:38:11.992-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.273 seconds
+[2022-11-02T16:38:42.056-0300] {processor.py:154} INFO - Started process (PID=37097) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:38:42.057-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:38:42.058-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.057-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:38:42.079-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:38:42.187-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.187-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:42.223-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:42.223-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:38:42.263-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.211 seconds
+[2022-11-02T16:39:13.352-0300] {processor.py:154} INFO - Started process (PID=37544) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:39:13.359-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:39:13.359-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.359-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:39:13.377-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:39:13.441-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.440-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:13.464-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.464-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:39:13.491-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.142 seconds
+[2022-11-02T16:39:44.164-0300] {processor.py:154} INFO - Started process (PID=37903) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:39:44.168-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:39:44.168-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.168-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:39:44.189-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:39:44.232-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.232-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:44.254-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:44.253-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:39:44.291-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.130 seconds
+[2022-11-02T16:40:15.430-0300] {processor.py:154} INFO - Started process (PID=38184) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:40:15.433-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:40:15.434-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:15.434-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:40:15.465-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:40:15.557-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:15.556-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:15.614-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:15.614-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:40:15.658-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.232 seconds
+[2022-11-02T16:40:45.953-0300] {processor.py:154} INFO - Started process (PID=38600) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:40:45.955-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:40:45.955-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:45.955-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:40:46.110-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:40:46.297-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:46.297-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:46.490-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:46.490-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:40:46.558-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.646 seconds
+[2022-11-02T16:41:17.613-0300] {processor.py:154} INFO - Started process (PID=38963) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:41:17.634-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:41:17.635-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:17.635-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:41:17.652-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:41:17.692-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:17.692-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:17.822-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:17.822-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:41:17.857-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.251 seconds
+[2022-11-02T16:41:49.141-0300] {processor.py:154} INFO - Started process (PID=39320) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:41:49.154-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-11-02T16:41:49.154-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:49.154-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:41:49.204-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-11-02T16:41:49.408-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:49.408-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:49.760-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:49.760-0300] {dag.py:3336} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-11-02T16:41:49.819-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.683 seconds

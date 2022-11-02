@@ -47,3 +47,633 @@
 [2022-11-02T05:44:31.428-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:31.428-0300] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-02T05:44:31.448-0300] {logging_mixin.py:120} INFO - [2022-11-02T05:44:31.448-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T08:44:31.447913+00:00, run_after=2022-11-02T08:44:31.447913+00:00
 [2022-11-02T05:44:31.471-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.124 seconds
+[2022-11-02T15:55:22.623-0300] {processor.py:154} INFO - Started process (PID=11972) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:55:22.639-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:55:22.639-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:22.639-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:55:22.654-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:55:22.700-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:22.699-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:22.728-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:22.727-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:55:22.726921+00:00, run_after=2022-11-02T18:55:22.726921+00:00
+[2022-11-02T15:55:22.756-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.136 seconds
+[2022-11-02T15:55:54.086-0300] {processor.py:154} INFO - Started process (PID=12317) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:55:54.092-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:55:54.092-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.092-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:55:54.107-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:55:54.175-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.175-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:55:54.206-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:55:54.206-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:55:54.206299+00:00, run_after=2022-11-02T18:55:54.206299+00:00
+[2022-11-02T15:55:54.293-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.209 seconds
+[2022-11-02T15:56:25.194-0300] {processor.py:154} INFO - Started process (PID=12612) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:56:25.199-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:56:25.203-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.203-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:56:25.223-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:56:25.329-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.329-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:25.384-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:25.384-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:56:25.383689+00:00, run_after=2022-11-02T18:56:25.383689+00:00
+[2022-11-02T15:56:25.423-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.233 seconds
+[2022-11-02T15:56:56.313-0300] {processor.py:154} INFO - Started process (PID=12856) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:56:56.316-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:56:56.316-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.316-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:56:56.328-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:56:56.387-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.386-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:56:56.414-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:56:56.414-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:56:56.414135+00:00, run_after=2022-11-02T18:56:56.414135+00:00
+[2022-11-02T15:56:56.491-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.181 seconds
+[2022-11-02T15:57:27.628-0300] {processor.py:154} INFO - Started process (PID=13097) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:57:27.629-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:57:27.630-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.630-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:57:27.641-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:57:27.701-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.700-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:27.772-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:27.771-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:57:27.771706+00:00, run_after=2022-11-02T18:57:27.771706+00:00
+[2022-11-02T15:57:27.806-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.182 seconds
+[2022-11-02T15:57:58.542-0300] {processor.py:154} INFO - Started process (PID=13331) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:57:58.543-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:57:58.543-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.543-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:57:58.555-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:57:58.602-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.602-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:57:58.628-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:57:58.627-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:57:58.627657+00:00, run_after=2022-11-02T18:57:58.627657+00:00
+[2022-11-02T15:57:58.653-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds
+[2022-11-02T15:58:28.892-0300] {processor.py:154} INFO - Started process (PID=13559) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:58:28.895-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:58:28.896-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:28.896-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:58:28.914-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:58:28.970-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:28.970-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:28.994-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:28.994-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:58:28.994581+00:00, run_after=2022-11-02T18:58:28.994581+00:00
+[2022-11-02T15:58:29.027-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.140 seconds
+[2022-11-02T15:58:59.274-0300] {processor.py:154} INFO - Started process (PID=13788) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:58:59.274-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:58:59.275-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.275-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:58:59.290-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:58:59.341-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.341-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:58:59.367-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:58:59.367-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:58:59.367252+00:00, run_after=2022-11-02T18:58:59.367252+00:00
+[2022-11-02T15:58:59.395-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.126 seconds
+[2022-11-02T15:59:30.126-0300] {processor.py:154} INFO - Started process (PID=14015) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:59:30.127-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T15:59:30.127-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.127-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:59:30.140-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T15:59:30.185-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.185-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T15:59:30.207-0300] {logging_mixin.py:120} INFO - [2022-11-02T15:59:30.207-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T18:59:30.206941+00:00, run_after=2022-11-02T18:59:30.206941+00:00
+[2022-11-02T15:59:30.236-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds
+[2022-11-02T16:00:01.027-0300] {processor.py:154} INFO - Started process (PID=14241) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:00:01.029-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:00:01.030-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.029-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:00:01.045-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:00:01.107-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.107-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:01.133-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:01.133-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:00:01.132973+00:00, run_after=2022-11-02T19:00:01.132973+00:00
+[2022-11-02T16:00:01.162-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.138 seconds
+[2022-11-02T16:00:31.868-0300] {processor.py:154} INFO - Started process (PID=14495) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:00:31.869-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:00:31.870-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:31.869-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:00:31.882-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:00:31.931-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:31.930-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:00:31.949-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:00:31.949-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:00:31.949547+00:00, run_after=2022-11-02T19:00:31.949547+00:00
+[2022-11-02T16:00:31.971-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.106 seconds
+[2022-11-02T16:01:02.179-0300] {processor.py:154} INFO - Started process (PID=14739) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:01:02.180-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:01:02.180-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.180-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:01:02.190-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:01:02.232-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.232-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:02.251-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:02.251-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:01:02.251346+00:00, run_after=2022-11-02T19:01:02.251346+00:00
+[2022-11-02T16:01:02.272-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.096 seconds
+[2022-11-02T16:01:32.867-0300] {processor.py:154} INFO - Started process (PID=14974) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:01:32.868-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:01:32.869-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:32.869-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:01:32.880-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:01:32.927-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:32.927-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:01:32.952-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:01:32.952-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:01:32.952197+00:00, run_after=2022-11-02T19:01:32.952197+00:00
+[2022-11-02T16:01:33.089-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.226 seconds
+[2022-11-02T16:02:04.397-0300] {processor.py:154} INFO - Started process (PID=15231) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:02:04.398-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:02:04.399-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:04.398-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:02:04.410-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:02:04.459-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:04.459-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:04.568-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:04.567-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:02:04.567801+00:00, run_after=2022-11-02T19:02:04.567801+00:00
+[2022-11-02T16:02:04.588-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.194 seconds
+[2022-11-02T16:02:35.112-0300] {processor.py:154} INFO - Started process (PID=15484) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:02:35.115-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:02:35.116-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.116-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:02:35.136-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:02:35.348-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.348-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:02:35.368-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:02:35.368-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:02:35.368572+00:00, run_after=2022-11-02T19:02:35.368572+00:00
+[2022-11-02T16:02:35.392-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.282 seconds
+[2022-11-02T16:03:07.063-0300] {processor.py:154} INFO - Started process (PID=15818) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:03:07.064-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:03:07.064-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:07.064-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:03:07.127-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:03:07.364-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:07.364-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:07.385-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:07.385-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:03:07.384961+00:00, run_after=2022-11-02T19:03:07.384961+00:00
+[2022-11-02T16:03:07.424-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.364 seconds
+[2022-11-02T16:03:38.097-0300] {processor.py:154} INFO - Started process (PID=16072) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:03:38.099-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:03:38.100-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.099-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:03:38.111-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:03:38.154-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.154-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:03:38.173-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:03:38.172-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:03:38.172648+00:00, run_after=2022-11-02T19:03:38.172648+00:00
+[2022-11-02T16:03:38.275-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.181 seconds
+[2022-11-02T16:04:09.486-0300] {processor.py:154} INFO - Started process (PID=16313) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:04:09.487-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:04:09.487-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:09.487-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:04:09.500-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:04:09.555-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:09.555-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:09.715-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:09.715-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:04:09.715527+00:00, run_after=2022-11-02T19:04:09.715527+00:00
+[2022-11-02T16:04:09.748-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.265 seconds
+[2022-11-02T16:04:40.257-0300] {processor.py:154} INFO - Started process (PID=16556) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:04:40.258-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:04:40.258-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.258-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:04:40.272-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:04:40.317-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.317-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:04:40.417-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:04:40.417-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:04:40.417590+00:00, run_after=2022-11-02T19:04:40.417590+00:00
+[2022-11-02T16:04:40.436-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.183 seconds
+[2022-11-02T16:05:11.104-0300] {processor.py:154} INFO - Started process (PID=16807) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:05:11.105-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:05:11.106-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:11.106-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:05:11.130-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:05:11.359-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:11.359-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:11.383-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:11.382-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:05:11.382647+00:00, run_after=2022-11-02T19:05:11.382647+00:00
+[2022-11-02T16:05:11.405-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.309 seconds
+[2022-11-02T16:05:42.399-0300] {processor.py:154} INFO - Started process (PID=17059) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:05:42.400-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:05:42.401-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.401-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:05:42.413-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:05:42.463-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.463-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:05:42.503-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:05:42.503-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:05:42.503357+00:00, run_after=2022-11-02T19:05:42.503357+00:00
+[2022-11-02T16:05:42.628-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.232 seconds
+[2022-11-02T16:06:12.734-0300] {processor.py:154} INFO - Started process (PID=17309) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:06:12.735-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:06:12.736-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:12.735-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:06:12.762-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:06:12.874-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:12.874-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:13.111-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:13.110-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:06:13.110611+00:00, run_after=2022-11-02T19:06:13.110611+00:00
+[2022-11-02T16:06:13.192-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.462 seconds
+[2022-11-02T16:06:43.537-0300] {processor.py:154} INFO - Started process (PID=17565) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:06:43.539-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:06:43.539-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:43.539-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:06:43.576-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:06:43.645-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:43.645-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:06:43.808-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:06:43.808-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:06:43.807442+00:00, run_after=2022-11-02T19:06:43.807442+00:00
+[2022-11-02T16:06:43.844-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.317 seconds
+[2022-11-02T16:07:14.434-0300] {processor.py:154} INFO - Started process (PID=17807) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:07:14.435-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:07:14.435-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:14.435-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:07:14.448-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:07:14.594-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:14.594-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:14.613-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:14.612-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:07:14.612774+00:00, run_after=2022-11-02T19:07:14.612774+00:00
+[2022-11-02T16:07:14.631-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.200 seconds
+[2022-11-02T16:07:44.717-0300] {processor.py:154} INFO - Started process (PID=18049) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:07:44.719-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:07:44.719-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:44.719-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:07:44.732-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:07:44.922-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:44.921-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:07:44.951-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:07:44.951-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:07:44.951655+00:00, run_after=2022-11-02T19:07:44.951655+00:00
+[2022-11-02T16:07:44.994-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.288 seconds
+[2022-11-02T16:08:15.128-0300] {processor.py:154} INFO - Started process (PID=18294) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:08:15.129-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:08:15.129-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:15.129-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:08:15.141-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:08:15.191-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:15.191-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:15.309-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:15.309-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:08:15.309513+00:00, run_after=2022-11-02T19:08:15.309513+00:00
+[2022-11-02T16:08:15.326-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.201 seconds
+[2022-11-02T16:08:46.020-0300] {processor.py:154} INFO - Started process (PID=18534) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:08:46.021-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:08:46.022-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:46.022-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:08:46.038-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:08:46.081-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:46.081-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:08:46.196-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:08:46.195-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:08:46.195714+00:00, run_after=2022-11-02T19:08:46.195714+00:00
+[2022-11-02T16:08:46.226-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.209 seconds
+[2022-11-02T16:09:17.471-0300] {processor.py:154} INFO - Started process (PID=18782) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:09:17.473-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:09:17.474-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:17.474-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:09:17.486-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:09:17.723-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:17.723-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:17.754-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:17.754-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:09:17.754292+00:00, run_after=2022-11-02T19:09:17.754292+00:00
+[2022-11-02T16:09:17.778-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.311 seconds
+[2022-11-02T16:09:48.341-0300] {processor.py:154} INFO - Started process (PID=19026) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:09:48.343-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:09:48.343-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.343-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:09:48.355-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:09:48.498-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.498-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:09:48.530-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:09:48.529-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:09:48.529791+00:00, run_after=2022-11-02T19:09:48.529791+00:00
+[2022-11-02T16:09:48.551-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.213 seconds
+[2022-11-02T16:10:18.851-0300] {processor.py:154} INFO - Started process (PID=19284) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:10:18.852-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:10:18.853-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:18.853-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:10:18.865-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:10:18.925-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:18.924-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:10:19.082-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:10:19.082-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:10:18.950606+00:00, run_after=2022-11-02T19:10:18.950606+00:00
+[2022-11-02T16:10:19.111-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.263 seconds
+[2022-11-02T16:11:10.069-0300] {processor.py:154} INFO - Started process (PID=19960) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:11:10.071-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:11:10.071-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:10.071-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:11:10.118-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:11:10.251-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:10.251-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:10.378-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:10.378-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:11:10.377754+00:00, run_after=2022-11-02T19:11:10.377754+00:00
+[2022-11-02T16:11:10.457-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.391 seconds
+[2022-11-02T16:11:41.367-0300] {processor.py:154} INFO - Started process (PID=20216) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:11:41.375-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:11:41.375-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.375-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:11:41.390-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:11:41.440-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.440-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:11:41.460-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:11:41.459-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:11:41.459705+00:00, run_after=2022-11-02T19:11:41.459705+00:00
+[2022-11-02T16:11:41.480-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2022-11-02T16:12:12.317-0300] {processor.py:154} INFO - Started process (PID=20472) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:12:12.318-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:12:12.319-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.319-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:12:12.339-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:12:12.424-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.424-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:12.452-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:12.452-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:12:12.451931+00:00, run_after=2022-11-02T19:12:12.451931+00:00
+[2022-11-02T16:12:12.480-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.173 seconds
+[2022-11-02T16:12:43.356-0300] {processor.py:154} INFO - Started process (PID=20737) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:12:43.357-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:12:43.358-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.357-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:12:43.370-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:12:43.443-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.442-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:12:43.463-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:12:43.463-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:12:43.463154+00:00, run_after=2022-11-02T19:12:43.463154+00:00
+[2022-11-02T16:12:43.484-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.132 seconds
+[2022-11-02T16:13:20.129-0300] {processor.py:154} INFO - Started process (PID=21244) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:13:20.138-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:13:20.141-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.140-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:13:20.160-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:13:20.271-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.270-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:20.337-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:20.334-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:13:20.334021+00:00, run_after=2022-11-02T19:13:20.334021+00:00
+[2022-11-02T16:13:20.411-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.285 seconds
+[2022-11-02T16:13:50.513-0300] {processor.py:154} INFO - Started process (PID=21514) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:13:50.514-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:13:50.514-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.514-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:13:50.537-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:13:50.614-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.614-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:13:50.655-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:13:50.654-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:13:50.654546+00:00, run_after=2022-11-02T19:13:50.654546+00:00
+[2022-11-02T16:13:50.706-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.196 seconds
+[2022-11-02T16:14:21.588-0300] {processor.py:154} INFO - Started process (PID=21768) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:14:21.593-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:14:21.595-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:21.594-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:14:21.616-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:14:21.926-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:21.926-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:22.146-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:22.135-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:14:22.133600+00:00, run_after=2022-11-02T19:14:22.133600+00:00
+[2022-11-02T16:14:22.300-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.719 seconds
+[2022-11-02T16:14:52.792-0300] {processor.py:154} INFO - Started process (PID=22040) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:14:52.793-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:14:52.794-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:52.794-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:14:52.824-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:14:52.960-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:52.960-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:14:52.992-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:14:52.991-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:14:52.991148+00:00, run_after=2022-11-02T19:14:52.991148+00:00
+[2022-11-02T16:14:53.024-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.242 seconds
+[2022-11-02T16:15:23.745-0300] {processor.py:154} INFO - Started process (PID=22310) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:15:23.747-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:15:23.747-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:23.747-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:15:23.760-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:15:23.811-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:23.811-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:23.834-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:23.833-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:15:23.833363+00:00, run_after=2022-11-02T19:15:23.833363+00:00
+[2022-11-02T16:15:23.861-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.120 seconds
+[2022-11-02T16:15:54.370-0300] {processor.py:154} INFO - Started process (PID=22563) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:15:54.371-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:15:54.372-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.372-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:15:54.385-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:15:54.431-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.431-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:15:54.457-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:15:54.457-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:15:54.457546+00:00, run_after=2022-11-02T19:15:54.457546+00:00
+[2022-11-02T16:15:54.475-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.109 seconds
+[2022-11-02T16:16:25.076-0300] {processor.py:154} INFO - Started process (PID=22809) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:16:25.077-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:16:25.078-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.077-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:16:25.091-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:16:25.138-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.138-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:25.160-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:25.160-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:16:25.159892+00:00, run_after=2022-11-02T19:16:25.159892+00:00
+[2022-11-02T16:16:25.186-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds
+[2022-11-02T16:16:55.582-0300] {processor.py:154} INFO - Started process (PID=23063) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:16:55.590-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:16:55.591-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:55.590-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:16:55.627-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:16:55.759-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:55.759-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:16:55.807-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:16:55.807-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:16:55.807387+00:00, run_after=2022-11-02T19:16:55.807387+00:00
+[2022-11-02T16:16:55.845-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.270 seconds
+[2022-11-02T16:17:26.148-0300] {processor.py:154} INFO - Started process (PID=23313) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:17:26.150-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:17:26.151-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.151-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:17:26.165-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:17:26.213-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.213-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:26.248-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:26.247-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:17:26.247436+00:00, run_after=2022-11-02T19:17:26.247436+00:00
+[2022-11-02T16:17:26.279-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.135 seconds
+[2022-11-02T16:17:57.363-0300] {processor.py:154} INFO - Started process (PID=23556) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:17:57.364-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:17:57.365-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.365-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:17:57.380-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:17:57.420-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.419-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:17:57.442-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:17:57.442-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:17:57.442529+00:00, run_after=2022-11-02T19:17:57.442529+00:00
+[2022-11-02T16:17:57.467-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.108 seconds
+[2022-11-02T16:18:27.640-0300] {processor.py:154} INFO - Started process (PID=23806) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:18:27.641-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:18:27.642-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:27.642-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:18:27.653-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:18:27.693-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:27.693-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:27.722-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:27.721-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:18:27.721242+00:00, run_after=2022-11-02T19:18:27.721242+00:00
+[2022-11-02T16:18:27.753-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2022-11-02T16:18:58.513-0300] {processor.py:154} INFO - Started process (PID=24067) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:18:58.514-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:18:58.515-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:58.515-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:18:58.567-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:18:58.624-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:58.624-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:18:58.646-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:18:58.646-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:18:58.646517+00:00, run_after=2022-11-02T19:18:58.646517+00:00
+[2022-11-02T16:18:58.681-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.170 seconds
+[2022-11-02T16:19:28.920-0300] {processor.py:154} INFO - Started process (PID=24338) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:19:28.920-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:19:28.921-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:28.921-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:19:28.932-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:19:28.978-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:28.978-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:19:28.998-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:19:28.998-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:19:28.998336+00:00, run_after=2022-11-02T19:19:28.998336+00:00
+[2022-11-02T16:19:29.117-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.200 seconds
+[2022-11-02T16:20:00.105-0300] {processor.py:154} INFO - Started process (PID=24594) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:20:00.106-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:20:00.107-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.107-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:20:00.129-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:20:00.181-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.181-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:00.340-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:00.340-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:20:00.340363+00:00, run_after=2022-11-02T19:20:00.340363+00:00
+[2022-11-02T16:20:00.357-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.254 seconds
+[2022-11-02T16:20:30.678-0300] {processor.py:154} INFO - Started process (PID=24889) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:20:30.679-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:20:30.679-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:30.679-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:20:30.694-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:20:30.834-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:30.834-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:20:30.850-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:20:30.850-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:20:30.849839+00:00, run_after=2022-11-02T19:20:30.849839+00:00
+[2022-11-02T16:20:30.867-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.191 seconds
+[2022-11-02T16:21:02.057-0300] {processor.py:154} INFO - Started process (PID=25274) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:21:02.059-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:21:02.060-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.060-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:21:02.077-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:21:02.247-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.247-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:02.270-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:02.270-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:21:02.270600+00:00, run_after=2022-11-02T19:21:02.270600+00:00
+[2022-11-02T16:21:02.284-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.232 seconds
+[2022-11-02T16:21:32.940-0300] {processor.py:154} INFO - Started process (PID=25720) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:21:32.941-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:21:32.942-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:32.942-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:21:32.953-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:21:32.996-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:32.996-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:21:33.014-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:21:33.014-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:21:33.013914+00:00, run_after=2022-11-02T19:21:33.013914+00:00
+[2022-11-02T16:21:33.128-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.191 seconds
+[2022-11-02T16:22:03.593-0300] {processor.py:154} INFO - Started process (PID=25974) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:22:03.596-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:22:03.598-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:03.598-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:22:03.609-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:22:03.666-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:03.666-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:03.813-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:03.813-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:22:03.813324+00:00, run_after=2022-11-02T19:22:03.813324+00:00
+[2022-11-02T16:22:03.867-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.281 seconds
+[2022-11-02T16:22:34.235-0300] {processor.py:154} INFO - Started process (PID=26245) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:22:34.236-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:22:34.237-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:34.237-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:22:34.248-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:22:34.444-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:34.444-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:22:34.461-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:22:34.461-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:22:34.461534+00:00, run_after=2022-11-02T19:22:34.461534+00:00
+[2022-11-02T16:22:34.485-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.253 seconds
+[2022-11-02T16:23:04.620-0300] {processor.py:154} INFO - Started process (PID=26491) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:23:04.621-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:23:04.622-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:04.622-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:23:04.635-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:23:04.773-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:04.772-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:04.789-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:04.788-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:23:04.788830+00:00, run_after=2022-11-02T19:23:04.788830+00:00
+[2022-11-02T16:23:04.802-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.185 seconds
+[2022-11-02T16:23:35.299-0300] {processor.py:154} INFO - Started process (PID=26795) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:23:35.300-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:23:35.301-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.301-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:23:35.313-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:23:35.355-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.355-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:23:35.376-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:23:35.376-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:23:35.376194+00:00, run_after=2022-11-02T19:23:35.376194+00:00
+[2022-11-02T16:23:35.494-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.198 seconds
+[2022-11-02T16:24:05.776-0300] {processor.py:154} INFO - Started process (PID=27136) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:24:05.777-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:24:05.778-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:05.778-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:24:05.790-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:24:05.844-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:05.844-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:06.009-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:06.008-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:24:06.008587+00:00, run_after=2022-11-02T19:24:06.008587+00:00
+[2022-11-02T16:24:06.088-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.315 seconds
+[2022-11-02T16:24:36.361-0300] {processor.py:154} INFO - Started process (PID=27393) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:24:36.363-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:24:36.364-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.363-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:24:36.376-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:24:36.505-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.505-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:24:36.527-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:24:36.527-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:24:36.527514+00:00, run_after=2022-11-02T19:24:36.527514+00:00
+[2022-11-02T16:24:36.551-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.194 seconds
+[2022-11-02T16:25:07.367-0300] {processor.py:154} INFO - Started process (PID=27642) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:25:07.369-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:25:07.373-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:07.372-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:25:07.394-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:25:07.667-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:07.667-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:07.698-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:07.698-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:25:07.698511+00:00, run_after=2022-11-02T19:25:07.698511+00:00
+[2022-11-02T16:25:07.721-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.358 seconds
+[2022-11-02T16:25:38.320-0300] {processor.py:154} INFO - Started process (PID=27907) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:25:38.321-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:25:38.322-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:38.322-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:25:38.483-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:25:38.538-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:38.537-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:25:38.566-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:25:38.566-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:25:38.566006+00:00, run_after=2022-11-02T19:25:38.566006+00:00
+[2022-11-02T16:25:38.600-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.286 seconds
+[2022-11-02T16:26:09.294-0300] {processor.py:154} INFO - Started process (PID=28171) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:26:09.295-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:26:09.296-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:09.296-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:26:09.308-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:26:09.356-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:09.356-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:09.530-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:09.530-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:26:09.530282+00:00, run_after=2022-11-02T19:26:09.530282+00:00
+[2022-11-02T16:26:09.615-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.325 seconds
+[2022-11-02T16:26:40.101-0300] {processor.py:154} INFO - Started process (PID=28425) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:26:40.101-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:26:40.102-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.102-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:26:40.115-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:26:40.160-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.159-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:26:40.293-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:26:40.292-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:26:40.292712+00:00, run_after=2022-11-02T19:26:40.292712+00:00
+[2022-11-02T16:26:40.322-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.225 seconds
+[2022-11-02T16:27:11.156-0300] {processor.py:154} INFO - Started process (PID=28802) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:27:11.158-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:27:11.161-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:11.160-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:27:11.184-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:27:11.489-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:11.489-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:11.511-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:11.511-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:27:11.511376+00:00, run_after=2022-11-02T19:27:11.511376+00:00
+[2022-11-02T16:27:11.530-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.377 seconds
+[2022-11-02T16:27:42.043-0300] {processor.py:154} INFO - Started process (PID=29177) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:27:42.046-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:27:42.047-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:42.046-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:27:42.365-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:27:42.426-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:42.426-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:27:42.459-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:27:42.459-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:27:42.458677+00:00, run_after=2022-11-02T19:27:42.458677+00:00
+[2022-11-02T16:27:42.514-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.488 seconds
+[2022-11-02T16:28:13.119-0300] {processor.py:154} INFO - Started process (PID=29605) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:28:13.121-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:28:13.121-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.121-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:28:13.137-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:28:13.187-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.187-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:13.315-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:13.314-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:28:13.314689+00:00, run_after=2022-11-02T19:28:13.314689+00:00
+[2022-11-02T16:28:13.349-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.232 seconds
+[2022-11-02T16:28:43.676-0300] {processor.py:154} INFO - Started process (PID=29981) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:28:43.677-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:28:43.677-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:43.677-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:28:43.694-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:28:43.785-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:43.785-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:28:43.904-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:28:43.903-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:28:43.903634+00:00, run_after=2022-11-02T19:28:43.903634+00:00
+[2022-11-02T16:28:43.943-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.272 seconds
+[2022-11-02T16:29:14.284-0300] {processor.py:154} INFO - Started process (PID=30344) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:29:14.286-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:29:14.286-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:14.286-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:29:14.326-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:29:14.693-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:14.693-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:14.828-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:14.827-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:29:14.827690+00:00, run_after=2022-11-02T19:29:14.827690+00:00
+[2022-11-02T16:29:14.907-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.633 seconds
+[2022-11-02T16:29:47.353-0300] {processor.py:154} INFO - Started process (PID=30700) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:29:47.357-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:29:47.361-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:47.360-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:29:47.470-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:29:48.020-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:48.020-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:29:48.050-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:29:48.050-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:29:48.049823+00:00, run_after=2022-11-02T19:29:48.049823+00:00
+[2022-11-02T16:29:48.097-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.752 seconds
+[2022-11-02T16:30:18.423-0300] {processor.py:154} INFO - Started process (PID=31026) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:30:18.425-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:30:18.426-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:18.425-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:30:18.456-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:30:18.624-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:18.624-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:18.763-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:18.763-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:30:18.763252+00:00, run_after=2022-11-02T19:30:18.763252+00:00
+[2022-11-02T16:30:18.827-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.408 seconds
+[2022-11-02T16:30:49.263-0300] {processor.py:154} INFO - Started process (PID=31422) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:30:49.264-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:30:49.264-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:49.264-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:30:49.292-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:30:49.429-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:49.429-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:30:49.607-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:30:49.607-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:30:49.606911+00:00, run_after=2022-11-02T19:30:49.606911+00:00
+[2022-11-02T16:30:49.629-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.372 seconds
+[2022-11-02T16:31:20.640-0300] {processor.py:154} INFO - Started process (PID=31775) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:31:20.642-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:31:20.643-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:20.642-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:31:20.657-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:31:20.793-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:20.793-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:20.811-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:20.811-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:31:20.811278+00:00, run_after=2022-11-02T19:31:20.811278+00:00
+[2022-11-02T16:31:20.836-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.201 seconds
+[2022-11-02T16:31:51.003-0300] {processor.py:154} INFO - Started process (PID=32102) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:31:51.004-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:31:51.004-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:51.004-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:31:51.021-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:31:51.187-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:51.187-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:31:51.205-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:31:51.204-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:31:51.204476+00:00, run_after=2022-11-02T19:31:51.204476+00:00
+[2022-11-02T16:31:51.224-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.227 seconds
+[2022-11-02T16:32:21.779-0300] {processor.py:154} INFO - Started process (PID=32440) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:32:21.783-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:32:21.784-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:21.784-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:32:21.796-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:32:21.853-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:21.853-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:21.896-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:21.896-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:32:21.895942+00:00, run_after=2022-11-02T19:32:21.895942+00:00
+[2022-11-02T16:32:22.042-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.266 seconds
+[2022-11-02T16:32:52.818-0300] {processor.py:154} INFO - Started process (PID=32775) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:32:52.820-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:32:52.832-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:52.832-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:32:52.860-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:32:53.134-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:53.133-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:32:53.731-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:32:53.731-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:32:53.730892+00:00, run_after=2022-11-02T19:32:53.730892+00:00
+[2022-11-02T16:32:53.791-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.978 seconds
+[2022-11-02T16:33:24.634-0300] {processor.py:154} INFO - Started process (PID=33136) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:33:24.641-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:33:24.641-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:24.641-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:33:24.654-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:33:25.058-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.057-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:25.101-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:25.101-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:33:25.101031+00:00, run_after=2022-11-02T19:33:25.101031+00:00
+[2022-11-02T16:33:25.140-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.513 seconds
+[2022-11-02T16:33:55.749-0300] {processor.py:154} INFO - Started process (PID=33474) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:33:55.750-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:33:55.752-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:55.752-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:33:55.766-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:33:55.893-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:55.893-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:33:55.911-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:33:55.911-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:33:55.911354+00:00, run_after=2022-11-02T19:33:55.911354+00:00
+[2022-11-02T16:33:55.969-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.224 seconds
+[2022-11-02T16:34:26.219-0300] {processor.py:154} INFO - Started process (PID=33823) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:34:26.226-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:34:26.226-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.226-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:34:26.244-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:34:26.296-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.296-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:34:26.342-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:34:26.341-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:34:26.340614+00:00, run_after=2022-11-02T19:34:26.340614+00:00
+[2022-11-02T16:34:26.409-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.309 seconds
+[2022-11-02T16:35:02.363-0300] {processor.py:154} INFO - Started process (PID=34426) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:35:02.366-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:35:02.367-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:02.367-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:35:02.381-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:35:02.417-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:02.416-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:02.475-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:02.475-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:35:02.475258+00:00, run_after=2022-11-02T19:35:02.475258+00:00
+[2022-11-02T16:35:02.520-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.159 seconds
+[2022-11-02T16:35:36.547-0300] {processor.py:154} INFO - Started process (PID=34761) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:35:36.550-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:35:36.551-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:36.551-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:35:36.587-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:35:36.968-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:36.968-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:35:37.186-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:35:37.186-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:35:37.186307+00:00, run_after=2022-11-02T19:35:37.186307+00:00
+[2022-11-02T16:35:37.642-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.115 seconds
+[2022-11-02T16:36:07.927-0300] {processor.py:154} INFO - Started process (PID=35182) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:36:07.928-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:36:07.929-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:07.928-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:36:07.941-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:36:07.987-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:07.987-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:08.006-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:08.006-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:36:08.005495+00:00, run_after=2022-11-02T19:36:08.005495+00:00
+[2022-11-02T16:36:08.020-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.098 seconds
+[2022-11-02T16:36:38.069-0300] {processor.py:154} INFO - Started process (PID=35503) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:36:38.071-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:36:38.071-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:38.071-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:36:38.084-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:36:38.128-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:38.128-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:36:38.148-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:36:38.148-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:36:38.148601+00:00, run_after=2022-11-02T19:36:38.148601+00:00
+[2022-11-02T16:36:38.175-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.109 seconds
+[2022-11-02T16:37:08.471-0300] {processor.py:154} INFO - Started process (PID=35833) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:37:08.477-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:37:08.479-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:08.478-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:37:08.500-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:37:08.575-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:08.575-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:08.612-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:08.612-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:37:08.612055+00:00, run_after=2022-11-02T19:37:08.612055+00:00
+[2022-11-02T16:37:08.656-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.195 seconds
+[2022-11-02T16:37:39.486-0300] {processor.py:154} INFO - Started process (PID=36250) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:37:39.489-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:37:39.493-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:39.492-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:37:39.506-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:37:39.597-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:39.597-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:37:39.651-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:37:39.651-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:37:39.651253+00:00, run_after=2022-11-02T19:37:39.651253+00:00
+[2022-11-02T16:37:39.707-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.224 seconds
+[2022-11-02T16:38:11.450-0300] {processor.py:154} INFO - Started process (PID=36675) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:38:11.453-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:38:11.454-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:11.454-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:38:11.472-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:38:11.543-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:11.543-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:11.570-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:11.570-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:38:11.569993+00:00, run_after=2022-11-02T19:38:11.569993+00:00
+[2022-11-02T16:38:11.643-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.196 seconds
+[2022-11-02T16:38:41.848-0300] {processor.py:154} INFO - Started process (PID=37087) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:38:41.849-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:38:41.850-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:41.850-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:38:41.863-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:38:41.912-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:41.912-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:38:41.962-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:38:41.962-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:38:41.962448+00:00, run_after=2022-11-02T19:38:41.962448+00:00
+[2022-11-02T16:38:42.008-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.166 seconds
+[2022-11-02T16:39:13.201-0300] {processor.py:154} INFO - Started process (PID=37534) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:39:13.203-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:39:13.207-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.206-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:39:13.224-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:39:13.268-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.268-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:13.293-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:13.291-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:39:13.289157+00:00, run_after=2022-11-02T19:39:13.289157+00:00
+[2022-11-02T16:39:13.328-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.130 seconds
+[2022-11-02T16:39:43.796-0300] {processor.py:154} INFO - Started process (PID=37828) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:39:43.799-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:39:43.800-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:43.799-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:39:43.811-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:39:43.871-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:43.871-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:39:43.903-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:39:43.903-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:39:43.903014+00:00, run_after=2022-11-02T19:39:43.903014+00:00
+[2022-11-02T16:39:43.963-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.170 seconds
+[2022-11-02T16:40:14.808-0300] {processor.py:154} INFO - Started process (PID=38167) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:40:14.810-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:40:14.811-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:14.811-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:40:14.868-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:40:14.940-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:14.940-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:14.968-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:14.968-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:40:14.968350+00:00, run_after=2022-11-02T19:40:14.968350+00:00
+[2022-11-02T16:40:15.040-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.235 seconds
+[2022-11-02T16:40:45.573-0300] {processor.py:154} INFO - Started process (PID=38586) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:40:45.588-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:40:45.597-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:45.595-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:40:45.625-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:40:45.702-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:45.702-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:40:45.730-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:40:45.730-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:40:45.730220+00:00, run_after=2022-11-02T19:40:45.730220+00:00
+[2022-11-02T16:40:45.773-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.203 seconds
+[2022-11-02T16:41:16.318-0300] {processor.py:154} INFO - Started process (PID=38949) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:41:16.319-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:41:16.320-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:16.320-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:41:16.332-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:41:16.390-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:16.389-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:16.426-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:16.426-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:41:16.426199+00:00, run_after=2022-11-02T19:41:16.426199+00:00
+[2022-11-02T16:41:16.581-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.267 seconds
+[2022-11-02T16:41:47.898-0300] {processor.py:154} INFO - Started process (PID=39305) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:41:47.940-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-11-02T16:41:47.941-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:47.941-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:41:48.030-0300] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2022-11-02T16:41:48.446-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:48.441-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T16:41:49.019-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:49.019-0300] {dag.py:3336} INFO - Setting next_dagrun for tutorial to 2022-11-01T19:41:49.019407+00:00, run_after=2022-11-02T19:41:49.019407+00:00
+[2022-11-02T16:41:49.059-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 1.184 seconds

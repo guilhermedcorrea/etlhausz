@@ -1,0 +1,29 @@
+[2022-11-02T16:38:09.434-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_urls_googleshopping.search_products manual__2022-11-02T19:38:05.972722+00:00 [queued]>
+[2022-11-02T16:38:09.452-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_urls_googleshopping.search_products manual__2022-11-02T19:38:05.972722+00:00 [queued]>
+[2022-11-02T16:38:09.452-0300] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-02T16:38:09.453-0300] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-02T16:38:09.453-0300] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-02T16:38:09.511-0300] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): search_products> on 2022-11-02 19:38:05.972722+00:00
+[2022-11-02T16:38:09.539-0300] {standard_task_runner.py:55} INFO - Started process 36642 to run task
+[2022-11-02T16:38:09.568-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'get_urls_googleshopping', 'search_products', 'manual__2022-11-02T19:38:05.972722+00:00', '--job-id', '379', '--raw', '--subdir', 'DAGS_FOLDER/ETL_google_urls_sellers.py', '--cfg-path', '/tmp/tmp0vrn4sno']
+[2022-11-02T16:38:09.569-0300] {standard_task_runner.py:83} INFO - Job 379: Subtask search_products
+[2022-11-02T16:38:10.124-0300] {task_command.py:376} INFO - Running <TaskInstance: get_urls_googleshopping.search_products manual__2022-11-02T19:38:05.972722+00:00 [running]> on host debian
+[2022-11-02T16:38:10.610-0300] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_urls_googleshopping
+AIRFLOW_CTX_TASK_ID=search_products
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-02T19:38:05.972722+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-02T19:38:05.972722+00:00
+[2022-11-02T16:38:34.153-0300] {logging_mixin.py:120} INFO - {'URLGOOGLE': '/url?url=https://www.casasbahia.com.br/kit-3-arandelas-parede-industrial-luxo-garagem-preto-cobre-1544641867/p/1544641867%3Futm_medium%3DCpc%26utm_source%3Dgoogle_freelisting%26IdSku%3D1544641867%26idLojista%3D12231%26tipoLojista%3D3P&rct=j&q=&esrc=s&sa=U&ved=0ahUKEwiM3tXen5D7AhWJr5UCHTQ3DoIQ2SkIeA&usg=AOvVaw2Ly9S4OIbwDoNxHnDWLX1G', 'EAN': 7898588861426, 'NOMEPRODUTO': 'Arandela De Luz Indireta 42cm Reflex Alumínio Preto 110° Bivolt IP65 12W 600lm 3000K Fonte Integrada Stella', 'Marca': 'Stella', 'SKU': 'STH9740PTO/30', 'IDPRODUTO': 21172}
+[2022-11-02T16:38:44.613-0300] {logging_mixin.py:120} INFO - {'URLGOOGLE': '/shopping/product/10715140537365112965?hl=pt-BR&psb=1&q=7898588861433&oq=7898588861433&gs_lcp=Cgtwcm9kdWN0cy1jYxAMUC1YhQFg5QFoAXAAeACAAXOIAXOSAQMwLjGYAQCgAQGwAQC4AQE&sclient=products-cc&prds=eto:8386780841098642856_0,pid:10317975033133258417&sa=X&ved=0ahUKEwiwxdrnn5D7AhU-rJUCHa3eD7AQ8wIIeA', 'EAN': 7898588861433, 'NOMEPRODUTO': 'Arandela De Luz Indireta 72cm Reflex Alumínio Branco 110° Bivolt IP65 20W 1400lm 3000K Fonte Integrada Stella', 'Marca': 'Stella', 'SKU': 'STH9741BR/30', 'IDPRODUTO': 21173}
+[2022-11-02T16:38:54.703-0300] {logging_mixin.py:120} INFO - {'URLGOOGLE': '/shopping/product/5492189482020764585?hl=pt-BR&psb=1&q=7894693780577&oq=7894693780577&gs_lcp=Cgtwcm9kdWN0cy1jYxAMUBBYmAFglgJoAXAAeACAAYEBiAH9AZIBAzAuMpgBAKABAbABALgBAw&sclient=products-cc&prds=eto:307241664966858217_0,pid:3131388992332409494&sa=X&ved=0ahUKEwiar8_sn5D7AhWlpJUCHQjpCJAQ8wIIVQ', 'EAN': 7894693780577, 'NOMEPRODUTO': 'Cuba Quadrum 70 Com Acessórios Tramontina', 'Marca': 'Tramontina', 'SKU': '94000/153', 'IDPRODUTO': 36500}
+[2022-11-02T16:39:05.287-0300] {logging_mixin.py:120} INFO - {'URLGOOGLE': '/shopping/product/11100742181722197317?hl=pt-BR&psb=1&q=7894693783349&oq=7894693783349&gs_lcp=Cgtwcm9kdWN0cy1jYxAMUA1YnwFgpgJoAXAAeACAAYEBiAH8ApIBAzAuM5gBAKABAbABALgBAw&sclient=products-cc&prds=eto:11311602660876686264_0,pid:14600273719174780842&sa=X&ved=0ahUKEwiukcrxn5D7AhVUtJUCHcYxDiwQ8wIIVw', 'EAN': 7894693783349, 'NOMEPRODUTO': 'Cuba Retangular Inox 50x40cm Com Acessórios Tramontina', 'Marca': 'Tramontina', 'SKU': '94018/152', 'IDPRODUTO': 36502}
+[2022-11-02T16:39:14.245-0300] {logging_mixin.py:120} INFO - {'URLGOOGLE': '/shopping/product/1889666700259090478?hl=pt-BR&psb=1&q=7894693768322&oq=7894693768322&gs_lcp=Cgtwcm9kdWN0cy1jYxAMUBFYTGCTAWgBcAB4AIABAIgBAJIBAJgBAKABAbABAA&sclient=products-cc&prds=eto:6068787563258419254_0,pid:5598015852984271068&sa=X&ved=0ahUKEwij1vf1n5D7AhVgspUCHYVxC4wQ8wIIUg', 'EAN': 7894693768322, 'NOMEPRODUTO': 'Cuba Sobrepor Inox Smooth 1C 50 Plus Ex Tramontina', 'Marca': 'Tramontina', 'SKU': '93927/103', 'IDPRODUTO': 36503}
+[2022-11-02T16:39:23.153-0300] {logging_mixin.py:120} INFO - {'URLGOOGLE': '/shopping/product/18223507733980574744?hl=pt-BR&psb=1&q=7894693759313&oq=7894693759313&gs_lcp=Cgtwcm9kdWN0cy1jYxAMUBBYO2B4aAFwAHgAgAEAiAEAkgEAmAEAoAEBsAEA&sclient=products-cc&prds=eto:9664027533920572583_0,pid:16002622245444877078&sa=X&ved=0ahUKEwjls5b6n5D7AhUOrpUCHT6OB6EQ8wIIUA', 'EAN': 7894693759313, 'NOMEPRODUTO': 'Cuba Sobrepor Inox Quadrum 50x40cm 1C Tramontina', 'Marca': 'Tramontina', 'SKU': '93914/103', 'IDPRODUTO': 36504}
+[2022-11-02T16:39:23.174-0300] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-02T16:39:23.191-0300] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=get_urls_googleshopping, task_id=search_products, execution_date=20221102T193805, start_date=20221102T193809, end_date=20221102T193923
+[2022-11-02T16:39:23.211-0300] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-02T16:39:23.234-0300] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
