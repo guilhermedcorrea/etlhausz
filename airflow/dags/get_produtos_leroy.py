@@ -35,7 +35,8 @@ def scroll() -> None:
         lenOfPage = driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
         if lastCount==lenOfPage:
             match=True
-            
+
+
 lista_urls = []
 def paginacao():
     driver.implicitly_wait(7)

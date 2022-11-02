@@ -483,3 +483,313 @@
 [2022-11-02T16:41:50.513-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:41:50.513-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
 [2022-11-02T16:41:50.515-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
 [2022-11-02T16:41:50.539-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2022-11-02T16:42:21.081-0300] {processor.py:154} INFO - Started process (PID=39759) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:42:21.083-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:42:21.083-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:42:21.083-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:42:21.085-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:42:21.202-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.126 seconds
+[2022-11-02T16:42:52.942-0300] {processor.py:154} INFO - Started process (PID=40278) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:42:52.946-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:42:52.947-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:42:52.947-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:42:52.948-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:42:53.105-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.174 seconds
+[2022-11-02T16:43:23.693-0300] {processor.py:154} INFO - Started process (PID=40597) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:43:23.695-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:43:23.696-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:43:23.695-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:43:23.697-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:43:23.769-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.079 seconds
+[2022-11-02T16:43:54.177-0300] {processor.py:154} INFO - Started process (PID=40930) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:43:54.179-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:43:54.180-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:43:54.180-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:43:54.181-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:43:54.204-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2022-11-02T16:44:24.773-0300] {processor.py:154} INFO - Started process (PID=41249) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:44:24.773-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:44:24.774-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:44:24.774-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:44:24.775-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:44:24.823-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2022-11-02T16:44:55.227-0300] {processor.py:154} INFO - Started process (PID=41571) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:44:55.231-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:44:55.232-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:44:55.232-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:44:55.234-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:44:55.273-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.051 seconds
+[2022-11-02T16:45:25.359-0300] {processor.py:154} INFO - Started process (PID=41896) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:45:25.360-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:45:25.361-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:45:25.361-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:45:25.363-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:45:25.390-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2022-11-02T16:45:56.040-0300] {processor.py:154} INFO - Started process (PID=42220) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:45:56.042-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:45:56.042-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:45:56.042-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:45:56.044-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:45:56.074-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2022-11-02T16:46:28.121-0300] {processor.py:154} INFO - Started process (PID=42555) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:46:28.162-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:46:28.221-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:46:28.221-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:46:28.223-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:46:28.408-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.292 seconds
+[2022-11-02T16:46:59.778-0300] {processor.py:154} INFO - Started process (PID=42876) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:46:59.791-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:46:59.791-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:46:59.791-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:46:59.793-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:46:59.851-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.091 seconds
+[2022-11-02T16:47:30.586-0300] {processor.py:154} INFO - Started process (PID=43206) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:47:30.595-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:47:30.599-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:47:30.599-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:47:30.614-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:47:30.652-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.069 seconds
+[2022-11-02T16:48:01.672-0300] {processor.py:154} INFO - Started process (PID=43530) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:48:01.673-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:48:01.673-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:48:01.673-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:48:01.680-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:48:01.720-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2022-11-02T16:48:33.136-0300] {processor.py:154} INFO - Started process (PID=43857) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:48:33.138-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:48:33.140-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:48:33.139-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:48:33.144-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:48:33.180-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.051 seconds
+[2022-11-02T16:49:04.047-0300] {processor.py:154} INFO - Started process (PID=44175) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:49:04.048-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:49:04.049-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:49:04.049-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:49:04.050-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:49:04.078-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2022-11-02T16:49:34.886-0300] {processor.py:154} INFO - Started process (PID=44513) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:49:34.887-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:49:34.887-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:49:34.887-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:49:34.889-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:49:34.926-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2022-11-02T16:50:05.619-0300] {processor.py:154} INFO - Started process (PID=44833) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:50:05.624-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:50:05.624-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:50:05.624-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:50:05.627-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:50:05.664-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds
+[2022-11-02T16:50:36.864-0300] {processor.py:154} INFO - Started process (PID=45164) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:50:36.867-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:50:36.868-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:50:36.868-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:50:36.874-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:50:36.917-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2022-11-02T16:51:07.531-0300] {processor.py:154} INFO - Started process (PID=45495) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:51:07.532-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:51:07.533-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:51:07.533-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:51:07.535-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:51:07.563-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2022-11-02T16:51:38.005-0300] {processor.py:154} INFO - Started process (PID=45826) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:51:38.008-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:51:38.009-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:51:38.009-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:51:38.011-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:51:38.056-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.055 seconds
+[2022-11-02T16:52:09.021-0300] {processor.py:154} INFO - Started process (PID=46154) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:52:09.023-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:52:09.023-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:52:09.023-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:52:09.025-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:52:09.052-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2022-11-02T16:52:39.729-0300] {processor.py:154} INFO - Started process (PID=46484) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:52:39.731-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:52:39.731-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:52:39.731-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:52:39.733-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:52:39.793-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.069 seconds
+[2022-11-02T16:53:10.881-0300] {processor.py:154} INFO - Started process (PID=46826) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:53:10.883-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:53:10.883-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:53:10.883-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:53:10.885-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:53:10.908-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2022-11-02T16:53:41.604-0300] {processor.py:154} INFO - Started process (PID=47152) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:53:41.605-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:53:41.606-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:53:41.606-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:53:41.607-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:53:41.666-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.069 seconds
+[2022-11-02T16:54:11.927-0300] {processor.py:154} INFO - Started process (PID=47485) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:54:11.957-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:54:11.957-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:54:11.957-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:54:11.960-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:54:12.027-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.106 seconds
+[2022-11-02T16:54:43.859-0300] {processor.py:154} INFO - Started process (PID=47831) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:54:43.864-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:54:43.865-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:54:43.864-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:54:43.868-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:54:43.916-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.065 seconds
+[2022-11-02T16:55:14.235-0300] {processor.py:154} INFO - Started process (PID=48159) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:55:14.237-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:55:14.238-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:55:14.238-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:55:14.239-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:55:14.262-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2022-11-02T16:55:45.489-0300] {processor.py:154} INFO - Started process (PID=48499) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:55:45.492-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:55:45.497-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:55:45.497-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:55:45.500-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:55:45.568-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.096 seconds
+[2022-11-02T16:56:15.798-0300] {processor.py:154} INFO - Started process (PID=48830) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:56:15.800-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:56:15.803-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:56:15.802-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:56:15.804-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:56:15.834-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2022-11-02T16:56:46.639-0300] {processor.py:154} INFO - Started process (PID=49159) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:56:46.653-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:56:46.654-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:56:46.653-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:56:46.655-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:56:46.758-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.153 seconds
+[2022-11-02T16:57:17.046-0300] {processor.py:154} INFO - Started process (PID=49485) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:57:17.048-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:57:17.048-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:57:17.048-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:57:17.049-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:57:17.093-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.049 seconds
+[2022-11-02T16:57:48.085-0300] {processor.py:154} INFO - Started process (PID=49763) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:57:48.087-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:57:48.093-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:57:48.093-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:57:48.095-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:57:48.122-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-11-02T16:58:18.179-0300] {processor.py:154} INFO - Started process (PID=50084) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:58:18.180-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:58:18.181-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:58:18.181-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:58:18.182-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:58:18.231-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.055 seconds
+[2022-11-02T16:58:48.384-0300] {processor.py:154} INFO - Started process (PID=50403) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:58:48.388-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:58:48.388-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:58:48.388-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:58:48.391-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:58:48.467-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.086 seconds
+[2022-11-02T16:59:18.535-0300] {processor.py:154} INFO - Started process (PID=50734) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:59:18.543-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:59:18.559-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:59:18.547-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:59:18.560-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:59:18.609-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.077 seconds
+[2022-11-02T16:59:48.767-0300] {processor.py:154} INFO - Started process (PID=51066) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:59:48.769-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T16:59:48.770-0300] {logging_mixin.py:120} INFO - [2022-11-02T16:59:48.769-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:59:48.771-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T16:59:48.799-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2022-11-02T17:00:19.540-0300] {processor.py:154} INFO - Started process (PID=51462) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:00:19.542-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:00:19.543-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:00:19.543-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:00:19.544-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:00:19.592-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2022-11-02T17:00:50.136-0300] {processor.py:154} INFO - Started process (PID=51870) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:00:50.138-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:00:50.139-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:00:50.139-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:00:50.140-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:00:50.169-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2022-11-02T17:01:20.915-0300] {processor.py:154} INFO - Started process (PID=52267) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:01:20.916-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:01:20.917-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:01:20.916-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:01:20.918-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:01:20.953-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2022-11-02T17:01:51.322-0300] {processor.py:154} INFO - Started process (PID=52664) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:01:51.323-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:01:51.323-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:01:51.323-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:01:51.325-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:01:51.370-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2022-11-02T17:02:21.480-0300] {processor.py:154} INFO - Started process (PID=53072) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:02:21.481-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:02:21.482-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:02:21.482-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:02:21.484-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:02:21.512-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2022-11-02T17:02:51.768-0300] {processor.py:154} INFO - Started process (PID=53468) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:02:51.770-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:02:51.770-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:02:51.770-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:02:51.772-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:02:51.803-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2022-11-02T17:03:22.317-0300] {processor.py:154} INFO - Started process (PID=53871) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:03:22.319-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:03:22.319-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:03:22.319-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:03:22.322-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:03:22.348-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2022-11-02T17:03:52.670-0300] {processor.py:154} INFO - Started process (PID=54268) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:03:52.676-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:03:52.678-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:03:52.677-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:03:52.683-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:03:52.715-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.047 seconds
+[2022-11-02T17:04:24.575-0300] {processor.py:154} INFO - Started process (PID=54672) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:04:24.578-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:04:24.578-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:04:24.578-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:04:24.582-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:04:24.603-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2022-11-02T17:05:26.688-0300] {processor.py:154} INFO - Started process (PID=55201) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:05:26.689-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:05:26.690-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:05:26.690-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:05:26.695-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:05:26.740-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2022-11-02T17:06:21.731-0300] {processor.py:154} INFO - Started process (PID=55957) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:06:21.733-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:06:21.734-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:06:21.734-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:06:21.758-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:06:21.944-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.220 seconds
+[2022-11-02T17:07:34.540-0300] {processor.py:154} INFO - Started process (PID=56692) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:07:34.589-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:07:34.594-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:07:34.591-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:07:34.620-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:07:34.815-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.302 seconds
+[2022-11-02T17:08:22.814-0300] {processor.py:154} INFO - Started process (PID=57719) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:08:22.816-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:08:22.818-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:08:22.818-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:08:22.825-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:08:22.899-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.088 seconds
+[2022-11-02T17:08:53.512-0300] {processor.py:154} INFO - Started process (PID=58113) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:08:53.513-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:08:53.513-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:08:53.513-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:08:53.514-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:08:53.597-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.092 seconds
+[2022-11-02T17:09:25.348-0300] {processor.py:154} INFO - Started process (PID=58513) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:09:25.351-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:09:25.352-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:09:25.352-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:09:25.355-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:09:25.419-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.074 seconds
+[2022-11-02T17:09:58.311-0300] {processor.py:154} INFO - Started process (PID=58981) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:09:58.312-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:09:58.313-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:09:58.313-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:09:58.314-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:09:58.338-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2022-11-02T17:10:29.128-0300] {processor.py:154} INFO - Started process (PID=59386) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:10:29.130-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:10:29.130-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:10:29.130-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:10:29.132-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:10:29.153-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2022-11-02T17:11:00.199-0300] {processor.py:154} INFO - Started process (PID=59775) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:11:00.200-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:11:00.201-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:11:00.200-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:11:00.202-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:11:00.231-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2022-11-02T17:11:32.043-0300] {processor.py:154} INFO - Started process (PID=60172) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:11:32.045-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:11:32.046-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:11:32.046-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:11:32.048-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:11:32.139-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.099 seconds
+[2022-11-02T17:12:02.864-0300] {processor.py:154} INFO - Started process (PID=60563) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:12:02.865-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:12:02.866-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:12:02.865-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:12:02.872-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:12:02.914-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.066 seconds
+[2022-11-02T17:12:33.792-0300] {processor.py:154} INFO - Started process (PID=60953) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:12:33.795-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:12:33.796-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:12:33.796-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:12:33.798-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:12:33.825-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2022-11-02T17:13:06.490-0300] {processor.py:154} INFO - Started process (PID=61381) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:13:06.497-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:13:06.498-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:13:06.498-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:13:06.499-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:13:06.530-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.046 seconds
+[2022-11-02T17:13:37.345-0300] {processor.py:154} INFO - Started process (PID=61851) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:13:37.347-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:13:37.347-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:13:37.347-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:13:37.348-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:13:37.373-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2022-11-02T17:14:12.993-0300] {processor.py:154} INFO - Started process (PID=62330) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:14:12.995-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:14:12.996-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:14:12.995-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:14:12.997-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:14:13.024-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2022-11-02T17:14:44.347-0300] {processor.py:154} INFO - Started process (PID=62806) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:14:44.357-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:14:44.374-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:14:44.374-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:14:44.387-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:14:44.441-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.112 seconds
+[2022-11-02T17:15:16.620-0300] {processor.py:154} INFO - Started process (PID=63275) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:15:16.621-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:15:16.622-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:16.622-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:15:16.623-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:15:16.648-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2022-11-02T17:15:47.714-0300] {processor.py:154} INFO - Started process (PID=63745) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:15:47.729-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-11-02T17:15:47.730-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:47.730-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:15:47.732-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2022-11-02T17:15:47.808-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.098 seconds

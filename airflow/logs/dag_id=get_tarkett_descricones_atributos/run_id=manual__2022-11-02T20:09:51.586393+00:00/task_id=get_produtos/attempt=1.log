@@ -1,0 +1,23 @@
+[2022-11-02T17:09:54.964-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_tarkett_descricones_atributos.get_produtos manual__2022-11-02T20:09:51.586393+00:00 [queued]>
+[2022-11-02T17:09:55.223-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_tarkett_descricones_atributos.get_produtos manual__2022-11-02T20:09:51.586393+00:00 [queued]>
+[2022-11-02T17:09:55.223-0300] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-02T17:09:55.223-0300] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-02T17:09:55.223-0300] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-02T17:09:55.346-0300] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): get_produtos> on 2022-11-02 20:09:51.586393+00:00
+[2022-11-02T17:09:55.387-0300] {standard_task_runner.py:55} INFO - Started process 58862 to run task
+[2022-11-02T17:09:55.394-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'get_tarkett_descricones_atributos', 'get_produtos', 'manual__2022-11-02T20:09:51.586393+00:00', '--job-id', '381', '--raw', '--subdir', 'DAGS_FOLDER/ETL_tarkett_imagens.py', '--cfg-path', '/tmp/tmppe82thea']
+[2022-11-02T17:09:55.394-0300] {standard_task_runner.py:83} INFO - Job 381: Subtask get_produtos
+[2022-11-02T17:09:56.006-0300] {task_command.py:376} INFO - Running <TaskInstance: get_tarkett_descricones_atributos.get_produtos manual__2022-11-02T20:09:51.586393+00:00 [running]> on host debian
+[2022-11-02T17:09:56.132-0300] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_tarkett_descricones_atributos
+AIRFLOW_CTX_TASK_ID=get_produtos
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-02T20:09:51.586393+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-02T20:09:51.586393+00:00
+[2022-11-02T17:10:07.661-0300] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-02T17:10:07.703-0300] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=get_tarkett_descricones_atributos, task_id=get_produtos, execution_date=20221102T200951, start_date=20221102T200954, end_date=20221102T201007
+[2022-11-02T17:10:07.762-0300] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-02T17:10:07.790-0300] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,65 @@
+[2022-11-02T17:13:12.622-0300] {processor.py:154} INFO - Started process (PID=61396) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:13:12.623-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-02T17:13:12.623-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:13:12.623-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:13:13.823-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:13:13.846-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.227 seconds
+[2022-11-02T17:13:44.474-0300] {processor.py:154} INFO - Started process (PID=61865) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:13:44.475-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-02T17:13:44.476-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:13:44.476-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:13:45.561-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:13:45.583-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.112 seconds
+[2022-11-02T17:14:16.074-0300] {processor.py:154} INFO - Started process (PID=62343) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:14:16.075-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-02T17:14:16.076-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:14:16.075-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:14:16.744-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:14:16.781-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 0.712 seconds
+[2022-11-02T17:14:47.419-0300] {processor.py:154} INFO - Started process (PID=62815) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:14:47.420-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-02T17:14:47.421-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:14:47.421-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:14:48.442-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:14:48.461-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.045 seconds
+[2022-11-02T17:15:18.685-0300] {processor.py:154} INFO - Started process (PID=63286) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:15:18.686-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-02T17:15:18.687-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:18.686-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:15:19.715-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:15:19.721-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:15:19.811-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:19.810-0300] {manager.py:507} INFO - Created Permission View: can read on DAG:get_produtos_leroy
+[2022-11-02T17:15:19.818-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:19.818-0300] {manager.py:507} INFO - Created Permission View: can edit on DAG:get_produtos_leroy
+[2022-11-02T17:15:19.824-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:19.823-0300] {manager.py:507} INFO - Created Permission View: can delete on DAG:get_produtos_leroy
+[2022-11-02T17:15:19.824-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:19.824-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:15:19.833-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:19.833-0300] {dag.py:2606} INFO - Creating ORM DAG for get_produtos_leroy
+[2022-11-02T17:15:19.841-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:19.841-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-02T17:15:19.872-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.190 seconds
+[2022-11-02T17:15:50.898-0300] {processor.py:154} INFO - Started process (PID=63757) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:15:50.904-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-02T17:15:50.905-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:50.905-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:15:51.852-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:15:51.855-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:51.853-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/ETL_leroy.py", line 147, in <module>
+    leroy = get_produtos_leroy()
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 3454, in factory
+    f(**f_kwargs)
+  File "/home/debian/etlhausz/airflow/dags/ETL_leroy.py", line 145, in get_produtos_leroy
+    paginacao(produtos_leroy())
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 272, in __call__
+    op = self.operator_class(
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/decorators/python.py", line 53, in __init__
+    super().__init__(
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/decorators/base.py", line 180, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 3062, in bind
+    return self._bind(args, kwargs)
+  File "/usr/lib/python3.9/inspect.py", line 2983, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2022-11-02T17:15:51.855-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-02T17:15:51.887-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 0.994 seconds

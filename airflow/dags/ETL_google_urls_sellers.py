@@ -88,7 +88,7 @@ def get_urls_googleshopping() -> Any:
                     print(dict_item)
                 
         df = pd.DataFrame(lista_dicts)
-        df.to_excel('googleshoppingurls.xlsx')
+        df.to_excel('/home/debian/etlhausz/excelfiles/google_urls_coletados/googleshoppingurls.xlsx')
 
     search_products()
     

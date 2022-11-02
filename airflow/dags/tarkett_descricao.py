@@ -124,4 +124,4 @@ def get_produtos() -> Generator[list, None, None]:
     data = pd.DataFrame(lista_dicts)
     data.to_excel('descricao_tarkett.xlsx')
 
-    yield lista_dicts
+  
