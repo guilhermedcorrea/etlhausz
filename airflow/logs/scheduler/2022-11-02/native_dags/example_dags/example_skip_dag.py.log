@@ -1143,3 +1143,227 @@
 [2022-11-02T17:15:43.914-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:43.914-0300] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-02T17:15:43.933-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:15:43.933-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:15:43.933374+00:00, run_after=2022-11-02T20:15:43.933374+00:00
 [2022-11-02T17:15:43.955-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.208 seconds
+[2022-11-02T17:16:15.390-0300] {processor.py:154} INFO - Started process (PID=64074) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:16:15.392-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:16:15.392-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:15.392-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:16:15.405-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:16:15.535-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:15.534-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:16:15.553-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:15.552-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:16:15.552686+00:00, run_after=2022-11-02T20:16:15.552686+00:00
+[2022-11-02T17:16:15.573-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.185 seconds
+[2022-11-02T17:16:48.554-0300] {processor.py:154} INFO - Started process (PID=64703) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:16:48.560-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:16:48.561-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:48.561-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:16:48.588-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:16:48.645-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:48.645-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:16:48.665-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:48.665-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:16:48.664857+00:00, run_after=2022-11-02T20:16:48.664857+00:00
+[2022-11-02T17:16:48.787-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.251 seconds
+[2022-11-02T17:17:22.552-0300] {processor.py:154} INFO - Started process (PID=65531) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:17:22.553-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:17:22.554-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:22.554-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:17:22.568-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:17:22.608-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:22.608-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:17:22.626-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:22.626-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:17:22.626586+00:00, run_after=2022-11-02T20:17:22.626586+00:00
+[2022-11-02T17:17:22.641-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2022-11-02T17:17:53.546-0300] {processor.py:154} INFO - Started process (PID=66005) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:17:53.548-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:17:53.550-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:53.549-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:17:53.568-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:17:53.631-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:53.630-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:17:53.661-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:53.661-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:17:53.661089+00:00, run_after=2022-11-02T20:17:53.661089+00:00
+[2022-11-02T17:17:53.678-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.136 seconds
+[2022-11-02T17:18:24.198-0300] {processor.py:154} INFO - Started process (PID=66423) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:18:24.200-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:18:24.200-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:24.200-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:18:24.220-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:18:24.280-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:24.280-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:18:24.308-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:24.308-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:18:24.308457+00:00, run_after=2022-11-02T20:18:24.308457+00:00
+[2022-11-02T17:18:24.330-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.136 seconds
+[2022-11-02T17:18:55.118-0300] {processor.py:154} INFO - Started process (PID=66886) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:18:55.119-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:18:55.119-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:55.119-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:18:55.133-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:18:55.184-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:55.184-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:18:55.207-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:55.207-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:18:55.207371+00:00, run_after=2022-11-02T20:18:55.207371+00:00
+[2022-11-02T17:18:55.233-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.118 seconds
+[2022-11-02T17:19:27.023-0300] {processor.py:154} INFO - Started process (PID=67366) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:19:27.024-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:19:27.025-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:27.025-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:19:27.055-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:19:27.133-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:27.133-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:19:27.216-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:27.215-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:19:27.215404+00:00, run_after=2022-11-02T20:19:27.215404+00:00
+[2022-11-02T17:19:27.291-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.275 seconds
+[2022-11-02T17:19:58.335-0300] {processor.py:154} INFO - Started process (PID=67836) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:19:58.337-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:19:58.338-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:58.338-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:19:58.350-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:19:58.394-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:58.394-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:19:58.425-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:58.425-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:19:58.425471+00:00, run_after=2022-11-02T20:19:58.425471+00:00
+[2022-11-02T17:19:58.441-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.109 seconds
+[2022-11-02T17:20:30.498-0300] {processor.py:154} INFO - Started process (PID=68309) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:20:30.500-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:20:30.501-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:30.501-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:20:30.512-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:20:30.554-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:30.554-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:20:30.574-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:30.574-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:20:30.574577+00:00, run_after=2022-11-02T20:20:30.574577+00:00
+[2022-11-02T17:20:30.593-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.098 seconds
+[2022-11-02T17:21:02.887-0300] {processor.py:154} INFO - Started process (PID=68793) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:21:02.889-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:21:02.889-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:02.889-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:21:02.901-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:21:02.946-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:02.946-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:21:02.968-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:02.968-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:21:02.968181+00:00, run_after=2022-11-02T20:21:02.968181+00:00
+[2022-11-02T17:21:02.988-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.106 seconds
+[2022-11-02T17:21:35.351-0300] {processor.py:154} INFO - Started process (PID=69349) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:21:35.364-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:21:35.366-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:35.366-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:21:35.397-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:21:35.441-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:35.441-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:21:35.463-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:35.463-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:21:35.463238+00:00, run_after=2022-11-02T20:21:35.463238+00:00
+[2022-11-02T17:21:35.485-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.137 seconds
+[2022-11-02T17:22:07.047-0300] {processor.py:154} INFO - Started process (PID=69809) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:22:07.049-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:22:07.051-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:07.050-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:22:07.062-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:22:07.117-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:07.117-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:22:07.147-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:07.147-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:22:07.146478+00:00, run_after=2022-11-02T20:22:07.146478+00:00
+[2022-11-02T17:22:07.187-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.143 seconds
+[2022-11-02T17:22:38.256-0300] {processor.py:154} INFO - Started process (PID=70303) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:22:38.257-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:22:38.258-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:38.258-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:22:38.275-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:22:38.317-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:38.317-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:22:38.335-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:38.335-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:22:38.335439+00:00, run_after=2022-11-02T20:22:38.335439+00:00
+[2022-11-02T17:22:38.350-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.097 seconds
+[2022-11-02T17:23:09.874-0300] {processor.py:154} INFO - Started process (PID=70853) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:23:09.876-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:23:09.877-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:09.877-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:23:09.892-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:23:09.935-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:09.935-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:23:09.956-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:09.956-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:23:09.955855+00:00, run_after=2022-11-02T20:23:09.955855+00:00
+[2022-11-02T17:23:09.977-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.106 seconds
+[2022-11-02T17:23:41.556-0300] {processor.py:154} INFO - Started process (PID=71424) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:23:41.558-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:23:41.559-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:41.559-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:23:41.572-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:23:41.616-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:41.616-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:23:41.641-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:41.641-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:23:41.640846+00:00, run_after=2022-11-02T20:23:41.640846+00:00
+[2022-11-02T17:23:41.768-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.215 seconds
+[2022-11-02T17:24:12.803-0300] {processor.py:154} INFO - Started process (PID=71949) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:24:12.804-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:24:12.805-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:12.805-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:24:12.816-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:24:12.865-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:12.865-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:24:13.007-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:13.007-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:24:13.006996+00:00, run_after=2022-11-02T20:24:13.006996+00:00
+[2022-11-02T17:24:13.095-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.295 seconds
+[2022-11-02T17:24:44.932-0300] {processor.py:154} INFO - Started process (PID=72475) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:24:44.935-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:24:44.936-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:44.936-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:24:44.949-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:24:45.084-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:45.084-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:24:45.107-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:45.107-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:24:45.107087+00:00, run_after=2022-11-02T20:24:45.107087+00:00
+[2022-11-02T17:24:45.130-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.200 seconds
+[2022-11-02T17:25:16.834-0300] {processor.py:154} INFO - Started process (PID=73004) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:25:16.835-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:25:16.836-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:16.836-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:25:16.849-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:25:16.982-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:16.982-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:25:17.001-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:17.001-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:25:17.001437+00:00, run_after=2022-11-02T20:25:17.001437+00:00
+[2022-11-02T17:25:17.024-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.193 seconds
+[2022-11-02T17:25:48.214-0300] {processor.py:154} INFO - Started process (PID=73493) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:25:48.215-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:25:48.216-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:48.216-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:25:48.226-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:25:48.276-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:48.276-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:25:48.385-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:48.385-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:25:48.385501+00:00, run_after=2022-11-02T20:25:48.385501+00:00
+[2022-11-02T17:25:48.406-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.195 seconds
+[2022-11-02T17:26:18.832-0300] {processor.py:154} INFO - Started process (PID=73884) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:26:18.834-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:26:18.836-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:18.835-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:26:18.853-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:26:18.909-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:18.908-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:26:19.029-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:19.028-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:26:19.028740+00:00, run_after=2022-11-02T20:26:19.028740+00:00
+[2022-11-02T17:26:19.052-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.223 seconds
+[2022-11-02T17:26:49.310-0300] {processor.py:154} INFO - Started process (PID=74382) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:26:49.311-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:26:49.312-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:49.312-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:26:49.344-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:26:49.556-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:49.556-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:26:49.581-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:49.580-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:26:49.580684+00:00, run_after=2022-11-02T20:26:49.580684+00:00
+[2022-11-02T17:26:49.606-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.308 seconds
+[2022-11-02T17:27:19.890-0300] {processor.py:154} INFO - Started process (PID=74883) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:27:19.892-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T17:27:19.892-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:27:19.892-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:27:19.912-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T17:27:20.080-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:27:20.080-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:27:20.105-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:27:20.105-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T20:27:20.104819+00:00, run_after=2022-11-02T20:27:20.104819+00:00
+[2022-11-02T17:27:20.132-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.244 seconds
+[2022-11-02T18:16:33.671-0300] {processor.py:154} INFO - Started process (PID=75642) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:16:33.672-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:16:33.676-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:16:33.676-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:16:33.731-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:16:33.851-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:16:33.851-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:16:34.012-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:16:34.012-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:16:34.012584+00:00, run_after=2022-11-02T21:16:34.012584+00:00
+[2022-11-02T18:16:34.061-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.398 seconds
+[2022-11-02T18:17:04.409-0300] {processor.py:154} INFO - Started process (PID=75958) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:17:04.411-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:17:04.411-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:04.411-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:17:04.428-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:17:04.477-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:04.477-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:17:04.605-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:04.605-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:17:04.605181+00:00, run_after=2022-11-02T21:17:04.605181+00:00
+[2022-11-02T18:17:04.629-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.223 seconds
+[2022-11-02T18:17:36.640-0300] {processor.py:154} INFO - Started process (PID=76245) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:17:36.644-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:17:36.645-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:36.645-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:17:36.663-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:17:36.843-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:36.843-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:17:36.866-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:36.865-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:17:36.865713+00:00, run_after=2022-11-02T21:17:36.865713+00:00
+[2022-11-02T18:17:36.888-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.251 seconds
+[2022-11-02T18:18:08.504-0300] {processor.py:154} INFO - Started process (PID=76478) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:18:08.505-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:18:08.506-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:08.506-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:18:08.518-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:18:08.558-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:08.558-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:18:08.578-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:08.578-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:18:08.578106+00:00, run_after=2022-11-02T21:18:08.578106+00:00
+[2022-11-02T18:18:08.598-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.097 seconds
+[2022-11-02T18:18:39.302-0300] {processor.py:154} INFO - Started process (PID=76736) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:18:39.325-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:18:39.326-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:39.326-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:18:39.356-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:18:39.429-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:39.429-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:18:39.731-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:39.731-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:18:39.731362+00:00, run_after=2022-11-02T21:18:39.731362+00:00
+[2022-11-02T18:18:39.750-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.462 seconds
+[2022-11-02T18:19:10.787-0300] {processor.py:154} INFO - Started process (PID=77006) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:19:10.795-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:19:10.796-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:10.796-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:19:10.856-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:19:11.095-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:11.095-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:19:11.550-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:11.549-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:19:11.549715+00:00, run_after=2022-11-02T21:19:11.549715+00:00
+[2022-11-02T18:19:11.580-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.823 seconds
+[2022-11-02T18:19:43.777-0300] {processor.py:154} INFO - Started process (PID=77334) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:19:43.780-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:19:43.782-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:43.781-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:19:43.804-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:19:44.109-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:44.109-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:19:44.140-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:44.139-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:19:44.139376+00:00, run_after=2022-11-02T21:19:44.139376+00:00
+[2022-11-02T18:19:44.176-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.402 seconds
+[2022-11-02T18:20:15.138-0300] {processor.py:154} INFO - Started process (PID=77680) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:20:15.140-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:20:15.141-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:20:15.141-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:20:15.275-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:20:15.309-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:20:15.309-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:20:15.335-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:20:15.334-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:20:15.334694+00:00, run_after=2022-11-02T21:20:15.334694+00:00
+[2022-11-02T18:20:15.354-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.220 seconds
+[2022-11-02T18:21:22.627-0300] {processor.py:154} INFO - Started process (PID=78295) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:21:22.629-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:21:22.631-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:22.630-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:21:22.646-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:21:22.703-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:22.702-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:21:22.941-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:22.940-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:21:22.940655+00:00, run_after=2022-11-02T21:21:22.940655+00:00
+[2022-11-02T18:21:23.023-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.400 seconds
+[2022-11-02T18:21:53.793-0300] {processor.py:154} INFO - Started process (PID=78636) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:21:53.795-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-02T18:21:53.795-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:53.795-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:21:53.811-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-02T18:21:54.132-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:54.132-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:21:54.215-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:54.215-0300] {dag.py:3336} INFO - Setting next_dagrun for example_skip_dag to 2022-11-01T21:21:54.215364+00:00, run_after=2022-11-02T21:21:54.215364+00:00
+[2022-11-02T18:21:54.261-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.473 seconds

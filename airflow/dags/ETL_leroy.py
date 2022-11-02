@@ -56,9 +56,10 @@ postgres_conn_id='postgres_default'
 def get_produtos_leroy() -> Any:
     pg_hook = PostgresHook(postgres_conn_id=postgres_conn_id)
 
-    lista_urls = []
+    
     @task
     def paginacao():
+        lista_urls = []
         driver.implicitly_wait(7)
         for i in range(1,4):
             url = f'https://www.leroymerlin.com.br/search?term=tarkett&searchTerm=tarkett&searchType=default&page={i}'
@@ -72,10 +73,14 @@ def get_produtos_leroy() -> Any:
                     lista_urls.append(urls.get_attribute('href'))
             except:
                 print("error")
+        
+        return lista_urls
+
 
     @task
     def produtos_leroy():
         driver.implicitly_wait(7)
+        lista_urls = paginacao()
         for listas in lista_urls:
             try:
                 driver.get(listas)
@@ -141,8 +146,7 @@ def get_produtos_leroy() -> Any:
                 
             except:
                 pass
+
+    produtos_leroy()
     
-
-    paginacao(produtos_leroy())
-
 leroy = get_produtos_leroy()

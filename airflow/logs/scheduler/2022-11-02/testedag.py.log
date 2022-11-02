@@ -1014,3 +1014,251 @@
 [2022-11-02T17:16:14.686-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:14.686-0300] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-02T17:16:14.703-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:14.703-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
 [2022-11-02T17:16:14.725-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.224 seconds
+[2022-11-02T17:16:46.811-0300] {processor.py:154} INFO - Started process (PID=64656) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:16:46.812-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:16:46.813-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:46.813-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:16:46.878-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:16:46.897-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:16:47.170-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:47.170-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:16:47.227-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:16:47.227-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:16:47.305-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.500 seconds
+[2022-11-02T17:17:20.628-0300] {processor.py:154} INFO - Started process (PID=65413) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:17:20.636-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:17:20.639-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:20.639-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:17:20.804-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:17:20.811-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:17:20.925-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:20.920-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:17:21.056-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:21.056-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:17:21.105-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.481 seconds
+[2022-11-02T17:17:51.363-0300] {processor.py:154} INFO - Started process (PID=65823) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:17:51.365-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:17:51.368-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:51.368-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:17:51.443-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:17:51.450-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:17:51.488-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:51.488-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:17:51.519-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:17:51.518-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:17:51.534-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.174 seconds
+[2022-11-02T17:18:22.206-0300] {processor.py:154} INFO - Started process (PID=66226) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:18:22.207-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:18:22.208-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:22.208-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:18:22.273-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:18:22.279-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:18:22.320-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:22.320-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:18:22.339-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:22.338-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:18:22.366-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.165 seconds
+[2022-11-02T17:18:52.546-0300] {processor.py:154} INFO - Started process (PID=66692) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:18:52.548-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:18:52.549-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:52.548-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:18:52.619-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:18:52.630-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:18:52.680-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:52.680-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:18:52.703-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:18:52.703-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:18:52.737-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.195 seconds
+[2022-11-02T17:19:23.140-0300] {processor.py:154} INFO - Started process (PID=67169) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:19:23.141-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:19:23.142-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:23.141-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:19:23.197-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:19:23.205-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:19:23.245-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:23.245-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:19:23.264-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:23.264-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:19:23.289-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.152 seconds
+[2022-11-02T17:19:53.519-0300] {processor.py:154} INFO - Started process (PID=67637) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:19:53.527-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:19:53.527-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:53.527-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:19:53.582-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:19:53.589-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:19:53.630-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:53.630-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:19:53.650-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:19:53.650-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:19:53.670-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.155 seconds
+[2022-11-02T17:20:23.926-0300] {processor.py:154} INFO - Started process (PID=68109) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:20:23.928-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:20:23.928-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:23.928-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:20:24.038-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:20:24.044-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:20:24.099-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:24.099-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:20:24.147-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:24.147-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:20:24.168-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.245 seconds
+[2022-11-02T17:20:55.157-0300] {processor.py:154} INFO - Started process (PID=68600) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:20:55.159-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:20:55.159-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:55.159-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:20:55.212-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:20:55.219-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:20:55.259-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:55.259-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:20:55.312-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:20:55.312-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:20:55.357-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.203 seconds
+[2022-11-02T17:21:25.537-0300] {processor.py:154} INFO - Started process (PID=69152) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:21:25.541-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:21:25.542-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:25.541-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:21:25.719-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:21:25.737-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:21:25.826-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:25.826-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:21:25.854-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:25.853-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:21:25.873-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.342 seconds
+[2022-11-02T17:21:56.053-0300] {processor.py:154} INFO - Started process (PID=69617) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:21:56.060-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:21:56.061-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:56.060-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:21:56.125-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:21:56.132-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:21:56.169-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:56.169-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:21:56.189-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:21:56.188-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:21:56.209-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.159 seconds
+[2022-11-02T17:22:26.718-0300] {processor.py:154} INFO - Started process (PID=70084) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:22:26.744-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:22:26.749-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:26.749-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:22:26.820-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:22:26.827-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:22:26.937-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:26.937-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:22:27.089-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:27.089-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:22:27.152-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.440 seconds
+[2022-11-02T17:22:58.033-0300] {processor.py:154} INFO - Started process (PID=70596) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:22:58.039-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:22:58.040-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:58.040-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:22:58.096-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:22:58.102-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:22:58.256-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:58.256-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:22:58.279-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:22:58.279-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:22:58.293-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.263 seconds
+[2022-11-02T17:23:29.242-0300] {processor.py:154} INFO - Started process (PID=71197) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:23:29.246-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:23:29.248-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:29.248-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:23:29.342-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:23:29.349-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:23:29.491-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:29.490-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:23:29.522-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:29.522-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:23:29.627-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.394 seconds
+[2022-11-02T17:23:59.901-0300] {processor.py:154} INFO - Started process (PID=71736) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:23:59.902-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:23:59.903-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:23:59.903-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:24:00.049-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:24:00.054-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:24:00.113-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:00.112-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:24:00.132-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:00.131-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:24:00.146-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.249 seconds
+[2022-11-02T17:24:30.765-0300] {processor.py:154} INFO - Started process (PID=72243) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:24:30.772-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:24:30.772-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:30.772-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:24:30.940-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:24:30.945-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:24:31.008-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:31.008-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:24:31.042-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:24:31.042-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:24:31.067-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.306 seconds
+[2022-11-02T17:25:01.332-0300] {processor.py:154} INFO - Started process (PID=72794) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:25:01.334-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:25:01.334-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:01.334-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:25:01.504-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:25:01.516-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:25:01.566-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:01.566-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:25:01.588-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:01.588-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:25:01.608-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.280 seconds
+[2022-11-02T17:25:31.996-0300] {processor.py:154} INFO - Started process (PID=73288) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:25:31.998-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:25:31.999-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:31.999-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:25:32.056-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:25:32.063-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:25:32.201-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:32.201-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:25:32.221-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:25:32.221-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:25:32.256-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.264 seconds
+[2022-11-02T17:26:02.583-0300] {processor.py:154} INFO - Started process (PID=73830) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:26:02.593-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:26:02.594-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:02.594-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:26:02.846-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:26:03.379-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:26:03.711-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:03.711-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:26:03.768-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:03.766-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:26:03.855-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 1.275 seconds
+[2022-11-02T17:26:34.301-0300] {processor.py:154} INFO - Started process (PID=74297) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:26:34.303-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:26:34.305-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:34.305-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:26:34.455-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:26:34.464-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:26:34.503-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:34.503-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:26:34.540-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:26:34.540-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:26:34.595-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.299 seconds
+[2022-11-02T17:27:04.721-0300] {processor.py:154} INFO - Started process (PID=74786) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:27:04.757-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T17:27:04.757-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:27:04.757-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:27:05.161-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T17:27:05.172-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T17:27:05.242-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:27:05.241-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T17:27:05.262-0300] {logging_mixin.py:120} INFO - [2022-11-02T17:27:05.262-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T17:27:05.285-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.574 seconds
+[2022-11-02T18:16:31.422-0300] {processor.py:154} INFO - Started process (PID=75468) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:16:31.450-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:16:31.451-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:16:31.450-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:16:31.568-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:16:31.576-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:16:32.089-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:16:32.089-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:16:32.115-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:16:32.115-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:16:32.139-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.720 seconds
+[2022-11-02T18:17:03.018-0300] {processor.py:154} INFO - Started process (PID=75874) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:17:03.019-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:17:03.020-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:03.019-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:17:03.179-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:17:03.185-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:17:03.223-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:03.222-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:17:03.242-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:03.242-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:17:03.269-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.255 seconds
+[2022-11-02T18:17:35.103-0300] {processor.py:154} INFO - Started process (PID=76162) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:17:35.109-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:17:35.109-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:35.109-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:17:35.264-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:17:35.270-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:17:35.306-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:35.306-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:17:35.323-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:17:35.323-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:17:35.345-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.247 seconds
+[2022-11-02T18:18:06.391-0300] {processor.py:154} INFO - Started process (PID=76389) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:18:06.393-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:18:06.394-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:06.394-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:18:06.631-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:18:06.638-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:18:06.711-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:06.711-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:18:06.726-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:06.725-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:18:06.814-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.430 seconds
+[2022-11-02T18:18:37.521-0300] {processor.py:154} INFO - Started process (PID=76648) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:18:37.523-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:18:37.523-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:37.523-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:18:37.593-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:18:37.879-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:18:37.921-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:37.921-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:18:37.939-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:18:37.939-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:18:37.970-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.462 seconds
+[2022-11-02T18:19:08.386-0300] {processor.py:154} INFO - Started process (PID=76909) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:19:08.388-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:19:08.390-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:08.390-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:19:08.670-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:19:08.678-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:19:08.752-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:08.751-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:19:08.768-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:08.768-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:19:08.785-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.405 seconds
+[2022-11-02T18:19:39.612-0300] {processor.py:154} INFO - Started process (PID=77311) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:19:39.618-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:19:39.620-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:39.619-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:19:40.225-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:19:40.251-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:19:40.360-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:40.360-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:19:40.411-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:19:40.411-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:19:40.484-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.889 seconds
+[2022-11-02T18:20:11.274-0300] {processor.py:154} INFO - Started process (PID=77664) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:20:11.279-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:20:11.280-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:20:11.279-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:20:13.416-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:20:13.536-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:20:13.721-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:20:13.721-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:20:13.880-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:20:13.880-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:20:14.009-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 2.737 seconds
+[2022-11-02T18:21:16.833-0300] {processor.py:154} INFO - Started process (PID=78121) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:21:16.836-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:21:16.837-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:16.837-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:21:17.295-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:21:17.317-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:21:17.504-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:17.504-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:21:17.526-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:17.526-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:21:17.552-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.723 seconds
+[2022-11-02T18:21:47.684-0300] {processor.py:154} INFO - Started process (PID=78606) to work on /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:21:47.688-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/testedag.py for tasks to queue
+[2022-11-02T18:21:47.689-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:47.689-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:21:48.019-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-02T18:21:48.027-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_postgre_databases']) retrieved from /home/debian/etlhausz/airflow/dags/testedag.py
+[2022-11-02T18:21:48.067-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:48.066-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-02T18:21:48.085-0300] {logging_mixin.py:120} INFO - [2022-11-02T18:21:48.085-0300] {dag.py:3336} INFO - Setting next_dagrun for get_postgre_databases to None, run_after=None
+[2022-11-02T18:21:48.103-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/testedag.py took 0.423 seconds
