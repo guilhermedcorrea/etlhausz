@@ -1,0 +1,23 @@
+[2022-11-06T18:23:04.817-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: tutorial_taskflow_api.transform manual__2022-11-06T21:23:01.339730+00:00 [queued]>
+[2022-11-06T18:23:04.849-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: tutorial_taskflow_api.transform manual__2022-11-06T21:23:01.339730+00:00 [queued]>
+[2022-11-06T18:23:04.849-0300] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T18:23:04.849-0300] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-06T18:23:04.849-0300] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T18:23:04.868-0300] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2022-11-06 21:23:01.339730+00:00
+[2022-11-06T18:23:04.927-0300] {standard_task_runner.py:55} INFO - Started process 44779 to run task
+[2022-11-06T18:23:04.961-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'tutorial_taskflow_api', 'transform', 'manual__2022-11-06T21:23:01.339730+00:00', '--job-id', '442', '--raw', '--subdir', '/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api.py', '--cfg-path', '/tmp/tmpq3ivljwi']
+[2022-11-06T18:23:04.963-0300] {standard_task_runner.py:83} INFO - Job 442: Subtask transform
+[2022-11-06T18:23:05.585-0300] {task_command.py:376} INFO - Running <TaskInstance: tutorial_taskflow_api.transform manual__2022-11-06T21:23:01.339730+00:00 [running]> on host debian
+[2022-11-06T18:23:06.166-0300] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=tutorial_taskflow_api
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-06T21:23:01.339730+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-06T21:23:01.339730+00:00
+[2022-11-06T18:23:06.167-0300] {python.py:177} INFO - Done. Returned value was: {'total_order_value': 1236.7}
+[2022-11-06T18:23:06.384-0300] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=tutorial_taskflow_api, task_id=transform, execution_date=20221106T2***01, start_date=20221106T2***04, end_date=20221106T2***06
+[2022-11-06T18:23:06.477-0300] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-06T18:23:06.529-0300] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

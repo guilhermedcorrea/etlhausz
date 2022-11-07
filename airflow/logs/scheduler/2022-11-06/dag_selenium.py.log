@@ -1,0 +1,1463 @@
+[2022-11-06T20:26:12.398-0300] {processor.py:154} INFO - Started process (PID=23512) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:26:12.399-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:26:12.401-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:26:12.400-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:26:12.505-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:26:12.498-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 40, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:26:12.509-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:26:12.741-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.352 seconds
+[2022-11-06T20:26:43.556-0300] {processor.py:154} INFO - Started process (PID=24069) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:26:43.564-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:26:43.565-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:26:43.565-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:26:43.579-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:26:43.578-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 40, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:26:43.579-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:26:43.605-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.052 seconds
+[2022-11-06T20:27:13.660-0300] {processor.py:154} INFO - Started process (PID=24673) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:27:13.661-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:27:13.663-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:27:13.663-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:27:13.693-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:27:13.692-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 40, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:27:13.695-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:27:13.744-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.087 seconds
+[2022-11-06T20:27:44.372-0300] {processor.py:154} INFO - Started process (PID=25151) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:27:44.373-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:27:44.374-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:27:44.374-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:27:44.386-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:27:44.385-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 2, in <module>
+    from airflow.utils.dates import days_agor
+ImportError: cannot import name 'days_agor' from 'airflow.utils.dates' (/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/utils/dates.py)
+[2022-11-06T20:27:44.386-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:27:44.414-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.046 seconds
+[2022-11-06T20:28:14.965-0300] {processor.py:154} INFO - Started process (PID=25709) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:28:14.966-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:28:14.966-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:28:14.966-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:28:15.011-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:28:15.004-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 2, in <module>
+    from airflow.utils.dates import days_agor
+ImportError: cannot import name 'days_agor' from 'airflow.utils.dates' (/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/utils/dates.py)
+[2022-11-06T20:28:15.012-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:28:15.044-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.084 seconds
+[2022-11-06T20:28:45.733-0300] {processor.py:154} INFO - Started process (PID=26316) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:28:45.734-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:28:45.735-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:28:45.735-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:28:45.761-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:28:45.760-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:28:45.761-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:28:45.897-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.168 seconds
+[2022-11-06T20:29:04.809-0300] {processor.py:154} INFO - Started process (PID=26611) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:29:04.810-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:29:04.811-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:29:04.810-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:29:04.826-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:29:04.825-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:29:04.831-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:29:05.013-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.207 seconds
+[2022-11-06T20:29:35.178-0300] {processor.py:154} INFO - Started process (PID=27155) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:29:35.179-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:29:35.180-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:29:35.180-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:29:35.201-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:29:35.200-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:29:35.201-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:29:35.250-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.075 seconds
+[2022-11-06T20:30:05.797-0300] {processor.py:154} INFO - Started process (PID=27670) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:30:05.828-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:30:05.830-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:30:05.829-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:30:05.888-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:30:05.887-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:30:05.888-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:30:05.914-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.123 seconds
+[2022-11-06T20:30:36.073-0300] {processor.py:154} INFO - Started process (PID=28153) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:30:36.075-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:30:36.076-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:30:36.075-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:30:36.120-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:30:36.112-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 42, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:30:36.121-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:30:36.191-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.124 seconds
+[2022-11-06T20:31:07.982-0300] {processor.py:154} INFO - Started process (PID=28875) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:31:07.995-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:31:07.996-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:31:07.996-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:31:08.056-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:31:08.052-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 42, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:31:08.059-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:31:08.150-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.179 seconds
+[2022-11-06T20:31:38.546-0300] {processor.py:154} INFO - Started process (PID=29428) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:31:38.548-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:31:38.549-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:31:38.548-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:31:38.560-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:31:38.560-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 42, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:31:38.561-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:31:38.606-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.063 seconds
+[2022-11-06T20:32:09.047-0300] {processor.py:154} INFO - Started process (PID=30015) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:32:09.051-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:32:09.056-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:32:09.056-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:32:09.091-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:32:09.090-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:32:09.092-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:32:09.133-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.092 seconds
+[2022-11-06T20:32:39.527-0300] {processor.py:154} INFO - Started process (PID=30503) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:32:39.528-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:32:39.528-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:32:39.528-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:32:39.544-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:32:39.543-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:32:39.544-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:32:39.572-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.048 seconds
+[2022-11-06T20:33:09.661-0300] {processor.py:154} INFO - Started process (PID=31031) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:33:09.674-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:33:09.675-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:33:09.675-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:33:09.689-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:33:09.688-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:33:09.689-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:33:09.716-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.059 seconds
+[2022-11-06T20:33:39.933-0300] {processor.py:154} INFO - Started process (PID=31517) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:33:39.933-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:33:39.934-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:33:39.934-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:33:39.946-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:33:39.945-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:33:39.946-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:33:39.983-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.053 seconds
+[2022-11-06T20:34:10.602-0300] {processor.py:154} INFO - Started process (PID=32004) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:34:10.610-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:34:10.610-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:34:10.610-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:34:10.624-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:34:10.623-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:34:10.624-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:34:10.651-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.053 seconds
+[2022-11-06T20:34:40.883-0300] {processor.py:154} INFO - Started process (PID=32493) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:34:40.889-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:34:40.890-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:34:40.890-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:34:40.911-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:34:40.911-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:34:40.912-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:34:40.957-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.082 seconds
+[2022-11-06T20:35:11.291-0300] {processor.py:154} INFO - Started process (PID=32966) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:35:11.291-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:35:11.292-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:35:11.292-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:35:11.309-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:35:11.308-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:35:11.310-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:35:11.347-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.059 seconds
+[2022-11-06T20:35:41.786-0300] {processor.py:154} INFO - Started process (PID=33445) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:35:41.797-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:35:41.798-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:35:41.798-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:35:41.842-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:35:41.835-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:35:41.842-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:35:41.890-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.107 seconds
+[2022-11-06T20:36:12.050-0300] {processor.py:154} INFO - Started process (PID=34046) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:36:12.054-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:36:12.055-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:36:12.055-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:36:12.079-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:36:12.077-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:36:12.080-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:36:12.127-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.081 seconds
+[2022-11-06T20:36:42.296-0300] {processor.py:154} INFO - Started process (PID=34577) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:36:42.303-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:36:42.304-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:36:42.304-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:36:42.316-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:36:42.315-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:36:42.320-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:36:42.342-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.049 seconds
+[2022-11-06T20:37:12.816-0300] {processor.py:154} INFO - Started process (PID=35044) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:37:12.817-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:37:12.820-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:37:12.820-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:37:12.834-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:37:12.833-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:37:12.835-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:37:12.868-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.059 seconds
+[2022-11-06T20:37:43.318-0300] {processor.py:154} INFO - Started process (PID=35541) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:37:43.332-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:37:43.333-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:37:43.333-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:37:43.362-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:37:43.361-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:37:43.363-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:37:43.413-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.098 seconds
+[2022-11-06T20:38:13.598-0300] {processor.py:154} INFO - Started process (PID=36075) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:38:13.602-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:38:13.605-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:38:13.605-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:38:13.643-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:38:13.642-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:38:13.644-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:38:13.753-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.173 seconds
+[2022-11-06T20:38:44.834-0300] {processor.py:154} INFO - Started process (PID=36552) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:38:44.836-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:38:44.837-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:38:44.837-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:38:44.878-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:38:44.878-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:38:44.880-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:38:44.915-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.086 seconds
+[2022-11-06T20:39:15.603-0300] {processor.py:154} INFO - Started process (PID=37022) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:39:15.604-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:39:15.605-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:39:15.605-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:39:15.619-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:39:15.619-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:39:15.620-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:39:15.661-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.061 seconds
+[2022-11-06T20:39:45.876-0300] {processor.py:154} INFO - Started process (PID=37586) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:39:45.877-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:39:45.878-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:39:45.877-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:39:45.892-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:39:45.892-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:39:45.893-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:39:45.946-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.074 seconds
+[2022-11-06T20:40:16.312-0300] {processor.py:154} INFO - Started process (PID=38141) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:40:16.314-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:40:16.314-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:40:16.314-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:40:16.330-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:40:16.329-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:40:16.330-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:40:16.377-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.068 seconds
+[2022-11-06T20:40:46.411-0300] {processor.py:154} INFO - Started process (PID=38747) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:40:46.413-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:40:46.413-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:40:46.413-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:40:46.425-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:40:46.424-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:40:46.425-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:40:46.456-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.049 seconds
+[2022-11-06T20:41:17.284-0300] {processor.py:154} INFO - Started process (PID=39283) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:41:17.286-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:41:17.287-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:41:17.286-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:41:17.304-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:41:17.303-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:41:17.304-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:41:17.369-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.089 seconds
+[2022-11-06T20:41:48.061-0300] {processor.py:154} INFO - Started process (PID=39863) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:41:48.061-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:41:48.062-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:41:48.062-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:41:48.081-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:41:48.081-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:41:48.082-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:41:48.125-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.070 seconds
+[2022-11-06T20:42:18.408-0300] {processor.py:154} INFO - Started process (PID=40452) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:42:18.412-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:42:18.413-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:42:18.413-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:42:18.431-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:42:18.430-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:42:18.431-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:42:18.461-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.057 seconds
+[2022-11-06T20:42:49.548-0300] {processor.py:154} INFO - Started process (PID=41045) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:42:49.548-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:42:49.549-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:42:49.549-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:42:49.563-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:42:49.562-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:42:49.564-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:42:49.602-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.057 seconds
+[2022-11-06T20:43:19.682-0300] {processor.py:154} INFO - Started process (PID=41575) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:43:19.684-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:43:19.685-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:43:19.685-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:43:19.697-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:43:19.697-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:43:19.698-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:43:19.727-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.047 seconds
+[2022-11-06T20:43:50.303-0300] {processor.py:154} INFO - Started process (PID=42164) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:43:50.304-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:43:50.305-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:43:50.305-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:43:50.321-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:43:50.320-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:43:50.321-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:43:50.373-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.076 seconds
+[2022-11-06T20:44:20.431-0300] {processor.py:154} INFO - Started process (PID=42727) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:44:20.432-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:44:20.433-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:44:20.433-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:44:20.447-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:44:20.445-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 43, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:44:20.447-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:44:20.483-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.055 seconds
+[2022-11-06T20:44:50.983-0300] {processor.py:154} INFO - Started process (PID=43362) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:44:50.984-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:44:50.985-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:44:50.985-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:44:51.299-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:44:51.290-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 71, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "/usr/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.9/subprocess.py", line 1823, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\produtoshausz\\chromedriver\\chromedriver.exe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 29, in <module>
+    driver = webdriver.Chrome(options=options, executable_path=r"D:\produtoshausz\chromedriver\chromedriver.exe")
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 69, in __init__
+    super().__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 89, in __init__
+    self.service.start()
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'D:\produtoshausz\chromedriver\chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+[2022-11-06T20:44:51.300-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:44:51.326-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.347 seconds
+[2022-11-06T20:45:21.801-0300] {processor.py:154} INFO - Started process (PID=44000) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:45:21.805-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:45:21.805-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:45:21.805-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:45:22.202-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:45:22.199-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 71, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "/usr/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.9/subprocess.py", line 1823, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\produtoshausz\\chromedriver\\chromedriver.exe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 29, in <module>
+    driver = webdriver.Chrome(options=options, executable_path=r"D:\produtoshausz\chromedriver\chromedriver.exe")
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 69, in __init__
+    super().__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 89, in __init__
+    self.service.start()
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'D:\produtoshausz\chromedriver\chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+[2022-11-06T20:45:22.204-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:45:22.265-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.471 seconds
+[2022-11-06T20:45:50.756-0300] {processor.py:154} INFO - Started process (PID=44600) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:45:50.759-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:45:50.759-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:45:50.759-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:45:51.255-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:45:51.253-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 71, in start
+    self.process = subprocess.Popen(cmd, env=self.env,
+  File "/usr/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.9/subprocess.py", line 1823, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\produtoshausz\\chromedriver\\chromedriver.exe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 29, in <module>
+    driver = webdriver.Chrome(options=options, executable_path=r"D:\produtoshausz\chromedriver\chromedriver.exe")
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/chrome/webdriver.py", line 69, in __init__
+    super().__init__(DesiredCapabilities.CHROME['browserName'], "goog",
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/chromium/webdriver.py", line 89, in __init__
+    self.service.start()
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/selenium/webdriver/common/service.py", line 81, in start
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: 'D:\produtoshausz\chromedriver\chromedriver.exe' executable needs to be in PATH. Please see https://chromedriver.chromium.org/home
+[2022-11-06T20:45:51.255-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:45:51.346-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.595 seconds
+[2022-11-06T20:46:21.871-0300] {processor.py:154} INFO - Started process (PID=45162) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:46:21.874-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:46:21.875-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:46:21.875-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:46:25.391-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:46:25.369-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 67, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:46:25.392-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:46:25.511-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 3.644 seconds
+[2022-11-06T20:46:55.673-0300] {processor.py:154} INFO - Started process (PID=45909) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:46:55.674-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:46:55.675-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:46:55.675-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:46:57.655-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:46:57.646-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 67, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:46:57.660-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:46:57.737-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.067 seconds
+[2022-11-06T20:47:27.815-0300] {processor.py:154} INFO - Started process (PID=46639) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:47:27.817-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:47:27.817-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:47:27.817-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:47:30.747-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:47:30.743-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 67, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:47:30.757-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:47:30.869-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 3.057 seconds
+[2022-11-06T20:48:01.098-0300] {processor.py:154} INFO - Started process (PID=47264) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:48:01.100-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:48:01.101-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:48:01.100-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:48:02.648-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:48:02.647-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 71, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:48:02.648-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:48:02.778-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.693 seconds
+[2022-11-06T20:48:33.234-0300] {processor.py:154} INFO - Started process (PID=47847) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:48:33.237-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:48:33.237-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:48:33.237-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:48:34.410-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:48:34.405-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 71, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:48:34.411-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:48:34.477-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.249 seconds
+[2022-11-06T20:49:05.089-0300] {processor.py:154} INFO - Started process (PID=48425) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:49:05.096-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:49:05.096-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:49:05.096-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:49:06.079-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:49:06.077-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 71, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:49:06.079-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:49:06.117-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.032 seconds
+[2022-11-06T20:49:36.343-0300] {processor.py:154} INFO - Started process (PID=48986) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:49:36.350-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:49:36.351-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:49:36.350-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:49:37.467-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:49:37.465-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 71, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:49:37.467-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:49:37.515-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.175 seconds
+[2022-11-06T20:50:07.871-0300] {processor.py:154} INFO - Started process (PID=49540) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:50:07.874-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:50:07.874-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:50:07.874-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:50:09.006-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:50:09.005-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 73, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:50:09.007-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:50:09.038-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.170 seconds
+[2022-11-06T20:50:39.511-0300] {processor.py:154} INFO - Started process (PID=50144) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:50:39.516-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:50:39.517-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:50:39.517-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:50:40.965-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:50:40.965-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 73, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:50:40.966-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:50:41.061-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.557 seconds
+[2022-11-06T20:51:11.397-0300] {processor.py:154} INFO - Started process (PID=50822) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:51:11.397-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:51:11.398-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:51:11.398-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:51:12.369-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:51:12.368-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 73, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:51:12.370-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:51:12.395-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.001 seconds
+[2022-11-06T20:51:43.064-0300] {processor.py:154} INFO - Started process (PID=51469) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:51:43.066-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:51:43.066-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:51:43.066-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:51:44.037-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:51:44.036-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 73, in <module>
+    extract_task >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 81, in __rshift__
+    self.set_downstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/xcom_arg.py", line 149, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 230, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 193, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(_PythonDecoratedOperator): extract>, <Task(PythonOperator): transform>]
+[2022-11-06T20:51:44.037-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:51:44.062-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.001 seconds
+[2022-11-06T20:52:14.252-0300] {processor.py:154} INFO - Started process (PID=52154) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:52:14.269-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:52:14.272-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:52:14.272-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:52:15.831-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:52:15.830-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:52:15.831-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:52:15.891-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.663 seconds
+[2022-11-06T20:52:46.152-0300] {processor.py:154} INFO - Started process (PID=52813) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:52:46.156-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:52:46.158-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:52:46.158-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:52:48.037-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:52:48.037-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:52:48.038-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:52:48.098-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.953 seconds
+[2022-11-06T20:53:18.309-0300] {processor.py:154} INFO - Started process (PID=53368) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:53:18.317-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:53:18.318-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:53:18.318-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:53:19.324-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:53:19.323-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:53:19.324-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:53:19.354-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.048 seconds
+[2022-11-06T20:53:49.691-0300] {processor.py:154} INFO - Started process (PID=53972) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:53:49.717-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:53:49.725-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:53:49.725-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:53:51.416-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:53:51.415-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:53:51.416-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:53:51.438-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.779 seconds
+[2022-11-06T20:54:21.545-0300] {processor.py:154} INFO - Started process (PID=54530) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:54:21.557-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:54:21.559-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:54:21.558-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:54:22.741-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:54:22.740-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:54:22.741-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:54:22.783-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.253 seconds
+[2022-11-06T20:54:53.115-0300] {processor.py:154} INFO - Started process (PID=55095) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:54:53.117-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:54:53.118-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:54:53.118-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:54:54.168-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:54:54.167-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:54:54.168-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:54:54.195-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.083 seconds
+[2022-11-06T20:55:24.420-0300] {processor.py:154} INFO - Started process (PID=55658) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:55:24.421-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:55:24.423-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:55:24.422-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:55:25.405-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:55:25.405-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:55:25.406-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:55:25.435-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.018 seconds
+[2022-11-06T20:55:55.783-0300] {processor.py:154} INFO - Started process (PID=56199) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:55:55.785-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:55:55.785-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:55:55.785-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:55:56.944-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:55:56.943-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:55:56.944-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:55:56.968-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.196 seconds
+[2022-11-06T20:56:27.199-0300] {processor.py:154} INFO - Started process (PID=56767) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:56:27.201-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:56:27.201-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:56:27.201-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:56:28.286-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:56:28.282-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:56:28.286-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:56:28.317-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.123 seconds
+[2022-11-06T20:56:58.965-0300] {processor.py:154} INFO - Started process (PID=57322) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:56:58.966-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:56:58.973-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:56:58.972-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:57:00.063-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:57:00.062-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:57:00.064-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:57:00.104-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.142 seconds
+[2022-11-06T20:57:30.587-0300] {processor.py:154} INFO - Started process (PID=57945) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:57:30.589-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:57:30.590-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:57:30.589-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:57:31.748-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:57:31.747-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:57:31.748-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:57:31.775-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.196 seconds
+[2022-11-06T20:58:01.902-0300] {processor.py:154} INFO - Started process (PID=58539) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:58:01.909-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:58:01.910-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:58:01.910-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:58:02.886-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:58:02.885-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:58:02.887-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:58:02.913-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.014 seconds
+[2022-11-06T20:58:33.221-0300] {processor.py:154} INFO - Started process (PID=59214) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:58:33.226-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:58:33.227-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:58:33.226-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:58:34.419-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:58:34.417-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:58:34.422-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:58:34.467-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.252 seconds
+[2022-11-06T20:59:04.881-0300] {processor.py:154} INFO - Started process (PID=59807) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:59:04.888-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:59:04.888-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:59:04.888-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:59:05.815-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:59:05.814-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:59:05.815-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:59:05.836-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 0.958 seconds
+[2022-11-06T20:59:36.084-0300] {processor.py:154} INFO - Started process (PID=60386) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:59:36.091-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T20:59:36.091-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:59:36.091-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:59:37.169-0300] {logging_mixin.py:120} INFO - [2022-11-06T20:59:37.169-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T20:59:37.170-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T20:59:37.231-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.150 seconds

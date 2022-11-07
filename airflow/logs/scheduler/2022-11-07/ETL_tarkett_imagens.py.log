@@ -1,0 +1,520 @@
+[2022-11-06T21:00:19.951-0300] {processor.py:154} INFO - Started process (PID=61166) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:00:19.953-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:00:19.954-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:19.953-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:00:21.077-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:00:21.083-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:00:21.120-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:21.120-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:00:21.139-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:21.139-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:00:21.158-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.236 seconds
+[2022-11-06T21:00:51.320-0300] {processor.py:154} INFO - Started process (PID=61737) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:00:51.321-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:00:51.323-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:51.322-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:00:52.989-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:00:53.028-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:00:53.240-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:53.237-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:00:53.326-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:53.326-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:00:53.422-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 2.106 seconds
+[2022-11-06T21:01:23.693-0300] {processor.py:154} INFO - Started process (PID=62352) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:01:23.696-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:01:23.697-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:23.697-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:01:25.438-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:01:25.450-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:01:25.538-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:25.538-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:01:25.559-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:25.559-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:01:25.594-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.904 seconds
+[2022-11-06T21:01:56.398-0300] {processor.py:154} INFO - Started process (PID=62926) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:01:56.400-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:01:56.401-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:56.401-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:01:57.876-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:01:57.886-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:01:58.203-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:58.203-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:01:58.227-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:58.227-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:01:58.247-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.852 seconds
+[2022-11-06T21:02:28.827-0300] {processor.py:154} INFO - Started process (PID=63475) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:02:28.829-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:02:28.829-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:28.829-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:02:30.213-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:02:30.219-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:02:30.261-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:30.261-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:02:30.291-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:30.290-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:02:30.308-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.487 seconds
+[2022-11-06T21:03:00.514-0300] {processor.py:154} INFO - Started process (PID=64087) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:03:00.516-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:03:00.517-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:00.517-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:03:01.589-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:03:01.615-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:03:01.799-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:01.799-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:03:01.964-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:01.964-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:03:02.023-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.513 seconds
+[2022-11-06T21:03:32.801-0300] {processor.py:154} INFO - Started process (PID=64667) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:03:32.803-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:03:32.803-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:32.803-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:03:33.888-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:03:33.899-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:03:33.943-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:33.943-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:03:33.963-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:33.963-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:03:33.982-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.185 seconds
+[2022-11-06T21:04:04.244-0300] {processor.py:154} INFO - Started process (PID=65320) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:04:04.246-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T21:04:04.248-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:04.248-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:04:05.937-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:04:05.942-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T21:04:05.977-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:05.977-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:04:05.997-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:05.997-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T21:04:06.016-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.780 seconds
+[2022-11-06T22:01:32.939-0300] {processor.py:154} INFO - Started process (PID=4856) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:01:32.946-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:01:32.947-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.947-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:01:34.990-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:01:35.043-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:01:35.209-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:35.209-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:01:35.273-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:35.272-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:01:35.338-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 2.409 seconds
+[2022-11-06T22:02:05.605-0300] {processor.py:154} INFO - Started process (PID=5566) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:02:05.625-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:02:05.634-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:05.634-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:02:07.251-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:02:07.263-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:02:07.345-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:07.345-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:07.411-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:07.411-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:02:07.594-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.997 seconds
+[2022-11-06T22:02:38.266-0300] {processor.py:154} INFO - Started process (PID=6204) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:02:38.268-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:02:38.268-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:38.268-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:02:39.766-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:02:39.783-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:02:39.887-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:39.886-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:40.009-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:40.009-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:02:40.107-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.844 seconds
+[2022-11-06T22:03:10.297-0300] {processor.py:154} INFO - Started process (PID=6808) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:03:10.298-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:03:10.298-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:10.298-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:03:12.775-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:03:12.782-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:03:13.013-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:13.013-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:13.053-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:13.053-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:03:13.155-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 2.862 seconds
+[2022-11-06T22:03:43.888-0300] {processor.py:154} INFO - Started process (PID=7432) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:03:43.892-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:03:43.894-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:43.893-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:03:45.323-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:03:45.332-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:03:45.372-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:45.371-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:45.391-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:45.391-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:03:45.408-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.535 seconds
+[2022-11-06T22:04:15.637-0300] {processor.py:154} INFO - Started process (PID=8151) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:04:15.638-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:04:15.639-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:15.639-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:04:16.594-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:04:16.601-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:04:16.636-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:16.635-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:16.654-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:16.654-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:04:16.672-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.038 seconds
+[2022-11-06T22:04:47.567-0300] {processor.py:154} INFO - Started process (PID=8720) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:04:47.568-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:04:47.569-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:47.569-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:04:49.465-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:04:49.476-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:04:49.571-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:49.571-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:49.625-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:49.624-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:04:49.668-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 2.108 seconds
+[2022-11-06T22:05:25.048-0300] {processor.py:154} INFO - Started process (PID=9519) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:05:25.049-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:05:25.050-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:25.050-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:05:26.641-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:05:26.649-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:05:26.768-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:26.768-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:05:26.817-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:26.817-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:05:26.878-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.833 seconds
+[2022-11-06T22:05:57.153-0300] {processor.py:154} INFO - Started process (PID=10143) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:05:57.154-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:05:57.155-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:57.155-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:05:58.293-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:05:58.299-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:05:58.365-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:58.365-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:05:58.385-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:58.385-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:05:58.406-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.258 seconds
+[2022-11-06T22:06:29.090-0300] {processor.py:154} INFO - Started process (PID=10827) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:06:29.091-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:06:29.092-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:29.092-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:06:30.101-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:06:30.106-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:06:30.142-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:30.142-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:06:30.158-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:30.158-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:06:30.175-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.088 seconds
+[2022-11-06T22:07:00.812-0300] {processor.py:154} INFO - Started process (PID=11393) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:07:00.813-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:07:00.814-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:00.814-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:07:01.799-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:07:01.807-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:07:01.846-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:01.846-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:01.864-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:01.864-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:07:01.886-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.077 seconds
+[2022-11-06T22:07:34.273-0300] {processor.py:154} INFO - Started process (PID=12091) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:07:34.275-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:07:34.276-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:34.276-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:07:35.682-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:07:35.698-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:07:35.760-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:35.760-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:35.778-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:35.777-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:07:35.798-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.529 seconds
+[2022-11-06T22:08:06.710-0300] {processor.py:154} INFO - Started process (PID=12802) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:08:06.711-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:08:06.712-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:06.712-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:08:07.844-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:08:07.852-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:08:07.925-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:07.925-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:07.952-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:07.952-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:08:07.982-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.275 seconds
+[2022-11-06T22:08:38.428-0300] {processor.py:154} INFO - Started process (PID=13502) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:08:38.429-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:08:38.433-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:38.433-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:08:39.524-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:08:39.534-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:08:39.576-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:39.575-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:39.600-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:39.600-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:08:39.622-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.198 seconds
+[2022-11-06T22:09:09.947-0300] {processor.py:154} INFO - Started process (PID=14146) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:09:09.948-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:09:09.949-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:09.948-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:09:11.033-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:09:11.044-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:09:11.106-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:11.106-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:11.149-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:11.149-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:09:11.239-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.296 seconds
+[2022-11-06T22:09:41.744-0300] {processor.py:154} INFO - Started process (PID=14771) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:09:41.745-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:09:41.746-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:41.746-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:09:43.321-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:09:43.345-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:09:43.429-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:43.429-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:43.472-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:43.472-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:09:43.529-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.789 seconds
+[2022-11-06T22:10:14.465-0300] {processor.py:154} INFO - Started process (PID=15393) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:10:14.467-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:10:14.471-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:14.471-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:10:15.979-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:10:16.002-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:10:16.096-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:16.095-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:16.129-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:16.128-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:10:16.211-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.749 seconds
+[2022-11-06T22:10:46.367-0300] {processor.py:154} INFO - Started process (PID=16014) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:10:46.368-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:10:46.369-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:46.368-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:10:47.436-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:10:47.445-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:10:47.524-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:47.524-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:47.568-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:47.567-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:10:47.623-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.259 seconds
+[2022-11-06T22:11:19.635-0300] {processor.py:154} INFO - Started process (PID=16614) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:11:19.637-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:11:19.637-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:19.637-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:11:21.028-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:11:21.037-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:11:21.112-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:21.112-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:21.151-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:21.151-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:11:21.182-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.552 seconds
+[2022-11-06T22:11:52.166-0300] {processor.py:154} INFO - Started process (PID=17155) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:11:52.167-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:11:52.167-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:52.167-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:11:53.627-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:11:53.635-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:11:53.731-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:53.722-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:53.759-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:53.759-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:11:53.786-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.624 seconds
+[2022-11-06T22:12:24.934-0300] {processor.py:154} INFO - Started process (PID=17746) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:12:24.938-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:12:24.939-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:24.939-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:12:26.041-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:12:26.046-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:12:26.105-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:26.105-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:12:26.140-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:26.140-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:12:26.182-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.254 seconds
+[2022-11-06T22:12:57.745-0300] {processor.py:154} INFO - Started process (PID=18406) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:12:57.746-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:12:57.746-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:57.746-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:12:58.956-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:12:58.972-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:12:59.046-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:59.046-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:12:59.098-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:59.097-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:12:59.118-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.377 seconds
+[2022-11-06T22:13:29.267-0300] {processor.py:154} INFO - Started process (PID=19011) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:13:29.268-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:13:29.270-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:29.269-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:13:30.647-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:13:30.657-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:13:30.714-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:30.714-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:13:30.743-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:30.743-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:13:30.770-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.508 seconds
+[2022-11-06T22:14:00.881-0300] {processor.py:154} INFO - Started process (PID=19602) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:14:00.891-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:14:00.893-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:00.893-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:14:02.212-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:14:02.234-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:14:02.320-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:02.320-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:14:02.347-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:02.346-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:14:02.368-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.490 seconds
+[2022-11-06T22:14:33.256-0300] {processor.py:154} INFO - Started process (PID=20226) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:14:33.258-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:14:33.258-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:33.258-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:14:34.713-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:14:34.736-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:14:34.906-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:34.906-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:14:34.995-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:34.995-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:14:35.101-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.848 seconds
+[2022-11-06T22:15:06.398-0300] {processor.py:154} INFO - Started process (PID=20825) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:15:06.400-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:15:06.401-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:06.400-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:15:07.506-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:15:07.521-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:15:07.593-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:07.593-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:15:07.628-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:07.628-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:15:07.668-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.277 seconds
+[2022-11-06T22:15:38.266-0300] {processor.py:154} INFO - Started process (PID=21465) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:15:38.268-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:15:38.269-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:38.269-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:15:39.574-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:15:39.591-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:15:39.679-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:39.679-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:15:39.733-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:39.733-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:15:39.793-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.536 seconds
+[2022-11-06T22:16:10.348-0300] {processor.py:154} INFO - Started process (PID=22111) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:16:10.349-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:16:10.350-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:10.349-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:16:11.520-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:16:11.526-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:16:11.563-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:11.563-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:16:11.601-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:11.601-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:16:11.619-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.274 seconds
+[2022-11-06T22:16:43.445-0300] {processor.py:154} INFO - Started process (PID=22743) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:16:43.448-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:16:43.448-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:43.448-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:16:44.871-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:16:44.880-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:16:45.037-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:45.036-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:16:45.104-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:45.104-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:16:45.227-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.785 seconds
+[2022-11-06T22:17:16.707-0300] {processor.py:154} INFO - Started process (PID=23409) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:17:16.708-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:17:16.709-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:16.709-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:17:17.784-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:17:17.790-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:17:17.830-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:17.830-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:17:17.858-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:17.858-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:17:17.883-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.179 seconds
+[2022-11-06T22:17:48.361-0300] {processor.py:154} INFO - Started process (PID=24058) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:17:48.363-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:17:48.364-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:48.363-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:17:49.578-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:17:49.598-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:17:49.664-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:49.664-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:17:49.697-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:49.697-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:17:49.719-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.361 seconds
+[2022-11-06T22:18:20.452-0300] {processor.py:154} INFO - Started process (PID=24697) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:18:20.453-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:18:20.454-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:20.454-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:18:21.608-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:18:21.615-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:18:21.676-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:21.675-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:18:21.705-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:21.705-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:18:21.728-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.280 seconds
+[2022-11-06T22:18:53.417-0300] {processor.py:154} INFO - Started process (PID=25343) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:18:53.420-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:18:53.421-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:53.420-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:18:54.952-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:18:55.000-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:18:55.099-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:55.099-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:18:55.218-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:55.217-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:18:55.400-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 2.002 seconds
+[2022-11-06T22:19:14.336-0300] {processor.py:154} INFO - Started process (PID=25938) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:19:14.339-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:19:14.341-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:14.341-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:19:15.732-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:19:15.743-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:19:15.833-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:15.833-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:15.914-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:15.914-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:19:15.982-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.649 seconds
+[2022-11-06T22:19:46.520-0300] {processor.py:154} INFO - Started process (PID=26513) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:19:46.521-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:19:46.522-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:46.522-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:19:47.767-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:19:47.772-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:19:47.818-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:47.817-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:47.847-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:47.847-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:19:47.868-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.350 seconds
+[2022-11-06T22:20:18.230-0300] {processor.py:154} INFO - Started process (PID=27287) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:20:18.231-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:20:18.231-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:18.231-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:20:19.486-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:20:19.531-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:20:19.690-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:19.690-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:19.744-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:19.744-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:20:19.955-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.728 seconds
+[2022-11-06T22:20:50.353-0300] {processor.py:154} INFO - Started process (PID=27969) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:20:50.355-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:20:50.356-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:50.355-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:20:51.534-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:20:51.559-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:20:51.624-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:51.624-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:51.647-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:51.647-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:20:51.680-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.341 seconds
+[2022-11-06T22:21:21.986-0300] {processor.py:154} INFO - Started process (PID=28630) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:21:21.991-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:21:21.992-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:21.992-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:21:24.272-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:21:24.304-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:21:24.416-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:24.416-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:21:24.452-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:24.452-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:21:24.621-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 2.639 seconds
+[2022-11-06T22:21:55.583-0300] {processor.py:154} INFO - Started process (PID=29182) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:21:55.584-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:21:55.585-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:55.584-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:21:56.578-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:21:56.587-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:21:56.620-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:56.619-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:21:56.639-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:56.639-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:21:56.657-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.076 seconds
+[2022-11-06T22:22:26.803-0300] {processor.py:154} INFO - Started process (PID=29803) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:22:26.807-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:22:26.808-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:26.808-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:22:27.969-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:22:27.975-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:22:28.035-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:28.035-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:22:28.055-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:28.055-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:22:28.084-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.290 seconds
+[2022-11-06T22:22:58.596-0300] {processor.py:154} INFO - Started process (PID=30536) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:22:58.616-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:22:58.627-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:58.627-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:23:02.522-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:23:02.555-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:23:03.193-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:03.193-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:23:03.322-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:03.322-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:23:03.389-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 4.796 seconds
+[2022-11-06T22:23:33.534-0300] {processor.py:154} INFO - Started process (PID=31190) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:23:33.553-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:23:33.554-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:33.554-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:23:34.836-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:23:34.842-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:23:34.890-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:34.889-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:23:34.932-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:34.924-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:23:34.981-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.458 seconds
+[2022-11-06T22:24:05.620-0300] {processor.py:154} INFO - Started process (PID=31837) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:24:05.622-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:24:05.623-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:05.623-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:24:07.119-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:24:07.134-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:24:07.237-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:07.237-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:07.269-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:07.269-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:24:07.336-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.723 seconds
+[2022-11-06T22:24:37.452-0300] {processor.py:154} INFO - Started process (PID=32429) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:24:37.454-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:24:37.455-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:37.454-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:24:38.755-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:24:38.762-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:24:38.799-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:38.799-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:38.817-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:38.817-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:24:38.837-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.388 seconds
+[2022-11-06T22:25:09.167-0300] {processor.py:154} INFO - Started process (PID=33061) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:25:09.168-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:25:09.170-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:09.170-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:25:10.926-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:25:10.936-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:25:10.972-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:10.972-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:10.989-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:10.989-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:25:11.017-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.856 seconds
+[2022-11-06T22:25:41.061-0300] {processor.py:154} INFO - Started process (PID=33701) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:25:41.062-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:25:41.063-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:41.063-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:25:42.044-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:25:42.057-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:25:42.112-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:42.111-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:42.133-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:42.133-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:25:42.161-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.103 seconds
+[2022-11-06T22:26:12.404-0300] {processor.py:154} INFO - Started process (PID=34245) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:26:12.405-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:26:12.406-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:12.405-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:26:13.548-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:26:13.554-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:26:13.601-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:13.600-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:13.623-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:13.623-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:26:13.639-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.239 seconds
+[2022-11-06T22:26:43.771-0300] {processor.py:154} INFO - Started process (PID=34799) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:26:43.773-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:26:43.774-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:43.773-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:26:44.928-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:26:44.942-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:26:45.008-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:45.008-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:45.028-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:45.028-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:26:45.043-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.276 seconds
+[2022-11-06T22:27:15.428-0300] {processor.py:154} INFO - Started process (PID=35344) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:27:15.430-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:27:15.430-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:15.430-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:27:16.910-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:27:16.917-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:27:16.952-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:16.952-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:16.969-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:16.969-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:27:17.004-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.580 seconds
+[2022-11-06T22:27:47.628-0300] {processor.py:154} INFO - Started process (PID=35905) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:27:47.629-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:27:47.629-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:47.629-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:27:48.894-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:27:48.900-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:27:48.942-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:48.942-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:48.963-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:48.963-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:27:48.989-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.365 seconds
+[2022-11-06T22:28:19.031-0300] {processor.py:154} INFO - Started process (PID=36576) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:28:19.032-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:28:19.033-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:19.033-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:28:20.118-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:28:20.125-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:28:20.178-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:20.177-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:20.223-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:20.223-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:28:20.243-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.216 seconds
+[2022-11-06T22:28:50.500-0300] {processor.py:154} INFO - Started process (PID=37128) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:28:50.501-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:28:50.502-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:50.501-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:28:51.458-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:28:51.464-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:28:51.502-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:51.502-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:51.520-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:51.520-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:28:51.537-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.040 seconds
+[2022-11-06T22:29:22.135-0300] {processor.py:154} INFO - Started process (PID=37684) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:29:22.143-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:29:22.143-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:22.143-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:29:23.608-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:29:23.633-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:29:23.691-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:23.691-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:23.710-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:23.710-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:29:23.725-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.594 seconds
+[2022-11-06T22:29:53.766-0300] {processor.py:154} INFO - Started process (PID=38243) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:29:53.768-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:29:53.768-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:53.768-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:29:54.792-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:29:54.799-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:29:54.839-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:54.839-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:54.857-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:54.857-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:29:54.879-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.115 seconds
+[2022-11-06T22:30:25.485-0300] {processor.py:154} INFO - Started process (PID=38925) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:30:25.491-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:30:25.492-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:25.492-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:30:26.764-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:30:26.779-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:30:26.865-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:26.865-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:26.933-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:26.933-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:30:26.968-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.487 seconds
+[2022-11-06T22:30:57.070-0300] {processor.py:154} INFO - Started process (PID=39477) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:30:57.071-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:30:57.072-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:57.072-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:30:58.648-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:30:58.659-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:30:58.707-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:58.706-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:58.759-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:58.759-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:30:58.788-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 1.731 seconds
+[2022-11-06T22:31:28.834-0300] {processor.py:154} INFO - Started process (PID=40022) to work on /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:31:28.837-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py for tasks to queue
+[2022-11-06T22:31:28.839-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:28.838-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:31:30.771-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:31:30.809-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_tarkett_descricones_atributos']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py
+[2022-11-06T22:31:30.923-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:30.923-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:31:30.958-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:30.957-0300] {dag.py:3336} INFO - Setting next_dagrun for get_tarkett_descricones_atributos to None, run_after=None
+[2022-11-06T22:31:30.997-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_tarkett_imagens.py took 2.167 seconds

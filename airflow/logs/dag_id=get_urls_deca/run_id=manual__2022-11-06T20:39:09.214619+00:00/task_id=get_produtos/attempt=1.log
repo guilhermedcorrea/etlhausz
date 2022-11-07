@@ -1,0 +1,27 @@
+[2022-11-06T17:39:20.237-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_urls_deca.get_produtos manual__2022-11-06T20:39:09.214619+00:00 [queued]>
+[2022-11-06T17:39:20.337-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_urls_deca.get_produtos manual__2022-11-06T20:39:09.214619+00:00 [queued]>
+[2022-11-06T17:39:20.337-0300] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T17:39:20.337-0300] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-06T17:39:20.337-0300] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T17:39:20.400-0300] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_produtos> on 2022-11-06 20:39:09.214619+00:00
+[2022-11-06T17:39:20.416-0300] {standard_task_runner.py:55} INFO - Started process 7681 to run task
+[2022-11-06T17:39:20.429-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'get_urls_deca', 'get_produtos', 'manual__2022-11-06T20:39:09.214619+00:00', '--job-id', '426', '--raw', '--subdir', 'DAGS_FOLDER/teste_excom.py', '--cfg-path', '/tmp/tmp620_7u49']
+[2022-11-06T17:39:20.429-0300] {standard_task_runner.py:83} INFO - Job 426: Subtask get_produtos
+[2022-11-06T17:39:20.881-0300] {task_command.py:376} INFO - Running <TaskInstance: get_urls_deca.get_produtos manual__2022-11-06T20:39:09.214619+00:00 [running]> on host debian
+[2022-11-06T17:39:21.238-0300] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_urls_deca
+AIRFLOW_CTX_TASK_ID=get_produtos
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-06T20:39:09.214619+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-06T20:39:09.214619+00:00
+[2022-11-06T17:39:21.328-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/utils/context.py:297 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-11-06T17:39:21.332-0300] {logging_mixin.py:120} INFO - SELECT xcom.dag_run_id AS xcom_dag_run_id, xcom.task_id AS xcom_task_id, xcom.map_index AS xcom_map_index, xcom.key AS xcom_key, xcom.dag_id AS xcom_dag_id, xcom.run_id AS xcom_run_id, xcom.value AS xcom_value, xcom.timestamp AS xcom_timestamp, dag_run_1.state AS dag_run_1_state, dag_run_1.id AS dag_run_1_id, dag_run_1.dag_id AS dag_run_1_dag_id, dag_run_1.queued_at AS dag_run_1_queued_at, dag_run_1.execution_date AS dag_run_1_execution_date, dag_run_1.start_date AS dag_run_1_start_date, dag_run_1.end_date AS dag_run_1_end_date, dag_run_1.run_id AS dag_run_1_run_id, dag_run_1.creating_job_id AS dag_run_1_creating_job_id, dag_run_1.external_trigger AS dag_run_1_external_trigger, dag_run_1.run_type AS dag_run_1_run_type, dag_run_1.conf AS dag_run_1_conf, dag_run_1.data_interval_start AS dag_run_1_data_interval_start, dag_run_1.data_interval_end AS dag_run_1_data_interval_end, dag_run_1.last_scheduling_decision AS dag_run_1_last_scheduling_decision, dag_run_1.dag_hash AS dag_run_1_dag_hash, dag_run_1.log_template_id AS dag_run_1_log_template_id 
+FROM xcom JOIN dag_run ON xcom.dag_run_id = dag_run.id LEFT OUTER JOIN dag_run AS dag_run_1 ON xcom.dag_run_id = dag_run_1.id 
+WHERE xcom.dag_id = %(dag_id_1)s AND dag_run.execution_date <= %(execution_date_1)s ORDER BY dag_run.execution_date DESC, xcom.timestamp DESC
+[2022-11-06T17:39:21.333-0300] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-06T17:39:21.354-0300] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=get_urls_deca, task_id=get_produtos, execution_date=20221106T203909, start_date=20221106T203920, end_date=20221106T203921
+[2022-11-06T17:39:21.403-0300] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-06T17:39:21.450-0300] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

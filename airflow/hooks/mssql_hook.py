@@ -1,15 +1,11 @@
 from __future__ import annotations
-
 from typing import Any
-
 import pymssql
-
 from airflow.providers.common.sql.hooks.sql import DbApiHook
+import pyodbc
 
 
 class MsSqlHook(DbApiHook):
-    """Interact with Microsoft SQL Server."""
-
     conn_name_attr = "mssql_conn_id"
     default_conn_name = "mssql_default"
     conn_type = "mssql"
@@ -24,10 +20,9 @@ class MsSqlHook(DbApiHook):
 
     @property
     def connection_extra_lower(self) -> dict:
-    
         conn = self.get_connection(self.mssql_conn_id) 
         return {k.lower(): v for k, v in conn.extra_dejson.items()}
-
+        
     @property
     def sqlalchemy_scheme(self) -> str:
         return (
@@ -53,14 +48,14 @@ class MsSqlHook(DbApiHook):
     def get_sqlalchemy_connection(
         self, connect_kwargs: dict | None = None, engine_kwargs: dict | None = None
     ) -> Any:
-        """SQLALCHEMY"""
+       
         engine = self.get_sqlalchemy_engine(engine_kwargs=engine_kwargs)
         return engine.connect(**(connect_kwargs or {}))
 
     def get_conn(
         self,
     ) -> pymssql.connect:
-        """Retorna Conexao"""
+      
         conn = self.get_connection(self.mssql_conn_id)
 
         conn = pymssql.connect(

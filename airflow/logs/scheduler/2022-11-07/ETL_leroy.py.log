@@ -1,0 +1,520 @@
+[2022-11-06T21:00:18.162-0300] {processor.py:154} INFO - Started process (PID=61077) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:00:18.164-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:00:18.165-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:18.165-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:00:19.293-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:00:19.299-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:00:19.377-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:19.377-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:00:19.456-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:19.456-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:00:19.502-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.344 seconds
+[2022-11-06T21:00:50.034-0300] {processor.py:154} INFO - Started process (PID=61668) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:00:50.041-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:00:50.042-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:50.042-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:00:51.241-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:00:51.271-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:00:51.326-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:51.326-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:00:51.357-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:51.357-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:00:51.384-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.355 seconds
+[2022-11-06T21:01:21.544-0300] {processor.py:154} INFO - Started process (PID=62265) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:01:21.546-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:01:21.546-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:21.546-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:01:23.493-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:01:23.511-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:01:23.579-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:23.579-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:01:23.615-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:23.615-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:01:23.651-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.111 seconds
+[2022-11-06T21:01:54.010-0300] {processor.py:154} INFO - Started process (PID=62825) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:01:54.011-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:01:54.012-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:54.011-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:01:54.973-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:01:54.980-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:01:55.022-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:55.022-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:01:55.044-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:55.043-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:01:55.065-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.058 seconds
+[2022-11-06T21:02:25.678-0300] {processor.py:154} INFO - Started process (PID=63378) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:02:25.680-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:02:25.680-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:25.680-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:02:27.147-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:02:27.153-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:02:27.207-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:27.206-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:02:27.244-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:27.244-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:02:27.257-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.582 seconds
+[2022-11-06T21:02:57.364-0300] {processor.py:154} INFO - Started process (PID=63986) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:02:57.365-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:02:57.368-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:57.367-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:02:58.508-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:02:58.516-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:02:58.550-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:58.549-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:02:58.566-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:58.565-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:02:58.582-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.225 seconds
+[2022-11-06T21:03:28.959-0300] {processor.py:154} INFO - Started process (PID=64539) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:03:28.963-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:03:28.966-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:28.966-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:03:31.293-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:03:31.302-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:03:31.363-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:31.363-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:03:31.399-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:31.399-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:03:31.419-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.463 seconds
+[2022-11-06T21:04:01.718-0300] {processor.py:154} INFO - Started process (PID=65227) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:04:01.739-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T21:04:01.740-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:01.740-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:04:04.388-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T21:04:04.420-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T21:04:04.626-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:04.626-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:04:04.654-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:04.654-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T21:04:04.836-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 3.126 seconds
+[2022-11-06T22:01:30.531-0300] {processor.py:154} INFO - Started process (PID=4688) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:01:30.533-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:01:30.534-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:30.533-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:01:32.593-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:01:32.605-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:01:32.671-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.670-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:01:32.700-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.700-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:01:32.806-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.280 seconds
+[2022-11-06T22:02:03.164-0300] {processor.py:154} INFO - Started process (PID=5419) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:02:03.165-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:02:03.166-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:03.166-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:02:05.615-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:02:05.640-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:02:05.734-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:05.734-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:05.772-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:05.772-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:02:05.829-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.674 seconds
+[2022-11-06T22:02:35.917-0300] {processor.py:154} INFO - Started process (PID=6059) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:02:35.918-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:02:35.919-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:35.919-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:02:37.141-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:02:37.152-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:02:37.220-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:37.219-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:37.241-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:37.241-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:02:37.259-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.345 seconds
+[2022-11-06T22:03:08.353-0300] {processor.py:154} INFO - Started process (PID=6664) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:03:08.397-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:03:08.405-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:08.398-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:03:09.800-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:03:09.806-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:03:09.844-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:09.844-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:09.862-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:09.862-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:03:09.890-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.558 seconds
+[2022-11-06T22:03:40.659-0300] {processor.py:154} INFO - Started process (PID=7286) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:03:40.661-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:03:40.664-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:40.662-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:03:42.836-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:03:42.846-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:03:42.899-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:42.899-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:42.931-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:42.931-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:03:42.950-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.306 seconds
+[2022-11-06T22:04:13.384-0300] {processor.py:154} INFO - Started process (PID=8050) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:04:13.392-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:04:13.394-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:13.393-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:04:14.825-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:04:14.850-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:04:15.036-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:15.036-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:15.063-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:15.063-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:04:15.093-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.714 seconds
+[2022-11-06T22:04:45.813-0300] {processor.py:154} INFO - Started process (PID=8623) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:04:45.824-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:04:45.825-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:45.825-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:04:47.378-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:04:47.392-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:04:47.462-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:47.461-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:47.495-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:47.495-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:04:47.525-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.722 seconds
+[2022-11-06T22:05:24.221-0300] {processor.py:154} INFO - Started process (PID=9446) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:05:24.226-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:05:24.229-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:24.229-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:05:25.985-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:05:26.007-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:05:26.107-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:26.107-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:05:26.143-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:26.143-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:05:26.194-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.976 seconds
+[2022-11-06T22:05:56.448-0300] {processor.py:154} INFO - Started process (PID=10068) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:05:56.456-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:05:56.457-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:56.457-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:05:57.618-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:05:57.624-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:05:57.664-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:57.664-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:05:57.689-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:57.688-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:05:57.717-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.302 seconds
+[2022-11-06T22:06:27.842-0300] {processor.py:154} INFO - Started process (PID=10684) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:06:27.843-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:06:27.843-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:27.843-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:06:28.947-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:06:28.981-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:06:29.071-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:29.071-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:06:29.092-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:29.092-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:06:29.108-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.270 seconds
+[2022-11-06T22:06:59.436-0300] {processor.py:154} INFO - Started process (PID=11235) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:06:59.437-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:06:59.438-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:59.438-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:07:00.585-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:07:00.596-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:07:00.632-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:00.632-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:00.648-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:00.648-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:07:00.670-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.237 seconds
+[2022-11-06T22:07:31.208-0300] {processor.py:154} INFO - Started process (PID=11927) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:07:31.209-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:07:31.211-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:31.211-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:07:33.373-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:07:33.423-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:07:33.615-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:33.615-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:33.830-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:33.829-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:07:33.959-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.753 seconds
+[2022-11-06T22:08:04.229-0300] {processor.py:154} INFO - Started process (PID=12650) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:08:04.230-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:08:04.231-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:04.231-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:08:05.488-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:08:05.495-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:08:05.525-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:05.524-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:05.546-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:05.546-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:08:05.617-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.403 seconds
+[2022-11-06T22:08:36.274-0300] {processor.py:154} INFO - Started process (PID=13322) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:08:36.282-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:08:36.283-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:36.283-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:08:37.973-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:08:37.982-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:08:38.047-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:38.047-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:38.077-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:38.077-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:08:38.115-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.858 seconds
+[2022-11-06T22:09:08.757-0300] {processor.py:154} INFO - Started process (PID=13995) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:09:08.759-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:09:08.759-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:08.759-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:09:09.746-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:09:09.759-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:09:09.796-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:09.796-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:09.822-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:09.821-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:09:09.850-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.096 seconds
+[2022-11-06T22:09:40.157-0300] {processor.py:154} INFO - Started process (PID=14619) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:09:40.158-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:09:40.159-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:40.159-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:09:41.409-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:09:41.418-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:09:41.492-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:41.492-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:41.536-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:41.536-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:09:41.568-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.414 seconds
+[2022-11-06T22:10:12.007-0300] {processor.py:154} INFO - Started process (PID=15239) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:10:12.010-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:10:12.011-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:12.010-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:10:13.908-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:10:13.928-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:10:14.091-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:14.090-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:14.120-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:14.120-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:10:14.141-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.149 seconds
+[2022-11-06T22:10:44.881-0300] {processor.py:154} INFO - Started process (PID=15859) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:10:44.882-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:10:44.883-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:44.883-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:10:46.106-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:10:46.122-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:10:46.190-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:46.190-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:46.247-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:46.247-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:10:46.269-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.392 seconds
+[2022-11-06T22:11:17.047-0300] {processor.py:154} INFO - Started process (PID=16459) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:11:17.050-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:11:17.051-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:17.051-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:11:18.984-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:11:19.003-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:11:19.093-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:19.093-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:19.142-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:19.142-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:11:19.252-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.213 seconds
+[2022-11-06T22:11:49.778-0300] {processor.py:154} INFO - Started process (PID=17009) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:11:49.780-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:11:49.781-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:49.781-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:11:51.924-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:11:51.931-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:11:52.038-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:52.038-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:52.063-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:52.062-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:11:52.091-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.323 seconds
+[2022-11-06T22:12:22.317-0300] {processor.py:154} INFO - Started process (PID=17565) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:12:22.333-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:12:22.336-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:22.336-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:12:24.629-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:12:24.638-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:12:24.706-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:24.706-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:12:24.738-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:24.738-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:12:24.771-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.465 seconds
+[2022-11-06T22:12:55.617-0300] {processor.py:154} INFO - Started process (PID=18220) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:12:55.618-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:12:55.619-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:55.619-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:12:57.199-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:12:57.209-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:12:57.266-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:57.266-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:12:57.294-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:57.294-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:12:57.313-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.700 seconds
+[2022-11-06T22:13:27.676-0300] {processor.py:154} INFO - Started process (PID=18842) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:13:27.677-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:13:27.678-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:27.678-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:13:29.025-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:13:29.042-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:13:29.124-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:29.123-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:13:29.171-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:29.171-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:13:29.193-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.520 seconds
+[2022-11-06T22:13:59.261-0300] {processor.py:154} INFO - Started process (PID=19431) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:13:59.263-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:13:59.272-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:59.271-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:14:00.793-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:14:00.799-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:14:00.900-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:00.900-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:14:00.937-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:00.937-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:14:00.959-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.701 seconds
+[2022-11-06T22:14:31.107-0300] {processor.py:154} INFO - Started process (PID=20053) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:14:31.108-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:14:31.109-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:31.109-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:14:33.088-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:14:33.109-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:14:33.197-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:33.197-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:14:33.222-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:33.222-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:14:33.244-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.143 seconds
+[2022-11-06T22:15:03.902-0300] {processor.py:154} INFO - Started process (PID=20648) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:15:03.925-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:15:03.933-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:03.932-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:15:06.131-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:15:06.143-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:15:06.231-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:06.231-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:15:06.258-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:06.258-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:15:06.276-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.383 seconds
+[2022-11-06T22:15:36.550-0300] {processor.py:154} INFO - Started process (PID=21319) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:15:36.555-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:15:36.557-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:36.557-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:15:37.937-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:15:37.970-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:15:38.068-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:38.068-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:15:38.114-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:38.114-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:15:38.154-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.609 seconds
+[2022-11-06T22:16:08.782-0300] {processor.py:154} INFO - Started process (PID=21932) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:16:08.783-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:16:08.783-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:08.783-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:16:10.147-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:16:10.159-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:16:10.199-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:10.199-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:16:10.219-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:10.218-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:16:10.242-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.463 seconds
+[2022-11-06T22:16:40.967-0300] {processor.py:154} INFO - Started process (PID=22557) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:16:40.969-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:16:40.970-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:40.970-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:16:42.589-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:16:42.603-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:16:42.719-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:42.719-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:16:42.740-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:42.740-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:16:42.770-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.806 seconds
+[2022-11-06T22:17:13.511-0300] {processor.py:154} INFO - Started process (PID=23179) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:17:13.512-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:17:13.512-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:13.512-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:17:14.952-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:17:14.959-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:17:14.996-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:14.996-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:17:15.019-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:15.019-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:17:15.050-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.542 seconds
+[2022-11-06T22:17:45.197-0300] {processor.py:154} INFO - Started process (PID=23826) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:17:45.199-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:17:45.199-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:45.199-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:17:46.489-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:17:46.497-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:17:46.535-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:46.535-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:17:46.553-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:46.553-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:17:46.572-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.378 seconds
+[2022-11-06T22:18:16.632-0300] {processor.py:154} INFO - Started process (PID=24440) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:18:16.633-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:18:16.634-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:16.633-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:18:17.869-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:18:17.876-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:18:17.920-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:17.919-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:18:17.937-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:17.937-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:18:17.958-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.330 seconds
+[2022-11-06T22:18:48.631-0300] {processor.py:154} INFO - Started process (PID=25091) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:18:48.635-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:18:48.636-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:48.636-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:18:50.358-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:18:50.371-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:18:50.449-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:50.448-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:18:50.488-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:50.488-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:18:50.525-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.907 seconds
+[2022-11-06T22:19:12.851-0300] {processor.py:154} INFO - Started process (PID=25863) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:19:12.852-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:19:12.853-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:12.853-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:19:15.307-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:19:15.316-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:19:15.442-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:15.441-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:15.515-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:15.514-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:19:15.672-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.824 seconds
+[2022-11-06T22:19:46.515-0300] {processor.py:154} INFO - Started process (PID=26510) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:19:46.517-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:19:46.517-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:46.517-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:19:47.770-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:19:47.775-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:19:47.823-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:47.822-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:47.853-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:47.853-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:19:47.873-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.361 seconds
+[2022-11-06T22:20:18.218-0300] {processor.py:154} INFO - Started process (PID=27284) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:20:18.222-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:20:18.223-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:18.223-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:20:19.632-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:20:19.667-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:20:19.841-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:19.841-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:19.900-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:19.900-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:20:19.968-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.753 seconds
+[2022-11-06T22:20:50.336-0300] {processor.py:154} INFO - Started process (PID=27967) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:20:50.337-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:20:50.338-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:50.338-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:20:51.439-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:20:51.450-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:20:51.559-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:51.559-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:51.594-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:51.594-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:20:51.618-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.290 seconds
+[2022-11-06T22:21:21.983-0300] {processor.py:154} INFO - Started process (PID=28628) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:21:21.984-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:21:21.984-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:21.984-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:21:24.170-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:21:24.282-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:21:24.397-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:24.396-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:21:24.524-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:24.524-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:21:24.627-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 2.648 seconds
+[2022-11-06T22:21:55.575-0300] {processor.py:154} INFO - Started process (PID=29179) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:21:55.576-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:21:55.577-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:55.577-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:21:56.594-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:21:56.601-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:21:56.643-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:56.643-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:21:56.664-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:56.664-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:21:56.685-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.113 seconds
+[2022-11-06T22:22:26.790-0300] {processor.py:154} INFO - Started process (PID=29800) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:22:26.792-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:22:26.792-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:26.792-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:22:27.961-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:22:27.970-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:22:28.030-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:28.029-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:22:28.049-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:28.049-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:22:28.068-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.290 seconds
+[2022-11-06T22:22:58.432-0300] {processor.py:154} INFO - Started process (PID=30532) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:22:58.434-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:22:58.454-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:58.454-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:23:03.419-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:23:03.434-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:23:03.621-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:03.621-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:23:03.671-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:03.671-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:23:03.763-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 5.334 seconds
+[2022-11-06T22:23:34.476-0300] {processor.py:154} INFO - Started process (PID=31199) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:23:34.477-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:23:34.478-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:34.478-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:23:36.164-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:23:36.176-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:23:36.213-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:36.212-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:23:36.265-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:36.265-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:23:36.296-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.826 seconds
+[2022-11-06T22:24:06.439-0300] {processor.py:154} INFO - Started process (PID=31852) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:24:06.440-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:24:06.440-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:06.440-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:24:07.750-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:24:07.757-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:24:07.797-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:07.797-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:07.815-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:07.815-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:24:07.829-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.405 seconds
+[2022-11-06T22:24:38.671-0300] {processor.py:154} INFO - Started process (PID=32503) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:24:38.672-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:24:38.673-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:38.673-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:24:40.302-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:24:40.328-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:24:40.416-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:40.416-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:40.447-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:40.447-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:24:40.467-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.803 seconds
+[2022-11-06T22:25:10.733-0300] {processor.py:154} INFO - Started process (PID=33154) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:25:10.734-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:25:10.734-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:10.734-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:25:11.819-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:25:11.833-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:25:11.902-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:11.902-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:11.923-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:11.923-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:25:11.950-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.220 seconds
+[2022-11-06T22:25:42.076-0300] {processor.py:154} INFO - Started process (PID=33771) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:25:42.077-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:25:42.078-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:42.078-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:25:43.124-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:25:43.133-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:25:43.179-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:43.179-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:43.200-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:43.200-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:25:43.221-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.150 seconds
+[2022-11-06T22:26:13.800-0300] {processor.py:154} INFO - Started process (PID=34333) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:26:13.801-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:26:13.801-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:13.801-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:26:15.225-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:26:15.232-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:26:15.274-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:15.274-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:15.292-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:15.292-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:26:15.313-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.525 seconds
+[2022-11-06T22:26:45.392-0300] {processor.py:154} INFO - Started process (PID=34895) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:26:45.397-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:26:45.398-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:45.398-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:26:46.534-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:26:46.540-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:26:46.582-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:46.581-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:46.602-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:46.602-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:26:46.620-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.242 seconds
+[2022-11-06T22:27:17.058-0300] {processor.py:154} INFO - Started process (PID=35438) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:27:17.059-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:27:17.060-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:17.060-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:27:18.282-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:27:18.292-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:27:18.340-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:18.339-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:18.362-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:18.361-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:27:18.382-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.337 seconds
+[2022-11-06T22:27:49.305-0300] {processor.py:154} INFO - Started process (PID=36010) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:27:49.306-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:27:49.309-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:49.308-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:27:50.405-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:27:50.412-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:27:50.452-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:50.452-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:50.472-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:50.472-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:27:50.493-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.193 seconds
+[2022-11-06T22:28:21.030-0300] {processor.py:154} INFO - Started process (PID=36682) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:28:21.032-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:28:21.032-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:21.032-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:28:22.552-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:28:22.558-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:28:22.601-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:22.599-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:22.622-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:22.622-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:28:22.645-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.632 seconds
+[2022-11-06T22:28:52.817-0300] {processor.py:154} INFO - Started process (PID=37231) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:28:52.825-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:28:52.825-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:52.825-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:28:54.040-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:28:54.054-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:28:54.110-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:54.110-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:54.135-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:54.135-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:28:54.176-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.361 seconds
+[2022-11-06T22:29:24.319-0300] {processor.py:154} INFO - Started process (PID=37801) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:29:24.321-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:29:24.321-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:24.321-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:29:25.454-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:29:25.461-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:29:25.496-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:25.496-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:25.516-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:25.516-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:29:25.584-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.267 seconds
+[2022-11-06T22:29:55.939-0300] {processor.py:154} INFO - Started process (PID=38338) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:29:55.940-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:29:55.940-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:55.940-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:29:57.130-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:29:57.138-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:29:57.175-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:57.175-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:57.207-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:57.207-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:29:57.219-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.296 seconds
+[2022-11-06T22:30:27.416-0300] {processor.py:154} INFO - Started process (PID=39019) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:30:27.416-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:30:27.417-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:27.417-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:30:28.475-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:30:28.491-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:30:28.527-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:28.526-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:28.545-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:28.545-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:30:28.570-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.157 seconds
+[2022-11-06T22:30:58.824-0300] {processor.py:154} INFO - Started process (PID=39569) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:30:58.826-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:30:58.827-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:58.827-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:30:59.775-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:30:59.783-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:30:59.814-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:59.814-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:59.829-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:59.829-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:30:59.846-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.024 seconds
+[2022-11-06T22:31:31.699-0300] {processor.py:154} INFO - Started process (PID=40139) to work on /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:31:31.699-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/ETL_leroy.py for tasks to queue
+[2022-11-06T22:31:31.700-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:31.700-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:31:32.712-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:31:32.723-0300] {processor.py:766} INFO - DAG(s) dict_keys(['get_produtos_leroy']) retrieved from /home/debian/etlhausz/airflow/dags/ETL_leroy.py
+[2022-11-06T22:31:32.813-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:32.813-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:31:32.832-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:32.832-0300] {dag.py:3336} INFO - Setting next_dagrun for get_produtos_leroy to None, run_after=None
+[2022-11-06T22:31:32.856-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/ETL_leroy.py took 1.162 seconds

@@ -1,0 +1,462 @@
+[2022-11-06T21:00:08.987-0300] {processor.py:154} INFO - Started process (PID=60936) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:00:08.998-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:00:09.020-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:09.002-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:00:09.313-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:00:09.348-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:09.348-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:00:09.369-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:09.368-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:00:09.387-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.411 seconds
+[2022-11-06T21:00:40.146-0300] {processor.py:154} INFO - Started process (PID=61510) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:00:40.147-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:00:40.148-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:40.148-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:00:40.168-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:00:40.276-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:40.276-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:00:40.920-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:40.920-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:00:40.959-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.820 seconds
+[2022-11-06T21:01:11.874-0300] {processor.py:154} INFO - Started process (PID=62077) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:01:11.878-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:01:11.878-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:11.878-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:01:11.910-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:01:12.099-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:12.098-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:01:12.127-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:12.127-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:01:12.153-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.283 seconds
+[2022-11-06T21:01:42.709-0300] {processor.py:154} INFO - Started process (PID=62660) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:01:42.710-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:01:42.715-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:42.711-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:01:42.736-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:01:42.885-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:42.885-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:01:42.902-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:42.902-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:01:42.928-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.232 seconds
+[2022-11-06T21:02:13.513-0300] {processor.py:154} INFO - Started process (PID=63202) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:02:13.520-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:02:13.520-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:13.520-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:02:13.661-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:02:13.710-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:13.710-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:02:13.742-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:13.742-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:02:13.788-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.284 seconds
+[2022-11-06T21:02:44.272-0300] {processor.py:154} INFO - Started process (PID=63783) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:02:44.281-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:02:44.283-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:44.283-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:02:44.321-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:02:44.383-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:44.382-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:02:45.153-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:45.153-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:02:45.185-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.917 seconds
+[2022-11-06T21:03:15.412-0300] {processor.py:154} INFO - Started process (PID=64341) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:03:15.413-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:03:15.414-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:15.414-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:03:15.439-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:03:15.660-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:15.660-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:03:15.685-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:15.685-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:03:15.761-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.353 seconds
+[2022-11-06T21:03:46.223-0300] {processor.py:154} INFO - Started process (PID=64969) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:03:46.224-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:03:46.225-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:46.224-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:03:46.258-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:03:46.510-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:46.510-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:03:46.543-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:46.542-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:03:46.563-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.350 seconds
+[2022-11-06T21:04:16.713-0300] {processor.py:154} INFO - Started process (PID=65572) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:04:16.722-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T21:04:16.723-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:16.723-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:04:17.016-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T21:04:17.055-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:17.055-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T21:04:17.083-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:04:17.082-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T21:04:17.120-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.452 seconds
+[2022-11-06T22:01:38.065-0300] {processor.py:154} INFO - Started process (PID=5153) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:01:38.070-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:01:38.071-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:38.070-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:01:38.127-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:01:38.176-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:38.175-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:01:38.214-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:38.213-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:01:38.249-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.193 seconds
+[2022-11-06T22:02:10.343-0300] {processor.py:154} INFO - Started process (PID=5801) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:02:10.346-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:02:10.347-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:10.347-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:02:10.397-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:02:10.478-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:10.478-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:10.497-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:10.496-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:02:10.516-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.179 seconds
+[2022-11-06T22:02:41.935-0300] {processor.py:154} INFO - Started process (PID=6461) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:02:41.937-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:02:41.937-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:41.937-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:02:41.970-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:02:42.048-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:42.048-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:42.089-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:42.088-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:02:42.145-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.216 seconds
+[2022-11-06T22:03:14.507-0300] {processor.py:154} INFO - Started process (PID=7037) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:03:14.508-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:03:14.508-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:14.508-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:03:14.540-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:03:14.589-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:14.589-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:14.619-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:14.619-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:03:14.673-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.171 seconds
+[2022-11-06T22:03:45.977-0300] {processor.py:154} INFO - Started process (PID=7724) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:03:45.977-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:03:45.978-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:45.978-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:03:45.997-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:03:46.040-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:46.040-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:46.061-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:46.061-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:03:46.080-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.107 seconds
+[2022-11-06T22:04:17.328-0300] {processor.py:154} INFO - Started process (PID=8347) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:04:17.329-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:04:17.342-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:17.342-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:04:17.425-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:04:17.571-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:17.571-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:17.624-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:17.624-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:04:17.656-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.333 seconds
+[2022-11-06T22:04:50.061-0300] {processor.py:154} INFO - Started process (PID=8921) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:04:50.062-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:04:50.063-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:50.063-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:04:50.083-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:04:50.125-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:50.124-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:50.143-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:50.143-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:04:50.163-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds
+[2022-11-06T22:05:30.926-0300] {processor.py:154} INFO - Started process (PID=9851) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:05:30.930-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:05:30.935-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:30.935-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:05:31.024-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:05:31.148-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:31.148-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:05:31.213-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:31.213-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:05:31.272-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.381 seconds
+[2022-11-06T22:06:01.422-0300] {processor.py:154} INFO - Started process (PID=10466) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:06:01.423-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:06:01.424-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:01.424-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:06:01.443-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:06:01.486-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:01.486-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:06:01.506-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:01.506-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:06:01.525-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.106 seconds
+[2022-11-06T22:06:32.345-0300] {processor.py:154} INFO - Started process (PID=10995) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:06:32.347-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:06:32.348-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:32.348-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:06:32.367-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:06:32.409-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:32.409-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:06:32.428-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:32.428-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:06:32.455-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.113 seconds
+[2022-11-06T22:07:03.039-0300] {processor.py:154} INFO - Started process (PID=11543) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:07:03.060-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:07:03.061-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:03.061-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:07:03.079-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:07:03.119-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:03.118-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:03.137-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:03.136-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:07:03.157-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.121 seconds
+[2022-11-06T22:07:38.152-0300] {processor.py:154} INFO - Started process (PID=12310) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:07:38.156-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:07:38.157-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:38.157-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:07:38.187-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:07:38.269-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:38.268-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:38.297-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:38.297-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:07:38.336-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.189 seconds
+[2022-11-06T22:08:08.939-0300] {processor.py:154} INFO - Started process (PID=13041) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:08:08.940-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:08:08.940-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:08.940-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:08:08.975-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:08:09.043-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:09.043-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:09.091-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:09.088-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:08:09.128-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.193 seconds
+[2022-11-06T22:08:40.569-0300] {processor.py:154} INFO - Started process (PID=13721) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:08:40.571-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:08:40.571-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:40.571-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:08:40.590-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:08:40.638-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:40.638-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:40.656-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:40.656-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:08:40.683-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.116 seconds
+[2022-11-06T22:09:13.229-0300] {processor.py:154} INFO - Started process (PID=14392) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:09:13.233-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:09:13.234-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:13.234-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:09:13.264-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:09:13.306-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:13.305-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:13.328-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:13.328-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:09:13.367-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.142 seconds
+[2022-11-06T22:09:45.732-0300] {processor.py:154} INFO - Started process (PID=15014) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:09:45.733-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:09:45.734-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:45.734-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:09:45.755-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:09:45.805-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:45.805-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:45.829-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:45.829-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:09:45.857-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.128 seconds
+[2022-11-06T22:10:17.699-0300] {processor.py:154} INFO - Started process (PID=15620) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:10:17.702-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:10:17.703-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:17.703-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:10:17.752-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:10:17.807-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:17.807-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:17.859-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:17.859-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:10:17.884-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.188 seconds
+[2022-11-06T22:10:49.328-0300] {processor.py:154} INFO - Started process (PID=16240) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:10:49.329-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:10:49.330-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:49.330-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:10:49.350-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:10:49.394-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:49.394-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:49.421-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:49.421-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:10:49.441-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.117 seconds
+[2022-11-06T22:11:23.072-0300] {processor.py:154} INFO - Started process (PID=16832) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:11:23.075-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:11:23.076-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:23.076-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:11:23.098-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:11:23.152-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:23.152-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:23.275-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:23.274-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:11:23.302-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.233 seconds
+[2022-11-06T22:11:57.861-0300] {processor.py:154} INFO - Started process (PID=17380) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:11:57.870-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:11:57.870-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:57.870-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:11:57.903-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:11:58.048-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:58.048-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:58.217-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:58.216-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:11:58.298-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.443 seconds
+[2022-11-06T22:12:28.771-0300] {processor.py:154} INFO - Started process (PID=17997) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:12:28.773-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:12:28.773-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:28.773-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:12:28.796-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:12:28.944-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:28.944-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:12:28.965-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:28.965-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:12:28.992-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.225 seconds
+[2022-11-06T22:13:01.032-0300] {processor.py:154} INFO - Started process (PID=18619) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:13:01.035-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:13:01.035-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:01.035-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:13:01.291-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:13:01.339-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:01.339-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:13:01.365-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:01.365-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:13:01.397-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.369 seconds
+[2022-11-06T22:13:32.984-0300] {processor.py:154} INFO - Started process (PID=19235) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:13:32.986-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:13:32.989-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:32.989-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:13:33.098-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:13:33.176-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:33.176-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:13:33.341-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:33.340-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:13:33.378-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.413 seconds
+[2022-11-06T22:14:04.547-0300] {processor.py:154} INFO - Started process (PID=19826) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:14:04.549-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:14:04.550-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:04.549-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:14:04.570-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:14:04.848-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:04.847-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:14:04.863-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:04.863-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:14:04.885-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.341 seconds
+[2022-11-06T22:14:37.365-0300] {processor.py:154} INFO - Started process (PID=20452) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:14:37.374-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:14:37.375-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:37.375-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:14:37.401-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:14:37.614-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:37.614-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:14:37.635-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:37.635-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:14:37.652-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.296 seconds
+[2022-11-06T22:15:09.420-0300] {processor.py:154} INFO - Started process (PID=21041) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:15:09.421-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:15:09.422-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:09.422-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:15:09.537-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:15:09.573-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:09.573-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:15:09.592-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:09.592-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:15:09.613-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.196 seconds
+[2022-11-06T22:15:41.687-0300] {processor.py:154} INFO - Started process (PID=21708) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:15:41.688-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:15:41.689-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:41.689-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:15:41.708-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:15:41.756-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:41.756-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:15:41.888-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:41.887-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:15:41.907-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.225 seconds
+[2022-11-06T22:16:14.169-0300] {processor.py:154} INFO - Started process (PID=22342) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:16:14.170-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:16:14.171-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:14.171-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:16:14.191-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:16:14.353-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:14.353-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:16:14.375-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:14.375-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:16:14.398-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.233 seconds
+[2022-11-06T22:16:47.269-0300] {processor.py:154} INFO - Started process (PID=22965) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:16:47.273-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:16:47.277-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:47.275-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:16:47.299-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:16:47.509-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:47.509-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:16:47.533-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:47.533-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:16:47.558-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.300 seconds
+[2022-11-06T22:17:18.759-0300] {processor.py:154} INFO - Started process (PID=23539) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:17:18.760-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:17:18.761-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:18.761-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:17:18.981-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:17:19.050-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:19.050-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:17:19.083-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:19.083-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:17:19.106-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.350 seconds
+[2022-11-06T22:17:50.329-0300] {processor.py:154} INFO - Started process (PID=24170) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:17:50.331-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:17:50.332-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:50.332-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:17:50.363-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:17:50.481-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:50.481-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:17:50.785-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:50.784-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:17:50.832-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.507 seconds
+[2022-11-06T22:18:20.909-0300] {processor.py:154} INFO - Started process (PID=24717) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:18:20.910-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:18:20.911-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:20.911-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:18:20.930-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:18:21.059-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:21.059-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:18:21.077-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:21.076-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:18:21.095-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.189 seconds
+[2022-11-06T22:18:56.655-0300] {processor.py:154} INFO - Started process (PID=25500) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:18:56.657-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:18:56.658-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:56.658-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:18:56.676-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:18:56.811-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:56.811-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:18:56.831-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:56.831-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:18:56.851-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.199 seconds
+[2022-11-06T22:19:19.623-0300] {processor.py:154} INFO - Started process (PID=26264) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:19:19.624-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:19:19.625-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:19.625-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:19:19.664-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:19:19.729-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:19.729-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:19.761-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:19.760-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:19:19.794-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.181 seconds
+[2022-11-06T22:19:49.992-0300] {processor.py:154} INFO - Started process (PID=26850) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:19:49.996-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:19:49.997-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:49.997-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:19:50.029-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:19:50.099-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:50.099-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:50.122-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:50.122-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:19:50.145-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.158 seconds
+[2022-11-06T22:20:22.335-0300] {processor.py:154} INFO - Started process (PID=27623) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:20:22.337-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:20:22.338-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:22.338-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:20:22.367-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:20:22.424-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:22.424-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:22.456-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:22.455-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:20:22.480-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.147 seconds
+[2022-11-06T22:20:54.276-0300] {processor.py:154} INFO - Started process (PID=28280) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:20:54.283-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:20:54.285-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:54.285-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:20:54.366-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:20:54.442-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:54.442-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:54.478-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:54.478-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:20:54.508-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.237 seconds
+[2022-11-06T22:21:28.525-0300] {processor.py:154} INFO - Started process (PID=28932) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:21:28.527-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:21:28.528-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:28.528-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:21:28.550-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:21:28.587-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:28.587-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:21:28.607-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:28.607-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:21:28.626-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds
+[2022-11-06T22:22:00.838-0300] {processor.py:154} INFO - Started process (PID=29479) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:22:00.842-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:22:00.845-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:00.844-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:22:00.926-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:22:01.073-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:01.073-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:22:01.116-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:01.116-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:22:01.155-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.334 seconds
+[2022-11-06T22:22:31.939-0300] {processor.py:154} INFO - Started process (PID=30123) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:22:31.940-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:22:31.941-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:31.941-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:22:32.005-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:22:32.112-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:32.112-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:22:32.135-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:32.135-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:22:32.151-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.216 seconds
+[2022-11-06T22:23:09.270-0300] {processor.py:154} INFO - Started process (PID=30948) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:23:09.272-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:23:09.275-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:09.273-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:23:09.330-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:23:09.439-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:09.438-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:23:09.480-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:09.478-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:23:09.511-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.244 seconds
+[2022-11-06T22:23:41.171-0300] {processor.py:154} INFO - Started process (PID=31492) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:23:41.173-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:23:41.182-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:41.182-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:23:41.219-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:23:41.340-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:41.340-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:23:41.379-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:41.379-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:23:41.405-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.240 seconds
+[2022-11-06T22:24:12.022-0300] {processor.py:154} INFO - Started process (PID=32149) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:24:12.024-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:24:12.024-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:12.024-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:24:12.044-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:24:12.096-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:12.096-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:12.128-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:12.127-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:24:12.170-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.151 seconds
+[2022-11-06T22:24:42.469-0300] {processor.py:154} INFO - Started process (PID=32664) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:24:42.471-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:24:42.471-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:42.471-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:24:42.495-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:24:42.538-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:42.538-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:42.557-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:42.557-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:24:42.577-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.111 seconds
+[2022-11-06T22:25:12.951-0300] {processor.py:154} INFO - Started process (PID=33360) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:25:12.952-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:25:12.953-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:12.952-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:25:12.988-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:25:13.047-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:13.047-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:13.091-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:13.091-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:25:13.516-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.571 seconds
+[2022-11-06T22:25:44.216-0300] {processor.py:154} INFO - Started process (PID=33899) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:25:44.218-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:25:44.219-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:44.219-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:25:44.241-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:25:44.293-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:44.293-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:44.435-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:44.435-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:25:44.464-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.251 seconds
+[2022-11-06T22:26:15.733-0300] {processor.py:154} INFO - Started process (PID=34444) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:26:15.734-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:26:15.736-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:15.736-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:26:15.759-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:26:15.906-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:15.905-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:15.931-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:15.931-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:26:15.951-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.222 seconds
+[2022-11-06T22:26:46.685-0300] {processor.py:154} INFO - Started process (PID=34992) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:26:46.694-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:26:46.695-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:46.695-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:26:46.727-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:26:46.911-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:46.911-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:46.967-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:46.966-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:26:46.990-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.309 seconds
+[2022-11-06T22:27:18.036-0300] {processor.py:154} INFO - Started process (PID=35466) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:27:18.037-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:27:18.039-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:18.039-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:27:18.058-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:27:18.103-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:18.103-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:18.129-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:18.129-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:27:18.313-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.281 seconds
+[2022-11-06T22:27:49.024-0300] {processor.py:154} INFO - Started process (PID=36004) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:27:49.025-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:27:49.026-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:49.026-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:27:49.046-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:27:49.093-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:49.093-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:49.238-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:49.238-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:27:49.257-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.237 seconds
+[2022-11-06T22:28:19.380-0300] {processor.py:154} INFO - Started process (PID=36587) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:28:19.381-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:28:19.381-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:19.381-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:28:19.410-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:28:19.596-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:19.596-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:19.636-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:19.635-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:28:19.721-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.344 seconds
+[2022-11-06T22:28:50.508-0300] {processor.py:154} INFO - Started process (PID=37131) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:28:50.509-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:28:50.510-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:50.510-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:28:50.528-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:28:50.665-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:50.665-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:50.686-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:50.686-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:28:50.707-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.202 seconds
+[2022-11-06T22:29:20.852-0300] {processor.py:154} INFO - Started process (PID=37672) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:29:20.853-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:29:20.854-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:20.854-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:29:20.889-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:29:20.935-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:20.935-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:21.074-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:21.074-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:29:21.092-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.254 seconds
+[2022-11-06T22:29:51.497-0300] {processor.py:154} INFO - Started process (PID=38211) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:29:51.499-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:29:51.499-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:51.499-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:29:51.519-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:29:51.563-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:51.563-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:51.675-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:51.675-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:29:51.704-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.209 seconds
+[2022-11-06T22:30:21.761-0300] {processor.py:154} INFO - Started process (PID=38883) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:30:21.762-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:30:21.763-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:21.763-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:30:21.781-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:30:21.911-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:21.911-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:21.927-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:21.927-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:30:21.946-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.188 seconds
+[2022-11-06T22:30:53.075-0300] {processor.py:154} INFO - Started process (PID=39420) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:30:53.076-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:30:53.077-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:53.077-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:30:53.096-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:30:53.267-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:53.267-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:53.332-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:53.331-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:30:53.531-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.459 seconds
+[2022-11-06T22:31:24.000-0300] {processor.py:154} INFO - Started process (PID=39894) to work on /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:31:24.001-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-11-06T22:31:24.003-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:24.002-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:31:24.022-0300] {processor.py:766} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2022-11-06T22:31:24.066-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:24.066-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:31:24.210-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:24.210-0300] {dag.py:3336} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-11-06T22:31:24.250-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.253 seconds

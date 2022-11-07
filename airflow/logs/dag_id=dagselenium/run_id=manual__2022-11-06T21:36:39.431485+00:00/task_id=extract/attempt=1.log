@@ -1,0 +1,23 @@
+[2022-11-06T18:36:42.598-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dagselenium.extract manual__2022-11-06T21:36:39.431485+00:00 [queued]>
+[2022-11-06T18:36:42.624-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: dagselenium.extract manual__2022-11-06T21:36:39.431485+00:00 [queued]>
+[2022-11-06T18:36:42.624-0300] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T18:36:42.624-0300] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-06T18:36:42.624-0300] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T18:36:42.665-0300] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): extract> on 2022-11-06 21:36:39.431485+00:00
+[2022-11-06T18:36:42.673-0300] {standard_task_runner.py:55} INFO - Started process 61270 to run task
+[2022-11-06T18:36:42.676-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'dagselenium', 'extract', 'manual__2022-11-06T21:36:39.431485+00:00', '--job-id', '448', '--raw', '--subdir', 'DAGS_FOLDER/teste_excom.py', '--cfg-path', '/tmp/tmp47epb3o0']
+[2022-11-06T18:36:42.678-0300] {standard_task_runner.py:83} INFO - Job 448: Subtask extract
+[2022-11-06T18:36:42.870-0300] {task_command.py:376} INFO - Running <TaskInstance: dagselenium.extract manual__2022-11-06T21:36:39.431485+00:00 [running]> on host debian
+[2022-11-06T18:36:43.062-0300] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dagselenium
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-06T21:36:39.431485+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-06T21:36:39.431485+00:00
+[2022-11-06T18:36:49.655-0300] {python.py:177} INFO - Done. Returned value was: ['https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/papeleira/PapeleiraparaLadoEsquerdoJaderAlmeidaBrancaJaderAlmeida', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/saboneteira/SaboneteiraemResinaCleanCromado', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/papeleira/PapeleiracomRoletedePlasticodeLoucaBranco', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/saboneteira/SaboneteiraemLoucaQuadrattaCromado', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/saboneteira/SaboneteiraQuadrattaCromado', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/saboneteira/SaboneteiraParedeNetCromado', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/saboneteira/SaboneteiraparedePixCromado', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/porta-toalha/PortaToalhaBarraDisco60cmCromado', 'https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/saboneteira/SaboneteiraemLoucaSlimCromado']
+[2022-11-06T18:36:49.702-0300] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=dagselenium, task_id=extract, execution_date=20221106T213639, start_date=20221106T213642, end_date=20221106T213649
+[2022-11-06T18:36:49.732-0300] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-06T18:36:49.759-0300] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

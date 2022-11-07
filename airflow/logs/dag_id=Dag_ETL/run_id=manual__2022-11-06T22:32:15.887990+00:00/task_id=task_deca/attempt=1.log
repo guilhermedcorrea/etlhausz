@@ -1,0 +1,24 @@
+[2022-11-06T19:32:17.906-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: Dag_ETL.task_deca manual__2022-11-06T22:32:15.887990+00:00 [queued]>
+[2022-11-06T19:32:17.918-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: Dag_ETL.task_deca manual__2022-11-06T22:32:15.887990+00:00 [queued]>
+[2022-11-06T19:32:17.918-0300] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T19:32:17.918-0300] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-06T19:32:17.919-0300] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T19:32:17.934-0300] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): task_deca> on 2022-11-06 22:32:15.887990+00:00
+[2022-11-06T19:32:17.945-0300] {standard_task_runner.py:55} INFO - Started process 11170 to run task
+[2022-11-06T19:32:17.948-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'Dag_ETL', 'task_deca', 'manual__2022-11-06T22:32:15.887990+00:00', '--job-id', '504', '--raw', '--subdir', 'DAGS_FOLDER/teste_excom.py', '--cfg-path', '/tmp/tmp3g0kosw9']
+[2022-11-06T19:32:17.949-0300] {standard_task_runner.py:83} INFO - Job 504: Subtask task_deca
+[2022-11-06T19:32:18.081-0300] {task_command.py:376} INFO - Running <TaskInstance: Dag_ETL.task_deca manual__2022-11-06T22:32:15.887990+00:00 [running]> on host debian
+[2022-11-06T19:32:18.174-0300] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Dag_ETL
+AIRFLOW_CTX_TASK_ID=task_deca
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-06T22:32:15.887990+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-06T22:32:15.887990+00:00
+[2022-11-06T19:32:18.175-0300] {logging_mixin.py:120} INFO - teste
+[2022-11-06T19:32:18.175-0300] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-06T19:32:18.196-0300] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=Dag_ETL, task_id=task_deca, execution_date=20221106T223215, start_date=20221106T223217, end_date=20221106T223218
+[2022-11-06T19:32:18.214-0300] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-06T19:32:18.242-0300] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

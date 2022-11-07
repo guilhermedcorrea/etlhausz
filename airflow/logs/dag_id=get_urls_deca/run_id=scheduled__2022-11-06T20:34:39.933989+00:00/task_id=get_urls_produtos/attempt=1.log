@@ -1,0 +1,23 @@
+[2022-11-06T17:44:43.767-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_urls_deca.get_urls_produtos scheduled__2022-11-06T20:34:39.933989+00:00 [queued]>
+[2022-11-06T17:44:43.825-0300] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: get_urls_deca.get_urls_produtos scheduled__2022-11-06T20:34:39.933989+00:00 [queued]>
+[2022-11-06T17:44:43.826-0300] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T17:44:43.826-0300] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-06T17:44:43.826-0300] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-06T17:44:43.928-0300] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_urls_produtos> on 2022-11-06 20:34:39.933989+00:00
+[2022-11-06T17:44:43.934-0300] {standard_task_runner.py:55} INFO - Started process 15066 to run task
+[2022-11-06T17:44:43.973-0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'get_urls_deca', 'get_urls_produtos', 'scheduled__2022-11-06T20:34:39.933989+00:00', '--job-id', '431', '--raw', '--subdir', 'DAGS_FOLDER/teste_excom.py', '--cfg-path', '/tmp/tmp2f1zhld5']
+[2022-11-06T17:44:43.976-0300] {standard_task_runner.py:83} INFO - Job 431: Subtask get_urls_produtos
+[2022-11-06T17:44:44.515-0300] {task_command.py:376} INFO - Running <TaskInstance: get_urls_deca.get_urls_produtos scheduled__2022-11-06T20:34:39.933989+00:00 [running]> on host debian
+[2022-11-06T17:44:45.306-0300] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_urls_deca
+AIRFLOW_CTX_TASK_ID=get_urls_produtos
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-06T20:34:39.933989+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-06T20:34:39.933989+00:00
+[2022-11-06T17:44:51.054-0300] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-06T17:44:51.166-0300] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=get_urls_deca, task_id=get_urls_produtos, execution_date=20221106T203439, start_date=20221106T204443, end_date=20221106T204451
+[2022-11-06T17:44:51.245-0300] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-06T17:44:51.319-0300] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

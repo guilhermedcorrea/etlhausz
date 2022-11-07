@@ -1,0 +1,669 @@
+[2022-11-06T21:00:08.127-0300] {processor.py:154} INFO - Started process (PID=60927) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:00:08.128-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:00:08.131-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:08.130-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:00:09.740-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:09.739-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:00:09.740-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:00:09.762-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.650 seconds
+[2022-11-06T21:00:40.132-0300] {processor.py:154} INFO - Started process (PID=61507) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:00:40.133-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:00:40.136-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:40.134-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:00:41.733-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:00:41.732-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:00:41.735-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:00:41.766-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.637 seconds
+[2022-11-06T21:01:11.872-0300] {processor.py:154} INFO - Started process (PID=62075) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:01:11.894-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:01:11.894-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:11.894-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:01:12.920-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:12.919-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:01:12.921-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:01:12.946-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.078 seconds
+[2022-11-06T21:01:42.977-0300] {processor.py:154} INFO - Started process (PID=62672) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:01:42.979-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:01:42.980-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:42.980-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:01:43.957-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:01:43.956-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:01:43.957-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:01:43.983-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.009 seconds
+[2022-11-06T21:02:14.895-0300] {processor.py:154} INFO - Started process (PID=63214) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:02:14.904-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:02:14.905-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:14.905-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:02:16.985-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:16.984-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:02:16.985-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:02:17.043-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.156 seconds
+[2022-11-06T21:02:47.572-0300] {processor.py:154} INFO - Started process (PID=63820) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:02:47.580-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:02:47.581-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:47.580-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:02:49.982-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:02:49.981-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:02:50.009-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:02:50.140-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.573 seconds
+[2022-11-06T21:03:21.150-0300] {processor.py:154} INFO - Started process (PID=64391) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:03:21.157-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:03:21.158-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:21.157-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:03:22.868-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:22.865-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:03:22.871-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:03:22.906-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.773 seconds
+[2022-11-06T21:03:53.321-0300] {processor.py:154} INFO - Started process (PID=65060) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:03:53.323-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T21:03:53.324-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:53.324-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:03:55.408-0300] {logging_mixin.py:120} INFO - [2022-11-06T21:03:55.407-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 72, in <module>
+    extract >> transform_task
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 86, in __rrshift__
+    self.__lshift__(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 76, in __lshift__
+    self.set_upstream(other)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 238, in set_upstream
+    self._set_relatives(task_or_task_list, upstream=True, edge_modifier=edge_modifier)
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/taskmixin.py", line 175, in _set_relatives
+    task_object.update_relative(self, not upstream)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2022-11-06T21:03:55.451-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T21:03:55.506-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.206 seconds
+[2022-11-06T22:01:29.664-0300] {processor.py:154} INFO - Started process (PID=4673) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:01:29.677-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:01:29.679-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:29.678-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:01:32.541-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:01:32.556-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:01:32.790-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.790-0300] {manager.py:507} INFO - Created Permission View: can read on DAG:selenium_dag
+[2022-11-06T22:01:32.831-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.831-0300] {manager.py:507} INFO - Created Permission View: can delete on DAG:selenium_dag
+[2022-11-06T22:01:32.847-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.847-0300] {manager.py:507} INFO - Created Permission View: can edit on DAG:selenium_dag
+[2022-11-06T22:01:32.847-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.847-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:01:32.857-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.856-0300] {dag.py:2606} INFO - Creating ORM DAG for selenium_dag
+[2022-11-06T22:01:32.871-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:01:32.870-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:01:32.912-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 3.273 seconds
+[2022-11-06T22:02:03.080-0300] {processor.py:154} INFO - Started process (PID=5416) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:02:03.082-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:02:03.083-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:03.083-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:02:04.997-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:02:05.020-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:02:05.297-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:05.297-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:05.405-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:05.405-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:02:05.490-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.418 seconds
+[2022-11-06T22:02:35.900-0300] {processor.py:154} INFO - Started process (PID=6056) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:02:35.901-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:02:35.902-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:35.902-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:02:37.065-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:02:37.076-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:02:37.138-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:37.138-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:02:37.170-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:02:37.170-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:02:37.205-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.307 seconds
+[2022-11-06T22:03:07.238-0300] {processor.py:154} INFO - Started process (PID=6654) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:03:07.240-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:03:07.241-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:07.241-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:03:08.840-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:03:08.858-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:03:08.951-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:08.950-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:09.005-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:09.005-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:03:09.030-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.796 seconds
+[2022-11-06T22:03:39.643-0300] {processor.py:154} INFO - Started process (PID=7264) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:03:39.646-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:03:39.651-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:39.649-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:03:41.243-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:03:41.304-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:03:41.454-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:41.454-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:03:41.564-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:03:41.564-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:03:41.728-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.091 seconds
+[2022-11-06T22:04:11.915-0300] {processor.py:154} INFO - Started process (PID=7975) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:04:11.924-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:04:11.924-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:11.924-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:04:13.078-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:04:13.087-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:04:13.169-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:13.169-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:13.211-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:13.211-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:04:13.261-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.349 seconds
+[2022-11-06T22:04:43.668-0300] {processor.py:154} INFO - Started process (PID=8516) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:04:43.669-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:04:43.669-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:43.669-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:04:44.791-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:04:44.803-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:04:44.854-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:44.854-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:04:44.882-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:04:44.882-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:04:44.905-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.243 seconds
+[2022-11-06T22:05:23.098-0300] {processor.py:154} INFO - Started process (PID=9423) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:05:23.101-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:05:23.102-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:23.102-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:05:24.784-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:05:24.806-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:05:24.895-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:24.895-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:05:24.938-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:24.938-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:05:24.972-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.877 seconds
+[2022-11-06T22:05:55.446-0300] {processor.py:154} INFO - Started process (PID=10049) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:05:55.450-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:05:55.466-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:55.466-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:05:56.995-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:05:57.004-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:05:57.047-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:57.047-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:05:57.071-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:05:57.070-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:05:57.097-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.658 seconds
+[2022-11-06T22:06:27.815-0300] {processor.py:154} INFO - Started process (PID=10681) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:06:27.816-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:06:27.817-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:27.817-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:06:28.856-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:06:28.867-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:06:28.980-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:28.980-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:06:29.016-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:29.016-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:06:29.057-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.255 seconds
+[2022-11-06T22:06:59.432-0300] {processor.py:154} INFO - Started process (PID=11232) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:06:59.433-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:06:59.434-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:06:59.434-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:07:00.453-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:07:00.463-0300] {processor.py:766} INFO - DAG(s) dict_keys(['selenium_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:07:00.523-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:00.523-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:00.567-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:00.564-0300] {dag.py:3336} INFO - Setting next_dagrun for selenium_dag to 2022-11-07T00:00:00+00:00, run_after=2022-11-08T00:00:00+00:00
+[2022-11-06T22:07:00.593-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.165 seconds
+[2022-11-06T22:07:31.034-0300] {processor.py:154} INFO - Started process (PID=11924) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:07:31.036-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:07:31.037-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:31.036-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:07:33.230-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:07:33.326-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:07:34.026-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:34.026-0300] {manager.py:507} INFO - Created Permission View: can edit on DAG:xcom_taskflow_dag
+[2022-11-06T22:07:34.075-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:34.074-0300] {manager.py:507} INFO - Created Permission View: can read on DAG:xcom_taskflow_dag
+[2022-11-06T22:07:34.092-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:34.092-0300] {manager.py:507} INFO - Created Permission View: can delete on DAG:xcom_taskflow_dag
+[2022-11-06T22:07:34.092-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:34.092-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:07:34.108-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:34.108-0300] {dag.py:2606} INFO - Creating ORM DAG for xcom_taskflow_dag
+[2022-11-06T22:07:34.122-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:07:34.122-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:07:34.145-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 3.117 seconds
+[2022-11-06T22:08:04.215-0300] {processor.py:154} INFO - Started process (PID=12647) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:08:04.221-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:08:04.222-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:04.222-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:08:05.339-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:08:05.359-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:08:05.393-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:05.393-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:05.411-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:05.411-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:08:05.434-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.222 seconds
+[2022-11-06T22:08:36.238-0300] {processor.py:154} INFO - Started process (PID=13319) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:08:36.246-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:08:36.249-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:36.248-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:08:37.921-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:08:37.957-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:08:38.025-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:38.025-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:08:38.064-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:08:38.063-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:08:38.114-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.904 seconds
+[2022-11-06T22:09:08.752-0300] {processor.py:154} INFO - Started process (PID=13992) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:09:08.753-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:09:08.753-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:08.753-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:09:09.699-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:09:09.717-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:09:09.778-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:09.778-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:09.803-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:09.803-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:09:09.825-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.077 seconds
+[2022-11-06T22:09:40.149-0300] {processor.py:154} INFO - Started process (PID=14616) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:09:40.152-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:09:40.155-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:40.154-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:09:41.373-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:09:41.387-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:09:41.451-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:41.451-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:09:41.495-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:09:41.495-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:09:41.532-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.388 seconds
+[2022-11-06T22:10:12.005-0300] {processor.py:154} INFO - Started process (PID=15237) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:10:12.008-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:10:12.010-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:12.010-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:10:14.089-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:10:14.104-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:10:14.148-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:14.148-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:14.214-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:14.208-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:10:14.242-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.257 seconds
+[2022-11-06T22:10:44.876-0300] {processor.py:154} INFO - Started process (PID=15856) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:10:44.877-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:10:44.878-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:44.878-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:10:45.995-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:10:46.018-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:10:46.138-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:46.137-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:10:46.175-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:10:46.175-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:10:46.213-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.341 seconds
+[2022-11-06T22:11:16.962-0300] {processor.py:154} INFO - Started process (PID=16456) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:11:16.965-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:11:16.965-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:16.965-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:11:19.058-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:11:19.082-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:11:19.196-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:19.195-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:19.268-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:19.268-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:11:19.319-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.359 seconds
+[2022-11-06T22:11:49.733-0300] {processor.py:154} INFO - Started process (PID=17006) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:11:49.735-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:11:49.737-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:49.736-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:11:51.750-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:11:51.772-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:11:51.903-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:51.902-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:11:51.956-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:11:51.955-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:11:52.030-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.306 seconds
+[2022-11-06T22:12:22.287-0300] {processor.py:154} INFO - Started process (PID=17562) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:12:22.299-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:12:22.301-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:22.301-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:12:24.631-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:12:24.644-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:12:24.705-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:24.705-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:12:24.736-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:24.736-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:12:24.772-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.505 seconds
+[2022-11-06T22:12:55.613-0300] {processor.py:154} INFO - Started process (PID=18217) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:12:55.614-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:12:55.615-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:55.615-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:12:57.095-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:12:57.105-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:12:57.224-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:57.224-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:12:57.253-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:12:57.253-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:12:57.279-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.673 seconds
+[2022-11-06T22:13:27.669-0300] {processor.py:154} INFO - Started process (PID=18839) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:13:27.671-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:13:27.672-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:27.672-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:13:28.994-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:13:29.017-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:13:29.104-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:29.104-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:13:29.140-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:29.140-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:13:29.171-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.505 seconds
+[2022-11-06T22:13:59.256-0300] {processor.py:154} INFO - Started process (PID=19428) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:13:59.257-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:13:59.258-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:13:59.258-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:14:00.406-0300] {logging_mixin.py:120} WARNING - /home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dag.py:3405 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-06T22:14:00.465-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_taskflow_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:14:00.611-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:00.611-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:14:00.702-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:00.701-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_taskflow_dag to 2022-11-06T00:00:00+00:00, run_after=2022-11-07T00:00:00+00:00
+[2022-11-06T22:14:00.743-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.490 seconds
+[2022-11-06T22:14:31.091-0300] {processor.py:154} INFO - Started process (PID=20050) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:14:31.093-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:14:31.093-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:31.093-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:14:32.949-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:14:32.946-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 100, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:14:32.949-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:14:33.048-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.961 seconds
+[2022-11-06T22:15:03.904-0300] {processor.py:154} INFO - Started process (PID=20646) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:15:03.921-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:15:03.922-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:03.922-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:15:06.133-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:06.131-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 100, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:15:06.133-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:15:06.196-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.301 seconds
+[2022-11-06T22:15:36.545-0300] {processor.py:154} INFO - Started process (PID=21316) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:15:36.546-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:15:36.547-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:36.547-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:15:38.081-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:15:38.080-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 100, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:15:38.081-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:15:38.141-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.604 seconds
+[2022-11-06T22:16:08.777-0300] {processor.py:154} INFO - Started process (PID=21929) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:16:08.778-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:16:08.779-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:08.779-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:16:10.057-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:10.055-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 100, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:16:10.057-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:16:10.135-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.362 seconds
+[2022-11-06T22:16:40.953-0300] {processor.py:154} INFO - Started process (PID=22554) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:16:40.957-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:16:40.958-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:40.958-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:16:42.599-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:16:42.598-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 100, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:16:42.599-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:16:42.642-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.692 seconds
+[2022-11-06T22:17:13.507-0300] {processor.py:154} INFO - Started process (PID=23178) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:17:13.508-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:17:13.508-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:13.508-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:17:14.829-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:14.829-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 100, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:17:14.830-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:17:14.905-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.410 seconds
+[2022-11-06T22:17:45.188-0300] {processor.py:154} INFO - Started process (PID=23823) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:17:45.192-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:17:45.193-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:45.193-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:17:46.393-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:17:46.392-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 96, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:17:46.394-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:17:46.459-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.281 seconds
+[2022-11-06T22:18:16.597-0300] {processor.py:154} INFO - Started process (PID=24437) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:18:16.605-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:18:16.605-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:16.605-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:18:17.687-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:17.685-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 96, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:18:17.688-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:18:17.768-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.174 seconds
+[2022-11-06T22:18:48.284-0300] {processor.py:154} INFO - Started process (PID=25082) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:18:48.288-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:18:48.289-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:48.289-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:18:49.637-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:18:49.637-0300] {dagbag.py:342} ERROR - Failed to import: /home/debian/etlhausz/airflow/dags/dag_selenium.py
+Traceback (most recent call last):
+  File "/home/debian/etlhausz/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/debian/etlhausz/airflow/dags/dag_selenium.py", line 96, in <module>
+    @dag('xcom_taskflow_dag', schedule_interval='@daily', default_args=default_args, catchup=False)
+TypeError: 'DAG' object is not callable
+[2022-11-06T22:18:49.638-0300] {processor.py:768} WARNING - No viable dags retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:18:49.666-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.386 seconds
+[2022-11-06T22:19:11.761-0300] {processor.py:154} INFO - Started process (PID=25838) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:19:11.762-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:19:11.763-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:11.763-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:19:13.955-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:19:14.147-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:14.147-0300] {manager.py:507} INFO - Created Permission View: can delete on DAG:xcom_dag
+[2022-11-06T22:19:14.156-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:14.156-0300] {manager.py:507} INFO - Created Permission View: can edit on DAG:xcom_dag
+[2022-11-06T22:19:14.165-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:14.165-0300] {manager.py:507} INFO - Created Permission View: can read on DAG:xcom_dag
+[2022-11-06T22:19:14.166-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:14.166-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:14.188-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:14.188-0300] {dag.py:2606} INFO - Creating ORM DAG for xcom_dag
+[2022-11-06T22:19:14.197-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:14.197-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T00:49:14.197260+00:00, run_after=2022-11-07T01:19:14.197260+00:00
+[2022-11-06T22:19:14.239-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.491 seconds
+[2022-11-06T22:19:44.493-0300] {processor.py:154} INFO - Started process (PID=26433) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:19:44.500-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:19:44.502-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:44.502-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:19:45.511-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:19:45.559-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:45.559-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:19:45.583-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:19:45.583-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T00:49:45.582762+00:00, run_after=2022-11-07T01:19:45.582762+00:00
+[2022-11-06T22:19:45.607-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.120 seconds
+[2022-11-06T22:20:15.997-0300] {processor.py:154} INFO - Started process (PID=27210) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:20:15.999-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:20:16.000-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:16.000-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:20:17.264-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:20:17.323-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:17.319-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:17.352-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:17.352-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:20:17.375-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.389 seconds
+[2022-11-06T22:20:48.259-0300] {processor.py:154} INFO - Started process (PID=27868) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:20:48.260-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:20:48.261-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:48.261-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:20:49.329-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:20:49.367-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:49.367-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:20:49.396-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:20:49.396-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:20:49.419-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.163 seconds
+[2022-11-06T22:21:19.924-0300] {processor.py:154} INFO - Started process (PID=28547) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:21:19.931-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:21:19.932-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:19.931-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:21:21.446-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:21:21.516-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:21.515-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:21:21.550-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:21.549-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:21:21.587-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.665 seconds
+[2022-11-06T22:21:52.546-0300] {processor.py:154} INFO - Started process (PID=29105) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:21:52.556-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:21:52.559-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:52.559-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:21:53.521-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:21:53.559-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:53.559-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:21:53.577-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:21:53.577-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:21:53.596-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.053 seconds
+[2022-11-06T22:22:23.731-0300] {processor.py:154} INFO - Started process (PID=29729) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:22:23.732-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:22:23.733-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:23.733-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:22:25.639-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:22:25.837-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:25.837-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:22:25.889-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:25.888-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:22:25.949-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.221 seconds
+[2022-11-06T22:22:56.079-0300] {processor.py:154} INFO - Started process (PID=30383) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:22:56.080-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:22:56.081-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:56.081-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:22:57.890-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:22:58.167-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:22:58.166-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:22:58.304-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 2.233 seconds
+[2022-11-06T22:23:29.291-0300] {processor.py:154} INFO - Started process (PID=31116) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:23:29.294-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:23:29.295-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:29.295-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:23:30.298-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:23:30.371-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:23:30.371-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:23:30.419-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.135 seconds
+[2022-11-06T22:24:00.564-0300] {processor.py:154} INFO - Started process (PID=31737) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:24:00.565-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:24:00.565-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:00.565-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:24:01.653-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:24:01.752-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:01.752-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:01.832-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.271 seconds
+[2022-11-06T22:24:32.304-0300] {processor.py:154} INFO - Started process (PID=32345) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:24:32.307-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:24:32.309-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:32.308-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:24:33.373-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:24:33.427-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:24:33.427-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:24:33.508-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.206 seconds
+[2022-11-06T22:25:03.794-0300] {processor.py:154} INFO - Started process (PID=32973) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:25:03.795-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:25:03.795-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:03.795-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:25:04.997-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:25:05.049-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:05.049-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:05.096-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.306 seconds
+[2022-11-06T22:25:36.022-0300] {processor.py:154} INFO - Started process (PID=33601) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:25:36.024-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:25:36.025-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:36.025-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:25:37.354-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:25:37.417-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:37.417-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:25:37.443-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:25:37.443-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:25:37.485-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.468 seconds
+[2022-11-06T22:26:08.108-0300] {processor.py:154} INFO - Started process (PID=34144) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:26:08.108-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:26:08.109-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:08.109-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:26:09.645-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:26:09.689-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:09.689-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:09.721-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:09.721-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:26:09.745-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.641 seconds
+[2022-11-06T22:26:40.043-0300] {processor.py:154} INFO - Started process (PID=34691) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:26:40.044-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:26:40.045-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:40.045-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:26:41.014-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:26:41.053-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:41.052-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:26:41.070-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:26:41.069-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:26:41.090-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.051 seconds
+[2022-11-06T22:27:11.188-0300] {processor.py:154} INFO - Started process (PID=35236) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:27:11.189-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:27:11.190-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:11.190-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:27:12.250-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:27:12.291-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:12.290-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:12.311-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:12.311-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:27:12.329-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.146 seconds
+[2022-11-06T22:27:43.199-0300] {processor.py:154} INFO - Started process (PID=35795) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:27:43.200-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:27:43.201-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:43.201-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:27:44.387-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:27:44.452-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:44.452-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:27:44.470-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:27:44.469-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:27:44.487-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.291 seconds
+[2022-11-06T22:28:14.773-0300] {processor.py:154} INFO - Started process (PID=36421) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:28:14.774-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:28:14.775-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:14.775-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:28:15.927-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:28:15.959-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:15.959-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:15.975-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:15.975-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:28:15.993-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.224 seconds
+[2022-11-06T22:28:46.138-0300] {processor.py:154} INFO - Started process (PID=37013) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:28:46.139-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:28:46.140-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:46.140-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:28:47.423-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:28:47.492-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:47.492-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:28:47.525-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:28:47.525-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:28:47.545-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.410 seconds
+[2022-11-06T22:29:17.632-0300] {processor.py:154} INFO - Started process (PID=37554) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:29:17.636-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:29:17.639-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:17.639-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:29:18.681-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:29:18.724-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:18.724-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:18.744-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:18.743-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:29:18.765-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.140 seconds
+[2022-11-06T22:29:48.875-0300] {processor.py:154} INFO - Started process (PID=38097) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:29:48.876-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:29:48.876-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:48.876-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:29:49.944-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:29:50.021-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:50.021-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:29:50.051-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:29:50.051-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:29:50.091-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.220 seconds
+[2022-11-06T22:30:20.291-0300] {processor.py:154} INFO - Started process (PID=38769) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:30:20.292-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:30:20.293-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:20.293-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:30:21.290-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:30:21.328-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:21.328-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:21.346-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:21.345-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:30:21.366-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.077 seconds
+[2022-11-06T22:30:51.558-0300] {processor.py:154} INFO - Started process (PID=39325) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:30:51.571-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:30:51.572-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:51.572-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:30:52.834-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:30:52.871-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:52.871-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:30:52.893-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:30:52.893-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:30:52.917-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.362 seconds
+[2022-11-06T22:31:22.999-0300] {processor.py:154} INFO - Started process (PID=39862) to work on /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:31:23.001-0300] {processor.py:756} INFO - Processing file /home/debian/etlhausz/airflow/dags/dag_selenium.py for tasks to queue
+[2022-11-06T22:31:23.002-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:23.002-0300] {dagbag.py:537} INFO - Filling up the DagBag from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:31:24.306-0300] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /home/debian/etlhausz/airflow/dags/dag_selenium.py
+[2022-11-06T22:31:24.350-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:24.350-0300] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-06T22:31:24.371-0300] {logging_mixin.py:120} INFO - [2022-11-06T22:31:24.370-0300] {dag.py:3336} INFO - Setting next_dagrun for xcom_dag to 2022-11-07T01:19:45.582762+00:00, run_after=2022-11-07T01:49:45.582762+00:00
+[2022-11-06T22:31:24.393-0300] {processor.py:176} INFO - Processing /home/debian/etlhausz/airflow/dags/dag_selenium.py took 1.396 seconds
